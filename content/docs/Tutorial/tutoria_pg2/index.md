@@ -37,7 +37,7 @@ This section contains a walkthrough of a demonstration configuration to showcase
 
 You can access the demonstration system here:
 
-<a href="https://demo.conforma.nz:50000/" target="_blank">https://demo.conforma.nz:50000/</a>
+<a href="https://conforma-demo.msupply.org:50000/" target="_blank">https://conforma-demo.msupply.org:50000/</a>
 
 Have fun exploring! 
 
