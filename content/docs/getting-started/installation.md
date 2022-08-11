@@ -32,7 +32,7 @@ top = false
 
 ## Overview
 
-This section describes how to install the Conforma platform. 
+This section describes how to install the Conforma platform.
 
 ## How to install
 
