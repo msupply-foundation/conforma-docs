@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="preload" as="font" href="https://docs.conforma.nz/fonts/vendor/jost/jost-v4-latin-regular.woff2" type="font/woff2" crossorigin>
+  <link rel="preload" as="font" href="https://docs.conforma.nz/fonts/vendor/jost/jost-v4-latin-700.woff2"  type="font/woff2" crossorigin>
+
+
+<link rel="stylesheet" href="https://docs.conforma.nz/main.css">
+<link rel="stylesheet" href="https://docs.conforma.nz/conforma.css">
+
+
+
+  
+  
+    
+  
+
+  
+  
+    
+    
+  
+  
+  
+    
+  
+  
+  
+  
+    
+  
+  
+  
+
+
+  <meta name="robots" content="index, follow">
+  <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+
+
+	
+
+
+	
+
+<title>4. Reviewing a company registration application | Conforma</title>
+<meta name="description" content="Demonstration of a sample Conforma system">
+<link rel="canonical" href="https://docs.conforma.nz/docs/Tutorial/tutorial-pg4/">
+
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://docs.conforma.nz/https:&#x2F;&#x2F;openmsupply.github.io&#x2F;conforma-docs&#x2F;conforma-logo.svg">
+  <meta name="twitter:title" content="4. Reviewing a company registration application">
+  <meta name="twitter:description" content="Demonstration of a sample Conforma system">
+  <meta name="twitter:site" content="@msupply">
+  <meta name="twitter:creator" content="@msupply">
+  
+  <meta property="og:title" content="4. Reviewing a company registration application">
+  <meta property="og:description" content="Demonstration of a sample Conforma system">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://docs.conforma.nz/docs/Tutorial/tutorial-pg4/">
+
+  
+    <meta property="og:image" content="https://docs.conforma.nz/https:&#x2F;&#x2F;openmsupply.github.io&#x2F;conforma-docs&#x2F;conforma-logo.svg">
+  
+
+  <meta property="og:updated_time" content="2021-05-01T08:20:00+00:00">
+  <meta property="og:site_name" content="4. Reviewing a company registration application">
+
+  
+
+  
+
+  
+  <meta property="article:publisher" content="https://www.facebook.com/mSupplyFoundation">
+  <meta property="article:author" content="https://www.facebook.com/mSupplyFoundation">
+  <meta property="og:locale" content="en_US">
+
+
+
+
+
+  
+
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "BreadcrumbList",
+    
+      
+      
+        
+        
+        
+        
+        
+        
+        
+        
+          {
+            "@type": "ListItem",
+            "position":  1 ,
+            "name": "Home",
+            "item": "https://docs.conforma.nz/"
+          },
+          
+          
+          {
+            "@type": "ListItem",
+            "position":  2 ,
+            "name": "Docs",
+            "item": "https://docs.conforma.nz/docs/"
+          },
+        
+      
+        
+        
+        
+        
+        
+        
+        
+        
+          
+          
+          {
+            "@type": "ListItem",
+            "position":  3 ,
+            "name": "Tutorial",
+            "item": "https://docs.conforma.nz/docs/Tutorial/"
+          },
+        
+      
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+          
+          
+          {
+            "@type": "ListItem",
+            "position":  4 ,
+            "name": "Tutorial Pg4",
+            "item": "https://docs.conforma.nz/docs/Tutorial/tutorial-pg4/"
+          },
+        
+      
+    
+  }
+</script>
+
+
+
+
+  <meta name="theme-color" content="#fff">
+  <link rel="apple-touch-icon" sizes="180x180" href="https://docs.conforma.nz/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://docs.conforma.nz/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://docs.conforma.nz/favicon-16x16.png">
+  
+
+
+  
+
+</head>
+
+  
+
+<body class="docs single">
+  
+  
+  
+  
+<div class="header-bar fixed-top"></div>
+<header class="navbar fixed-top navbar-expand-md navbar-light">
+	<div class="container">
+		<input class="menu-btn order-0" type="checkbox" id="menu-btn">
+		<label class="menu-icon d-md-none" for="menu-btn"><span class="navicon"></span></label>
+		<a class="navbar-brand order-1 order-md-0 me-auto" href="https://docs.conforma.nz">Conforma</a>
+		<button id="mode" class="btn btn-link order-2 order-md-4" type="button" aria-label="Toggle mode">
+			<span class="toggle-dark"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-moon"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg></span>
+			<span class="toggle-light"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-sun"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg></span>
+		</button>
+		<ul class="navbar-nav fork-me order-3 order-md-5">
+			
+				
+					<li class="nav-item">
+						<a class="nav-link" href="https://twitter.com/msupply"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-twitter"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg><span class="ms-2 visually-hidden">Twitter</span></a>
+					</li>
+				
+					<li class="nav-item">
+						<a class="nav-link" href="https://github.com/openmsupply"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg><span class="ms-2 visually-hidden">GitHub</span></a>
+					</li>
+				
+			
+		</ul>
+		<div class="collapse navbar-collapse order-4 order-md-1">
+			<ul class="navbar-nav main-nav me-auto order-5 order-md-2">
+				
+					
+						<li class="nav-item docs active">
+							<a class="nav-link" href="https://docs.conforma.nz/docs/getting-started/introduction/">Docs</a>
+						</li>
+					
+				
+			</ul>
+			<div class="break order-6 d-md-none"></div>
+			
+				<form class="navbar-form flex-grow-1 order-7 order-md-3">
+					<input id="userinput" class="form-control is-search" type="search" placeholder="Search docs..."
+						aria-label="Search docs..." autocomplete="off">
+					<div id="suggestions" class="shadow bg-white rounded"></div>
+				</form>
+			
+		</div>
+	</div>
+</header>
+
+
+
+  
+<div class="wrap container" role="document">
+  <div class="content">
+    <div class="row flex-xl-nowrap">
+	  
+<div class="col-lg-5 col-xl-4 docs-sidebar">
+	<nav class="docs-links" aria-label="Main navigation">
+			
+			
+			
+			
+					
+					
+					
+							<h3>About</h3>
+							<ul class="list-unstyled">
+							                           
+									<li><a class="docs-link" href="https://docs.conforma.nz/docs/about/introduction/">Introduction</a></li>
+							
+					</ul>
+					
+					
+					
+					
+							<h3>Getting Started</h3>
+							<ul class="list-unstyled">
+							                           
+									<li><a class="docs-link" href="https://docs.conforma.nz/docs/getting-started/installation/">Installation</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.conforma.nz/docs/getting-started/design-system/">Designing your system</a></li>
+							
+					</ul>
+					
+					
+					
+					
+							<h3>Contributing</h3>
+							<ul class="list-unstyled">
+							                           
+									<li><a class="docs-link" href="https://docs.conforma.nz/docs/contributing/how-to-contribute/">How to contribute</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.conforma.nz/docs/contributing/code-of-conduct/">Code of Conduct</a></li>
+							
+					</ul>
+					
+					
+					
+					
+							<h3>Help</h3>
+							<ul class="list-unstyled">
+							                           
+									<li><a class="docs-link" href="https://docs.conforma.nz/docs/help/faq/">FAQ</a></li>
+							
+					</ul>
+					
+					
+					
+					
+							<h3>Tutorial</h3>
+							<ul class="list-unstyled">
+							                           
+									<li><a class="docs-link" href="https://docs.conforma.nz/docs/Tutorial/tutoria-pg2/">1. Tutorial introduction</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.conforma.nz/docs/Tutorial/tutorial-overview/">2. Starting as an applicant user</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.conforma.nz/docs/Tutorial/tutorial-pg3/">3. Registering a company</a></li>
+							                           
+									<li><a class="docs-link active" href="https://docs.conforma.nz/docs/Tutorial/tutorial-pg4/">4. Reviewing a company registration application</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.conforma.nz/docs/Tutorial/tutorial-pg5/">5. Submitting a product registration application</a></li>
+							
+					</ul>
+					
+					
+			
+	</nav>
+</div>
+
+	  
+  
+
+      <main class="docs-content col-lg-11 col-xl-9">
+        <h1>4. Reviewing a company registration application</h1>
+        
+        <p>Head back to the log in page of the demo system (preferably in an another broswer!) by navigating to:
+https://conforma-demo.msupply.org:50000/ </p>
+<p>Now for this part of the tutorial we are going to log in as a staff member of the Regulatory Agency. </p>
+<p>We are going to use the following staff members account:</p>
+<p><img src="/docs/about/demo/24.png" alt="Internal user details" /></p>
+<p>As noted above, Alice's role is as a Business Services Admin, and part of her role is to mananage company registration applications.</p>
+<p>Go ahead and log in using Alice's credentials (above).</p>
+<h3 id="navigating-the-system-as-a-regulatory-staff-user">Navigating the system as a Regulatory Staff user</h3>
+<p>Once you have logged in you will be taken to Alice's dashboard homepage. You may have noticed that the dashboard layout looks very similar to the home page of your external user account you made earlier.</p>
+<p>However, there are of course differences between external and internal user accounts!</p>
+<p>Within this section we explain some of the key differences. </p>
+<p><strong>To begin with let's go over the differences when looking at the dashboard:</strong></p>
+<ol>
+<li>In the top right left hand corner you will see that internal staff members are assocaited with the organisation 'Regulatory Authority'</li>
+</ol>
+<p><img src="/docs/about/demo/25.png" alt="Internal organisation" /></p>
+<ol start="2">
+<li>
+<p>The types of applications/workflows you can interact with are limited by your permissions</p>
+<p>Below are examples of two different staff members of Regulatory Authority. The first is Alice, and the second is a Bob Vance a section head of the medicines registration section. </p>
+</li>
+<li>
+<p>The applications overview section shows the relevant applications are or can work on.</p>
+</li>
+<li>
+<p>The databases are internal databases that include all approved application products (e.g. A database of all registered companies)</p>
+</li>
+</ol>
+<div class="note">
+As noted above, different staff will have different access to different modules/applications based on their permissions.
+<p>For example Alice is able to view and interact with company registration applications but not with product registration applications.</p>
+</div>
+<hr />
+<h3 id="looking-at-an-application-review-page">Looking at an application review page</h3>
+<p>OK, let's take a look at the review page of the application you submitted earlier.</p>
+<ol>
+<li>
+<p>Click <strong>Reviews awaiting assignment</strong> to filter the list of applications to those that still need assigning.</p>
+<p>This will then display a filtered list like:</p>
+<p><img src="/docs/about/demo/26.png" alt="Filtered application list" /></p>
+</li>
+<li>
+<p>Click on the link of the application you just submitted.</p>
+</li>
+</ol>
+<p><img src="/docs/about/demo/27.png" alt="Application link" /></p>
+<ol start="3">
+<li>
+<p>This will take you the review page of the application. </p>
+<p>The review page has the 4 tabs of informaation/function that are described below.</p>
+<p><strong>Overview tab</strong></p>
+<p>Within the overview tab you can see information such as:</p>
+<ul>
+<li>
+<p>Application details: <em>Basic information related to the application such as who it was submitted by, the date of submission and application ID</em></p>
+</li>
+<li>
+<p>Activity history: <em>This section shows a detailed history of the application's workflow process. It is especially helpful for applications with more than one stage to monitor and track it's progress</em></p>
+</li>
+</ul>
+<p><img src="/docs/about/demo/28.png" alt="overview tab" /></p>
+<p><strong>Assignment tab</strong></p>
+<p>Within the assignment tab you can assign applications and view current and past assignments for all stages of an application.</p>
+<p>For most applications when you assign one section, it will assign all sections of an application to the user. For complex applications, that may need to reviewed by multiple people at one time, each section can be assigned to a different staff member.</p>
+<p><img src="/docs/about/demo/30.png" alt="assignment tab" /></p>
+<p><strong>Internal notes tab</strong></p>
+<p>The internal notes tab allows internal staff members to add comments and adhoc files related to an application. A history of who made each comment is recorded in the system.</p>
+<p>In the below example another staff member attached an email enquiry related to an application. </p>
+<p><img src="/docs/about/demo/29.png" alt="internal notes tab" /></p>
+<p><strong>Documents notes tab</strong></p>
+<p>Within the documents tab you will be able to see any system generated certificates related to an application (e.g. Product registration certificate). In the case where there is no certificates that have been generated, this section will be blank. </p>
+<p><img src="/docs/about/demo/31.png" alt="Documents tab" /></p>
+</li>
+</ol>
+<hr />
+<h3 id="assigning-the-application-to-your-workload">Assigning the application to your workload</h3>
+<p>Now you are familiar with the review page and it's functionality, let's start reviewing that company registration application you previously submitted. </p>
+<p>First, we need to assign the application to ourself so we can begin reviewing.</p>
+<ol>
+<li>Navigate the assignments tab of the application</li>
+</ol>
+<div class="tip">
+You can access assignments tab directly from the application list, just click the self-assign button!
+</div>
+<p><img src="/docs/about/demo/32.png" alt="self-assign" /></p>
+<ol start="2">
+<li>
+<p>Using the drop down list that displays <strong>Not assigned</strong> select 'Yourself' from the list.</p>
+</li>
+<li>
+<p>Now click the <strong>submit</strong> button</p>
+</li>
+</ol>
+<p><img src="/docs/about/demo/30.png" alt="assignment tab" /></p>
+<ol start="4">
+<li>
+<p>You have now been assigned the application. </p>
+<p>This is now reflected in assignments tab.</p>
+</li>
+</ol>
+<p><img src="/docs/about/demo/33.png" alt="assignment tab" /></p>
+<div class="tip">
+Don't forget that this activity is also reflected in the Activity section of the overview tab.
+</div>
+<hr />
+<h3 id="reviewing-a-company-registration-application">Reviewing a company registration application</h3>
+<p>Now the application has been assigned to yourself, you can now get to work and start reviewing the application.</p>
+<ol>
+<li>Within the assignments tab of the review page, click the <strong>Start</strong> button.</li>
+</ol>
+<p><img src="/docs/about/demo/35.png" alt="assignment tab" /></p>
+<ol start="2">
+<li>
+<p>Within the application each application form, all reviewable fields can be reviewed. To review an individual field click the <strong>Review</strong> button. This opens up the a space for the reviewer to mark the form requirement as either Conform (meets requirements) or Non-conform (does not meet requirements). </p>
+<p>Move through the review form and mark each requirement as either a conforming or non-conforming field. For this tutorial please mark eveything as a conform for now (we will get the rest later!)</p>
+<p>The comments field within the review box can be used to record internal notes as needed. Internal notes for conforming form fields are not visible to the applicant. </p>
+<p>However when a field is marked with a non-conform outcome, a comment to be communicated to the applicant is required (.e.g. Provide direction to the applicant).</p>
+</li>
+</ol>
+<div class="tip">
+You can also use the Approve all button to mark all fields within that section as conforming requirements.
+</div>
+<p><img src="/docs/about/demo/37.png" alt="assignment tab" /></p>
+<div class="warning">
+Remember if you record form elements with a non-conform outcome and issue a list of questions (or request for information) to the applicant, any comments including in those non-conforming fields will be visible to the applicant.
+</div>
+<ol start="3">
+<li>
+<p>Once you have completed your review of all of the form fields, it is time to record your review outcome for that application. For this application there is only stage. </p>
+<p>The following diagram outlines for this application what the outcomes mean.</p>
+<p><img src="/docs/about/demo/38.png" alt="assignment tab" /></p>
+<p>The review outcome buttons appear at the bottom of the page, and change depending on your review of the form fields above.</p>
+<p>Because we selected Conform for all the fields above, our only option is to mark the application outcome as <strong>Conform</strong>.</p>
+<p><img src="/docs/about/demo/39.png" alt="assignment tab" /></p>
+</li>
+<li>
+<p>The last field to fill out is the <strong>Overall comment</strong> field. </p>
+<p>This is field is a free text box that can be used as follows:</p>
+<ul>
+<li>
+<p>If the outcome is to approve or send a list of questions to the applicant, the overall comment can be used to record a note regarding the internal decision. This will not be visible to the applicant. </p>
+</li>
+<li>
+<p>if the outcome is to reject the application, the overall comment <strong>must</strong> be used to record the rejection reason. This comment will be used by the system to generate rejection correspondence. </p>
+</li>
+</ul>
+</li>
+</ol>
+<p><img src="/docs/about/demo/40.png" alt="assignment tab" /></p>
+<div class="warning">
+Remember if you marking the overall outcome the application as Non-conform to include the reason to for rejection to be provided to applicant within the Overall comment field. 
+</div>
+<ol start="5">
+<li>
+<p>Once you are happy with your review click the <strong>Submit review</strong> button.</p>
+<p>A final confirmation pop-up will appear asking you to confirm you want to submit your review decision. </p>
+<p>Click <strong>Submit</strong></p>
+</li>
+</ol>
+<p><img src="/docs/about/demo/41.png" alt="submission message" /></p>
+<ol start="6">
+<li>
+<p>Great, now you have approved the company registration application. You will see on the screen a summary of your review. This review record will be stored in the system and can be accessed at any time.</p>
+</li>
+<li>
+<p>If you have used your email account to sign up for the system, you will have recieved an email that states the approval of the company registration application.</p>
+<p>Emails can be tailored for every application type and outcome. For this application the email should look like this:</p>
+<p><img src="/docs/about/demo/42.png" alt="Company approval email" /></p>
+</li>
+</ol>
+<hr />
+<p>Now you you have approved that company registration application, log out of Alice's account and head back into your created applicant user account. </p>
+<p>Then jump to section <strong>5. Submitting a product registration application</strong> of the tutorial to continue through the walkthrough.</p>
+
+        
+        
+<div class="docs-navigation d-flex justify-content-between">
+  
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+          
+        
+      
+        
+        
+          
+            
+              
+              <a href="https:&#x2F;&#x2F;docs.conforma.nz&#x2F;docs&#x2F;help&#x2F;faq&#x2F;">
+                <div class="card my-1">
+                  <div class="card-body py-2">
+                    &larr; FAQ
+                  </div>
+                </div>
+              </a>
+            
+            
+            
+          
+        
+      
+        
+        
+          
+        
+      
+        
+        
+          
+        
+      
+        
+        
+          
+        
+      
+    
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+      
+      
+        
+      
+    
+      
+      
+        
+      
+    
+      
+      
+        
+      
+    
+      
+      
+        
+      
+    
+  
+</div>
+
+      </main>
+    </div>
+  </div>
+</div>
+
+
+  
+    
+<footer class="footer text-muted">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 order-last order-lg-first">
+				<ul class="list-inline">
+					
+						<li class="list-inline-item">Powered by <a href="https://www.getzola.org/">Zola</a>, and <a href="https://github.com/aaranxu/adidoks">AdiDoks</a></li>
+					
+				</ul>
+			</div>
+			<div class="col-lg-8 order-first order-lg-last text-lg-end">
+				<ul class="list-inline">
+					
+						
+							<li class="list-inline-item"><a href="https://docs.conforma.nz/privacy-policy/">Privacy</a></li>
+						
+							<li class="list-inline-item"><a href="https://docs.conforma.nz/docs/contributing/code-of-conduct/">Code of Conduct</a></li>
+						
+					
+				</ul>
+			</div>
+		</div>
+	</div>
+</footer>
+
+  
+
+  
+<script src="https://docs.conforma.nz/js/main.js" defer></script>
+
+  <script src="https://docs.conforma.nz/plugins/elasticlunr.min.js" defer></script>
+  <script src="https://docs.conforma.nz/search_index.en.js" defer></script>
+  <script src="https://docs.conforma.nz/js/search.js" defer></script>
+
+  
+</body>
+</html>

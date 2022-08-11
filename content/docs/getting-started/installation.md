@@ -32,8 +32,13 @@ top = false
 
 ## Overview
 
-This section describes how to install the Conforma platform. 
+This section describes how to install the Conforma platform.
 
 ## How to install
 
 Work in progress
+
+{{A-->B;
+A-->C;
+B-->D;
+C-->D;}}
