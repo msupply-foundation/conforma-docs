@@ -25,6 +25,15 @@ This captured information may then be reviewed by the internal users.
 
 Further actions may then be triggered depending on the information provided and the requirements of the internal team. 
 
+<div class="mermaid" align="center">
+graph LR
+    A(Apply) --> B(Evaluate)
+    B --> A
+    B --> C(Decide)
+    C --> D(Actions)
+</div>
+</br>
+
 These actions may include generating certificates, sending email responses, unlocking new workflows to the user and more. 
 
 Conforma also acts as a storage repository to capture files from internal and external users and to allow notes to be made for each workflow. 
