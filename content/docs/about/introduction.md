@@ -25,14 +25,13 @@ This captured information may then be reviewed by the internal users.
 
 Further actions may then be triggered depending on the information provided and the requirements of the internal team. 
 
-<div class="mermaid" align="center">
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#f2913d'}}}%%
+{% mermaid ()%}
 graph LR
     A(Apply) --> B(Evaluate)
     B --> A
     B --> C(Decide)
     C --> D(Actions)
-</div>
+{% end %}
 </br>
 
 These actions may include generating certificates, sending email responses, unlocking new workflows to the user and more. 
