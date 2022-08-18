@@ -36,6 +36,15 @@ graph LR
 
 These actions may include generating certificates, sending email responses, unlocking new workflows to the user and more. 
 
+{% mermaid ()%}
+graph LR
+    C(Decide)-->D(Generate Certificates)
+    C(Decide)-->A(View Full Evaluation History)
+    C(Decide)-->B(Custom Actions) 
+    C(Decide)-->E(Configure Various Outcomes) 
+{% end %}
+</br>
+
 Conforma also acts as a storage repository to capture files from internal and external users and to allow notes to be made for each workflow. 
 
 
