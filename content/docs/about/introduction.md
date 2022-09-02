@@ -15,38 +15,38 @@ toc = true
 
 ## What is Conforma?
 
-Conforma is an open source platform that provides a set of tools to help you streamline your information workflows. 
+Conforma is an open source platform that provides a set of tools to help you streamline your information workflows.
 
-The platform has been designed to allow seamless collaboration between internal and external users of the workflows. 
+The platform has been designed to allow seamless collaboration between internal and external users of the workflows.
 
-The primary use case of Conforma is to allow internal users to request information from external users via an interactive application form. 
+The primary use case of Conforma is to allow internal users to request information from external users via an interactive application form.
 
-This captured information may then be reviewed by the internal users. 
+This captured information may then be reviewed by the internal users.
 
-Further actions may then be triggered depending on the information provided and the requirements of the internal team. 
-
-{% mermaid ()%}
-graph LR
-    A(Apply) --> B(Evaluate)
-    B --> A
-    B --> C(Decide)
-    C --> D(Actions)
-{% end %}
-</br>
-
-These actions may include generating certificates, sending email responses, unlocking new workflows to the user and more. 
+Further actions may then be triggered depending on the information provided and the requirements of the internal team.
 
 {% mermaid ()%}
 graph LR
-    C(Decide)-->D(Generate Certificates)
-    C(Decide)-->A(View Full Evaluation History)
-    C(Decide)-->B(Custom Actions) 
-    C(Decide)-->E(Configure Various Outcomes) 
+A(Apply) --> B(Evaluate)
+B --> A
+B --> C(Decide)
+C --> D(Actions)
+{% end %}
+
+</br>
+
+These actions may include generating certificates, sending email responses, unlocking new workflows to the user and more.
+
+{% mermaid ()%}
+graph LR
+C(Decide)-->D(Generate Certificates)
+C(Decide)-->A(View Full Evaluation History)
+C(Decide)-->B(Custom Actions)
+C(Decide)-->E(Configure Various Outcomes)
 {% end %}
 </br>
 
-Conforma also acts as a storage repository to capture files from internal and external users and to allow notes to be made for each workflow. 
-
+Conforma also acts as a storage repository to capture files from internal and external users and to allow notes to be made for each workflow.
 
 ## What can it do?
 
@@ -62,7 +62,7 @@ Conforma provides a platform to:
 - Track the history of workflow events
 - Manage workloads of workflow participants
 
-Some examples of regulatory frameworks where Conforma is currently being used: 
+Some examples of regulatory frameworks where Conforma is currently being used:
 
 - New Drug Registrations
 - Pharmaceutical Company Licensing
@@ -70,10 +70,9 @@ Some examples of regulatory frameworks where Conforma is currently being used:
 
 Conforma's flexibility means that it can be used in a wide range of situations. For clarity, this guide focuses on its intended use in healthcare regulatory environments.
 
-
 ## The team behind Conforma
 
-Conforma has been developed by the team at [The mSupply Foundation](https://msupply.foundation/about) - a friendly bunch who aim to create useful, open-source software in order to improve healthcare solutions in low to middle-income countries. 
+Conforma has been developed by the team at [The mSupply Foundation](https://msupply.foundation/about) - a friendly bunch who aim to create useful, open-source software in order to improve healthcare solutions in low to middle-income countries.
 
 Creating Conforma has been a labour of love — thousands of hours of work. We hope you find it a joy to use, and that it results in your regulatory organisation being able to perform its role accurately, quickly and to a high standard.
 

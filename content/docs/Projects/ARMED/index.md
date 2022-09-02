@@ -30,44 +30,95 @@ top = false
     </p>
 </div>
 
+# User workflows
+
 ## Getting started
 
-This section contains a walkthrough of a demonstration configuration to showcase how Conforma can be used to manage workflows for a Regulatory Authority.
+This section contains a walkthrough of the workflows for ARMED.
 
-You can access the demonstration system here:
+You can access the system here:
 
-<a href="https://conforma-demo.msupply.org:50008/" target="_blank">https://conforma-demo.msupply.org:50000/</a>
+<a href="https://conforma-demo.msupply.org:50008/" target="_blank">https://conforma-demo.msupply.org:50008/</a>
 
-Have fun exploring!
+## User Registration
 
-### Navigating through this tutorial
+User registration begins with clicking "Criar nova conta". Here you can enter all of the information required to register your new login.
 
-### Using the system as an applicant user
+Email is required to verify and finalise your login, so you will need a valid email to complete this process.
 
-The recommended way to get familiar with this the system is by starting as an applicant user. Applicant users are in the Conforma systems are users who submit applications via the platform to a regulatory agency.
+After validation, you can log in to your new account which will bring you to the conforma dashboard.
 
-So what kinds of things can applicant users do in the system?:
+## Password reset
 
-- Submit applications such as 'Pharmacy Registrations' or 'Product registrations' to a regulatory agency for review.
-- Respond to queries and requests for information from the regulatory agency.
-- Track and manage applications within the systems. Transparency is key in reducing the number of enquiries a regulatory agency revieves from applicants.
-- Receive system generated correspondence related to submitted applications.
-- Allow users to have an overview the outcomes of their applications, such as 'Registered medicinal products' or 'Licences'
+If you forget your password, it can be reset with your email address from the login page.
 
-### Using the system as a regulatory authority user
+## Join a company
 
-The follow up tutorial is how to use the system as a staff member of the regulatory authority. We call these users 'Internal users'.
+Join company or "Juntar-se a entidade registada" allows you to join an existing registered company. You will need a letter of authorization from the organisation, and a personal identification.
 
-So what kinds of things can internal users do in the system?:
+After submission, and internal administrator will need to review and verify before you will be able to register products on behalf of the company.
 
-- Review and determine outcomes for submitted applications.
-- Manage complex work processes 'Workflows' in the system. We know that complex workflows such as managing drug registration require multiple steps and people involved.
-- Generate official correspondence related to an application. This includes approval certificates or requesting an applicant amend their application.
-- Store notes and files related to an application process - Think meeting minutes, lab results or evaluation reports.
-- Track and manage the lifecycle of applications and their products in the system, such as 'Renewal applications of licences'.
-- Manage workloads, track applications and manage and view databases of application by-products.
-- And much more!
+## Company Registration
 
----
+External users can also register new companies through "Cadastramentos de entidades". To register a company with ARMED, you will need:
 
-Jump to section **2. Starting as an applicant user** of the tutorial to continue
+- Your personal information and contact details
+- The contact details of the company contact
+- Documentation and to verify the company
+
+## Product Registration
+
+External users can register products on behalf of an organisation once they are registered and signed into a company via the "Registo de Medicamento" application form. This will show on the dashboard once a user is signed into a company.
+
+Product registration requires a number of documents and details before ARMED will approve a product.
+
+After submission of this form, it will need to be screened and reviewed by ARMED staff before a final decision is made.
+At any point in this process, ARMED staff may request changes or clarification on some of the information you have provided. You will receieve emails if there is anything requested by ARMED.
+
+You will receive an email when ARMED has made a final decision on your application.
+
+# Internal Workflows
+
+## Organisation Join
+
+Applications for external users to join existing registered organisations in the ARMED system requires review from internal ARMED staff. This requires reviewBasic permissions.
+
+Internal users can view all applications from external users to join organisations via the dashboard link. This view includes applications which are already approved or declined.
+
+Filters are readily available to customise this view, and more can be added via the filter button.
+
+Clicking onto an application
+
+## Organisation Registration
+
+Applications for external users to register a new company in the ARMED system requires review from internal staff. This requires reviewBasic permissions.
+
+## Product Registration
+
+## Create External User And Company
+
+- requires System Manager permissions
+
+## Product Cancellation
+
+- requires System Manager permissions
+
+## Add user to company
+
+- requires System Manager permissions
+
+## User Edit
+
+- requires System Manager permissions
+
+## Manage Reference Documents
+
+- requires System Manager permissions
+
+## File Manage
+
+- requires System Manager permissions
+
+## Grant User Permissions
+
+## Create Internal User
