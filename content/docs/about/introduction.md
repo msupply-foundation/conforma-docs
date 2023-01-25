@@ -38,7 +38,7 @@ We know that different organisations processes are unique, and will change over 
 ![header](/docs/about/demo/de.png)
 
 
-### What does it do?
+### What does Conforma do?
 
 Conforma has been designed to manage and improve work processes for medicinal regulatory authorities. 
 
