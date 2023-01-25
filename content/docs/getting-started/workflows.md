@@ -1,10 +1,10 @@
 +++
-title = "Designing your system"
+title = "Worfklows types"
 description = "How to create workflows using Conforma"
 date = 2021-05-01T08:20:00+00:00
 updated = 2021-05-01T08:20:00+00:00
 draft = false
-weight = 10
+weight = 43
 sort_by = "weight"
 template = "docs/page.html"
 
@@ -33,10 +33,6 @@ top = false
 ## Overview
 
 This section describes how to configure Conforma to match your workflows. 
-
-## How to design your system
-
-Work in progress.
 
 ## Basic concepts
 
