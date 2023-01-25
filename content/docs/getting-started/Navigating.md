@@ -81,8 +81,8 @@ From the home page:
 
 
 2. Click Log out.
+![Navigation of the system!](/docs/about/demo/logout.png)
 
-![loggingout](/docs/about/demo/logout.png)
 
 
 
