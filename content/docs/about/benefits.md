@@ -13,40 +13,69 @@ toc = true
 
 +++
 
-## Incoroporating recognised standards
+Conforma has a lot of great features, we have tries to sum up the key ones here. 
 
-We have designed Conforma to meet international standards for regulatory systems from how we designed the system - for example ensuring applications can be submitted in line with Common Technical Document format, to the data we use in the system - standardised data tables for terms and definitions.
+## Powerful application forms
 
-Here are some key examples.
+Easily customisable application forms designed! Really these can be tailored to match exactly what you need.
 
-#### Good Review Practices
-
-Features to encourage Good Review Practices are built into the system. 
-
-![GRP](/docs/about/demo/grp.png)
+![form](/docs/about/demo/form2.png)
 
 
-#### Ingredient names
+## System communication tools
 
-Using the International Nonproprietary Names (INN) for the identification of pharmaceutical substances or active pharmaceutical ingredients. 
+There are a lot of ways to note and record information in the system (a lot!), here are some of the core communication tools. 
 
-![INN](/docs/about/demo/ing.png)
+**Evaluation notes**
 
-#### ATC Classification
+Eevaluation notes and issues can be recorded and directly communicated and resolved in the application between both internal and external users. 
 
-Capturing the products using the Anatomical Therapeutic Chemical (ATC) classification system.
+![reviewnotes](/docs/about/demo/reviewnotes.png)
 
-![ATC](/docs/about/demo/ATC.png)
+**Applicant feeedback**
 
-#### Access to data tables
+Give clear feedback for applicants directly within the application form for actioning. 
 
-Data tables for dose forms, routes and methods of administration, containers, closures, administration devices and units of presentation to help improve data quality and sharing. 
+![feedback](/docs/about/demo/feedback.png)
 
-You can also use your own data and standards if needed. 
+**Generated documents and certificates**
+
+The system can generate complex documents and certificates, such as product regsitration certicates which are stored against the application record. 
+
+![cert](/docs/about/demo/cert.png)
+
+**Emails**
+
+Automatic emails can be configured and sent from the system to help speed your work up!
+
+![email](/docs/about/demo/email1.png)
 
 
-![datatables](/docs/about/demo/tb1.png)
+--------------------
 
+
+## Reports & databases
+
+#### Within Conforma
+
+**Application lists**
+
+Flexible and filterable database of applications for workmanagement. 
+
+![applist](/docs/about/demo/applist.png)
+
+**Customisable databases**
+
+Searchable and filterable databases of system records such as permits and product records. 
+
+![Database](/docs/about/demo/database.png)
+
+
+#### Grafana Dashboard
+
+Integrated reports with out visualisation reporting tool Grafana.
+
+![dashboard](/docs/about/demo/dashboard.png)
 
 
 
