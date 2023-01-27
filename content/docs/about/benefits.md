@@ -17,7 +17,7 @@ Conforma has a lot of great features, we have tried to sum up the key ones here.
 
 ## Powerful application forms
 
-Easily customisable application forms, really these can be tailored to match exactly what you need.
+Easily customisable application forms that can include many different types of fields and data sources.  Really, these can be tailored to match exactly what you need.
 
 ![form](/docs/about/demo/form2.png)
 
