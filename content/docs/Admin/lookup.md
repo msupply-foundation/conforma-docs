@@ -4,7 +4,7 @@ description = "Managing Lookup tables"
 date = 2021-05-01T08:20:00+00:00
 updated = 2021-05-01T08:20:00+00:00
 draft = false
-weight = 46
+weight = 50
 sort_by = "weight"
 template = "docs/page.html"
 
@@ -18,14 +18,13 @@ Users with Admin permissions are able to manage Lookup tables within the system.
 
 Lookup tables contain data which may be referenced by the application form, such as a list of ingredients. 
 
-The configuration options for the lookup tables are displayed to the right of each lookup table.
-
-![conif buttons](/docs/about/demo/buttons1.png)
-
-These buttons allow you to:
+The configuration options for the lookup tables are displayed to the right of each lookup table. These buttons allow you to:
 - View the table and data
 - Update the table
 - Export the table data
+
+![conif buttons](/docs/about/demo/buttons1.png)
+
 
 ## Viewing lookup tables
 

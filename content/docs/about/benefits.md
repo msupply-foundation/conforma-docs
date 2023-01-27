@@ -13,11 +13,11 @@ toc = true
 
 +++
 
-Conforma has a lot of great features, we have tries to sum up the key ones here. 
+Conforma has a lot of great features, we have tried to sum up the key ones here. 
 
 ## Powerful application forms
 
-Easily customisable application forms designed! Really these can be tailored to match exactly what you need.
+Easily customisable application forms, really these can be tailored to match exactly what you need.
 
 ![form](/docs/about/demo/form2.png)
 
