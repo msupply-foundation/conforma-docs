@@ -26,7 +26,7 @@ In this section we will go over some of the ways external users can manage appli
 
     This view also displays the status of your applications as well as any due dates for amendment requests. 
 
-![Application list](/docs/about/demo/list.png)
+![Application list](/docs/about/demo/List.png)
 
 ## Continuing a draft application
 
