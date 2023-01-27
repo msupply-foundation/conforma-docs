@@ -20,8 +20,8 @@ This section goes of the basics of how to use Conforma for external users, from 
 
 Conforma is accessed for all users through a web browser. 
 
-<div class="tip">
-Just remember thThe recommended browser is Google Chrome, we recommend that you ensure your browser version is up to date.
+<div class="note">
+The recommended browser is Google Chrome, we recommend that you ensure your browser version is up to date.
 </div>
 
 1. Open your internet browser. 
