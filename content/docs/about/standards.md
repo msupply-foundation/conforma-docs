@@ -1,6 +1,6 @@
 +++
-title = "Incoroporating recognised standards"
-description = " **Incoroporating recognised standards**."
+title = "Incorporating recognised standards"
+description = " **Incorporating recognised standards**."
 date = 2021-05-01T08:00:00+00:00
 updated = 2021-05-01T08:00:00+00:00
 draft = false
@@ -13,7 +13,7 @@ toc = true
 
 +++
 
-## Incoroporating recognised standards
+## Incorporating recognised standards
 
 We have designed Conforma to meet international standards for regulatory systems from how we designed the system - for example ensuring applications can be submitted in line with Common Technical Document format, to the data we use in the system - standardised data tables for terms and definitions.
 
