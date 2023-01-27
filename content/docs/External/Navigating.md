@@ -1,6 +1,6 @@
 +++
-title = "System basics"
-description = "How to navigate in Conforma"
+title = "Getting started"
+description = "Getting started - External users"
 date = 2021-05-01T08:20:00+00:00
 updated = 2021-05-01T08:20:00+00:00
 draft = false
@@ -14,17 +14,15 @@ toc = true
 top = false
 +++
 
-This section goes of the basics of how to use Conforma, from logging in, to navigating around the system. 
+This section goes of the basics of how to use Conforma for external users, from creating your account to navigating around the system. 
 
 ### Accessing Conforma
 
 Conforma is accessed for all users through a web browser. 
 
 <div class="tip">
-The recommended browser is Google Chrome, we recommend that you ensure your browser version is up to date.
+Just remember thThe recommended browser is Google Chrome, we recommend that you ensure your browser version is up to date.
 </div>
-
-**To access Conforma**
 
 1. Open your internet browser. 
 
@@ -32,16 +30,33 @@ The recommended browser is Google Chrome, we recommend that you ensure your brow
 
 ![log-in page](/docs/about/demo/1.png)
 
+### Creating an account 
+
+1. From the log-in page, click the **Create new account** button.
+
+<div class="note">
+The forms used here are just example forms, just remember they can be changed to suit your needs!
+</div>
+
+2. Fill out the user registration form.
+
+![user form](/docs/about/demo/2.png)
+
+3. Once you have completed the form, click the **Review & Summary** button
+
+4. Do a last check of the form, then click the **Submit** button.
+
+5. A verification email will be sent to the email address you provided in the form. Verify your account by clicking the provided link. 
+
+![Email](/docs/about/demo/email2.png)
+
+6. Now your account is verified! Click the log in button to navigate back to the log in screen.
+
+------------------- 
 
 ### Logging in
 
-Before being able to log in:
-
-- **External users** must create and verify an account in Conforma. This can be done from the log-in page. 
-- **Internal users** must have had their account created by an Admin user. 
-
-
-**From the log in page:**
+Once you your user account has been verified you can now log in to Conforma.
 
 1. Enter your username and password. 
 
@@ -51,6 +66,7 @@ Before being able to log in:
 
 ![Dashboard](/docs/about/demo/db.png)
 
+-----------
 
 ## Navigating the dashboard
 
@@ -65,9 +81,9 @@ The image and table below outline the basics of navigating within the system.
 | # | Field         | Description  | 
 | :---------------:  | :-------------------:    | :-------------------:    | 
 | 1 |  Dashboard | Using this button will return you to the dashboard screen          | 
-| 2 |  Application list    | You can use this button to view your and manage your applications        | 
-| 3 |  Database      | This allows the user the products of any approved applicatons (e.g. Registered products, Licences)   | 
-| 4 |  Help/Documents     | Menu for accessing help and guidance documents. This is a different menu for internal and external users   | 
+| 2 |  Application list    | You can use this button to view and manage your applications        | 
+| 3 |  Database      | This allows the user to view things like your company information or your list of  registered products.   | 
+| 4 |  Help    | Menu for accessing help and guidance documents.   | 
 | 5 |  User Account | This displays the user who is logged on. The drop-down button will also give you options such as to log out and edit your user details | 
 | 6 |  Applications overview | This panel displays a summary of your available applications and a summary of your submitted applications | 
 

@@ -22,10 +22,9 @@ The application form saves automatically as you go. So you can just leave and co
 
 ## Submitting a new application
 
-Let's go through the example of submitting a form to register a company as a Chemical Importer in the system.
+Let's go through the example of submitting a form, we will use the example of registering a company as a Chemical Importer. 
 
-
-**To register as a Chemical Importer:**
+Just remember this process is the same for submitting any application type.
 
 1. Log in to your account. 
 
