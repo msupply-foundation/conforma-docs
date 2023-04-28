@@ -15,6 +15,10 @@ repo_url = "https://github.com/openmsupply/application-manager-server"
 title = ""
 content = '<img src="msupply-foundation-logo square.png" class="light_msupply"><img src="msupply-foundation-logo square-dark.png" class="dark_msupply">'
 
+[[extra.list]]
+title = "Cambiar idioma"
+content = '<a href="/docs.es/about/introduction/">Español</a>'
+
 # [[extra.list]]
 # title = "Fast by default ⚡️"
 # content = 'Get 100 scores on <a href="https://googlechrome.github.io/lighthouse/viewer/?gist=7731347bb8ce999eff7428a8e763b637">Google Lighthouse</a> by default. Doks removes unused css, prefetches links, and lazy loads images.'
