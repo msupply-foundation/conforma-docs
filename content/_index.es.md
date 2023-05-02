@@ -1,15 +1,14 @@
 +++
-title = "Conforma Documentation"
+title = "Documentación de Conforma"
 
 
-# The homepage contents
+# The homepage contents 
 [extra]
-lead = '<b>Conforma</b> is an open source workflow platform designed by <br><a href="https://msupply.foundation/">The mSupply Foundation</a>'
-lead = '<br> Estás en el sitio en español: Switch to <br><a href="/"> English</a>'
+lead = '<b>Conforma</b> es una plataforma de código abierto diseñada para gestionar tus flujos de trabajo <br><a href="https://msupply.foundation/">The mSupply Foundation </a></br> <span class="not-a-link">Estás en el sitio de Español: cambiar a</span><a href="/"> Inglés</a>'
 url = "es/docs/about/introduction/"
-url_button = "Get started"
+url_button = "Dar inicio"
 repo_version = "GitHub v0.1.0"
-repo_license = "Open-source MIT License." 
+repo_license = "Licencia MIT Open-source" 
 repo_url = "https://github.com/openmsupply/application-manager-server"
 
 
