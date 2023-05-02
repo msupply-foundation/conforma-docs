@@ -17,18 +17,6 @@ flag="🇬🇧"
 TOCtitle="On this page"
 search_placeholder = "Search docs..."
 
-[languages.fr]
-generate_feed = true # there will be a feed for French content
-build_search_index = true
-title="mSupply 🇫🇷"
-
-[languages.fr.translations]
-summary = "Mon blog"
-title = "mSupply.fr"
-flag="🇫🇷"
-TOCtitle="Sur cette page"
-search_placeholder = "Rechercher des documents..."
-
 [languages.es.translations]
 summary = "Mi blog"
 title = "mSupply.es"
