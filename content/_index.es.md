@@ -9,7 +9,7 @@ url = "/docs/about/introduction/"
 url_button = "Get started"
 repo_version = "GitHub v0.1.0"
 repo_license = "Open-source MIT License." 
-url = "/docs/introduction/introduction"
+url = "/docs/about/introduction/"
 repo_url = "https://github.com/openmsupply/application-manager-server"
 
 
