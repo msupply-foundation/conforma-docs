@@ -1,0 +1,112 @@
+body:not(.dark) {
+  .dark_msupply, .dark_omsupdate {
+    display: none;
+  }
+}
+
+.dark {
+  .light_msupply, .light_note, .light_omsupdate {
+    display: none;
+    }
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.autowidth {
+  height: auto;
+}
+
+/* Note callout box */ 
+
+.light_note {
+  background-color:#f0efec;
+  position: relative;
+  margin-bottom:1000px;
+  border-left: 10px solid #fbaf43;
+  border-radius: 4px;
+  color: #c97500;
+  padding: 46px 20px 20px 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border-end-start-radius: 5px;
+  border-end-end-radius: 10px;
+  border-start-end-radius: 10px;
+  border-start-start-radius: 5px;
+  font-size: 15px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+ .light_note:before {
+  content:"NOTE";
+  color: #c97500;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  margin-top:10px;
+  margin-bottom: 10px;
+  position:absolute;
+  top: 0;
+ }
+
+ 
+ 
+ /* mSupply callout box */ 
+
+ .light_omsupdate {
+  background-color:#FFFF;
+  position: relative;
+  margin-bottom:1000px;
+  border-left: 8px solid #374453;
+  color: #374453;
+  padding: 40px 10px 10px 60px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-size: 15px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-image: url("/light_icon.png");
+  background-repeat: no-repeat;
+  background-size:30px;
+  background-position:1.2% 50%;
+ }
+ .light_omsupdate:before {
+  content:"UPDATE";
+  color: #374453;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  margin-top:10px;
+  margin-bottom: 10px;
+  position:absolute;
+  top: 0;
+ }
+  
+ .dark_omsupdate {
+  background-color:#212529;
+  position: relative;
+  margin-bottom:1000px;
+  border-left: 8px solid #94b1d2;
+  color: #dee2e6;
+  padding: 40px 10px 10px 60px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-size: 15px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-image: url("/dark_icon.png");
+  background-repeat: no-repeat;
+  background-size:30px;
+  background-position:1.2% 50%;
+ }
+ 
+ .dark_omsupdate:before {
+  content:"UPDATE";
+  color: #dee2e6;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  margin-top:10px;
+  margin-bottom: 10px;
+  position:absolute;
+  top: 0;
+ }

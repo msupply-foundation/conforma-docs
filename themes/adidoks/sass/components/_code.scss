@@ -8,12 +8,12 @@ samp {
 }
 
 code {
-  background: $beige;
-  color: $black;
   padding: 0.25rem 0.5rem;
 }
 
 pre {
+  background: $gray-100;
+  color: $black;
   margin: 2rem 0;
 }
 
@@ -49,14 +49,14 @@ pre code::-webkit-scrollbar {
 }
 
 pre code::-webkit-scrollbar-thumb {
-  background: $gray-200;
+  background: $gray-100;
 }
 
 pre code:hover {
   scrollbar-width: thin;
-  scrollbar-color: $gray-200 transparent;
+  scrollbar-color: $gray-100 transparent;
 }
 
 pre code::-webkit-scrollbar-thumb:hover {
-  background: $gray-200;
+  background: $gray-100;
 }

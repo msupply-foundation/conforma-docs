@@ -26,9 +26,14 @@ taxonomies = [
 # content for `default_language`.
 build_search_index = true
 
-[languages.es]
-title="Conforma (ES)"
+[languages.fr]
+title="Open mSupply (FR)"
 build_search_index = true
+
+[languages.es]
+title="Open mSupply (ES)"
+build_search_index = true
+
 
 [search]
 # Whether to include the title of the page/section in the index
@@ -50,6 +55,7 @@ author = "Aaran Xu"
 github = "https://github.com/aaranxu"
 twitter = "https://twitter.com/aaranxu"
 email = "aaranxu@outlook.com"
+ganalytics = ""  # Google Analytics code
 
 # If running on netlify.app site, set to true
 is_netlify = true
@@ -58,7 +64,7 @@ is_netlify = true
 language_code = "en-US"
 
 # Set theme-color meta tag for Chrome browser
-theme_color = "#fff"
+theme_color = "#f2913d"
 
 # More about site's title
 title_separator = "|"  # set as |, -, _, etc
@@ -66,8 +72,8 @@ title_addition = "Modern Documentation Theme"
 
 
 # Set date format in blog publish metadata
-timeformat = "%B %e, %Y" # e.g. June 14, 2021
-timezone = "America/New_York"
+timeformat = "%Y-%m-%d %H:%M:%S" # e.g. 2021-05-01 09:19:42
+timezone = "UTC"
 
 # Edit page on reposity or not
 edit_page = false
@@ -100,21 +106,8 @@ linked_in = ""
 github = "https://github.com/aaranxu"
 section = "blog" # see config.extra.main~url
 ## Sitelinks Search Box
-site_links_search_box = false
+site_links_search_box = true
 
-
-# Menu items
-[[extra.menu.main]]
-name = "Docs"
-section = "docs"
-url = "/docs/about/introduction/"
-weight = 10
-
-[[extra.menu.main]]
-name = "Blog"
-section = "blog"
-url = "/blog/"
-weight = 20
 
 [[extra.menu.social]]
 name = "Twitter"
