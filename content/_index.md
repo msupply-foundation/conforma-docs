@@ -10,6 +10,8 @@ url_button = "Get started"
 repo_version = "GitHub v0.1.0"
 repo_license = "Open-source MIT License."
 repo_url = "https://github.com/openmsupply/application-manager-server"
+
+[[extra.list]]
 content = '<a href="/docs.es/about/introduction/">Cambiar a Español</a>'
 
 [[extra.list]]
