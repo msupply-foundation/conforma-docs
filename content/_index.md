@@ -1,6 +1,5 @@
 +++
 title = "Conforma Documentation"
-<html lang="en">
 
 # The homepage contents
 [extra]
