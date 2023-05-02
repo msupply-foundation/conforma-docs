@@ -8,7 +8,7 @@ lead = '<b>Conforma</b> is an open source workflow platform designed by <br><a h
 url = "/docs/about/introduction/"
 url_button = "Get started"
 repo_version = "GitHub v0.1.0"
-repo_license = "Open-source MIT License." </br>You&#39;re on the English site: Cambiar a <a href="/es">Español</a>'
+repo_license = "Open-source MIT License." 
 url = "/docs/introduction/introduction"
 repo_url = "https://github.com/openmsupply/application-manager-server"
 
@@ -38,5 +38,22 @@ content = '<img src="msupply-foundation-logo square.png" class="light_msupply"><
 # title = "Dark mode"
 # content = "Switch to a low-light UI with the click of a button. Change colors with variables to match your branding."
 
+    <script>
+      function toggleLanguage() {
+        var langLinks = document.querySelectorAll('link[rel="alternate"]');
+        var langLink = null;
+
+        for (var i = 0; i < langLinks.length; i++) {
+          if (langLinks[i].hreflang === 'es') {
+            langLink = langLinks[i];
+            break;
+          }
+        }
+
+        if (langLink) {
+          window.location.href = langLink.href;
+        }
+      }
+    </script>
 
 +++
