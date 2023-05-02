@@ -10,14 +10,12 @@ url_button = "Get started"
 repo_version = "GitHub v0.1.0"
 repo_license = "Open-source MIT License."
 repo_url = "https://github.com/openmsupply/application-manager-server"
+content = '<a href="/docs.es/about/introduction/">Cambiar a Español</a>'
 
 [[extra.list]]
 title = ""
 content = '<img src="msupply-foundation-logo square.png" class="light_msupply"><img src="msupply-foundation-logo square-dark.png" class="dark_msupply">'
 
-[[extra.list]]
-title = "Cambiar idioma"
-content = '<a href="/docs.es/about/introduction/">Español</a>'
 
 # [[extra.list]]
 # title = "Fast by default ⚡️"
