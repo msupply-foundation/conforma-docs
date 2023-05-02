@@ -12,12 +12,14 @@ repo_license = "Open-source MIT License."
 url = "/docs/introduction/introduction"
 repo_url = "https://github.com/openmsupply/application-manager-server"
 
-<li><a href="{{ .Site.BaseURL }}{{ .Site.Params.current_lang }}/">{{ .Site.Params.current_lang | upper }}</a></li>
 
 
 [[extra.list]]
 title = ""
 content = '<img src="msupply-foundation-logo square.png" class="light_msupply"><img src="msupply-foundation-logo square-dark.png" class="dark_msupply">'
+
+
+<li><a href="{{ .Site.BaseURL }}{{ .Site.Params.current_lang }}/">{{ .Site.Params.current_lang | upper }}</a></li>
 
 <!DOCTYPE html>
 <html lang="en">
