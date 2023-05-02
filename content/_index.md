@@ -12,6 +12,9 @@ repo_license = "Open-source MIT License."
 url = "/docs/introduction/introduction"
 repo_url = "https://github.com/openmsupply/application-manager-server"
 
+[extra]
+title = ""
+content = '<a href="/docs.es/about/introduction/">Español</a>'
 
 [[extra.list]]
 title = ""
