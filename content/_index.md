@@ -1,6 +1,6 @@
 +++
 title = "Conforma Documentation"
-
+<html lang="en">
 
 # The homepage contents
 [extra]
@@ -18,71 +18,6 @@ repo_url = "https://github.com/openmsupply/application-manager-server"
 title = ""
 content = '<img src="msupply-foundation-logo square.png" class="light_msupply"><img src="msupply-foundation-logo square-dark.png" class="dark_msupply">'
 
-
-<li><a href="{{ .Site.BaseURL }}{{ .Site.Params.current_lang }}/">{{ .Site.Params.current_lang | upper }}</a></li>
-
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="/css/bootstrap.min.css">
-  </head>
-
-  <body>
-    <!-- Navigation -->
-    {% if page.url contains ".es" %}
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="/">Conforma</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-          <ul class="navbar-nav me-auto mb-2 mb-md-0">
-            <li class="nav-item">
-              <a class="nav-link" href="/docs/about/introduction.es/">Inicio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/docs/about/introduction/">Inglés</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    {% else %}
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="/">Conforma</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-          <ul class="navbar-nav me-auto mb-2 mb-md-0">
-            <li class="nav-item">
-              <a class="nav-link" href="/docs/about/introduction/">Inicio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/docs/about/introduction.es/">Español</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    {% endif %}
-
-    <!-- Page Content -->
-    <div class="container">
-      {{ content }}
-    </div>
-
-    <!-- Bootstrap core JavaScript -->
-    <script src="/js/bootstrap.bundle.min.js"></script>
-  </body>
-</html>
 
 
 # [[extra.list]]
