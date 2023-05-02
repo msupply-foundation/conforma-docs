@@ -4,7 +4,7 @@ title = "Conforma Documentation"
 
 # The homepage contents
 [extra]
-lead = '<b>Conforma</b> is an open source workflow platform designed by <br><a href="https://msupply.foundation/">The mSupply Foundation</a>.'
+lead = '<b>Conforma</b> is an open source workflow platform designed by <br><a href="https://msupply.foundation/">The mSupply Foundation</a><a href="/docs.es/about/introduction/">Español</a>'
 url = "/docs/about/introduction/"
 url_button = "Get started"
 repo_version = "GitHub v0.1.0"
@@ -12,9 +12,6 @@ repo_license = "Open-source MIT License."
 url = "/docs/introduction/introduction"
 repo_url = "https://github.com/openmsupply/application-manager-server"
 
-[extra]
-title = ""
-content = '<a href="/docs.es/about/introduction/">Español</a>'
 
 [[extra.list]]
 title = ""
