@@ -1,5 +1,5 @@
 +++
-title = "Managing your applications"
+title = "Gestiona tus aplicaciones"
 description = "Learning how submit applications"
 date = 2021-05-01T08:20:00+00:00
 updated = 2021-05-01T08:20:00+00:00
