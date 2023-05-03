@@ -26,9 +26,7 @@ taxonomies = [
 # content for `default_language`.
 build_search_index = true
 
-[languages.fr]
-title="Open mSupply (FR)"
-build_search_index = true
+
 
 [languages.es]
 title="Open mSupply (ES)"
