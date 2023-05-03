@@ -1,5 +1,5 @@
 +++
-title = "Submitting applications"
+title = "Enviar Solicitudes"
 description = "Learning how submit applications"
 date = 2021-05-01T08:20:00+00:00
 updated = 2021-05-01T08:20:00+00:00
@@ -14,100 +14,100 @@ toc = true
 top = false
 +++
 
-Now although different application types have different requirements, this section will go throught the basics of submitting applications.
+Aunque los diferentes tipos de aplicación tienen diferentes requisitos, esta sección cubrirá los conceptos básicos de cómo enviar una solicitud.
 
 <div class="tip">
-The application form saves automatically as you go. So you can just leave and continue your application at any time. 
+El formulario de solicitud se guarda automáticamente a medida que avanzas. Por lo tanto, puedes salir y continuar tu solicitud en cualquier momento. 
 </div>
 
-## Submitting a new application
+## Envío de una nueva solicitud
 
-Let's go through the example of submitting a form, we will use the example of registering a company as a Chemical Importer. 
+Veamos el ejemplo de enviar un formulario, utilizaremos el ejemplo de registrar una empresa como Importador de Productos Químicos. 
 
-Just remember this process is the same for submitting any application type.
+Solo recuerda que este proceso es el mismo para enviar cualquier tipo de solicitud.
 
-1. Log in to your account. 
+1. Inicia sesión en tu cuenta. 
 
-2. Select the **Start a new Chemical Importer Registration** button. 
+2. Selecciona el botón **Iniciar un nuevo registro de Importador de Productos Químicos**. 
 
 ![Start new button](/docs/about/demo/startlink.png)
 
-3. Before you start a new application, the system will provide you with an overview page to provide guidance to what information and documents are required.
+3. Antes de iniciar una nueva solicitud, el sistema te proporcionará una página de descripción general para brindar orientación sobre la información y los documentos necesarios.
 
-4. When ready to begin the application click **Get Started**.
+4. Cuando estés listo para comenzar la solicitud, haz clic en **Empezar**.
 
 ![Start new button](/docs/about/demo/startimg.png)
 
-5. Fill the application form with the required company information. 
+5. Llena el formulario de solicitud con la información de la empresa requerida. 
 
-6. Use the **Next** button to move through the application pages. 
+6. Utilice el botón **Siguiente** para avanzar a través de las páginas de la solicitud.
 
 ![Form](/docs/about/demo/form1.png)
 
-7. Next, upload a copy of the requested documents. 
+7. A continuación, carga una copia de los documentos solicitados.
 
 
-8. Once the form has been completed, select the **Review & Summary** button.  
+8. Una vez que se ha completado el formulario, selecciona el botón **Revisión & Resumen**.  
 
 ![uploads](/docs/about/demo/upload1.png)
 
-9. You will then be provided a summary of your completed application for final review. Once you are happy, click the **Submit application button**
+9. Se te proporcionará un resumen de tu solicitud completada para su revisión final. Una vez que estés seguro, haz clic en el botón **Enviar Solicitud**
 
 <div class="tip">
-You can use the edit icon to go quickly back and edit a form field. 
+Puedes usar el icono de edición para volver rápidamente a editar un campo del formulario.
 </div>
 
 ![Edit marker](/docs/about/demo/18.png)
 
-10. Once the form has been submitted, you will receive a confirmation message outlining the next steps.  
+10. Una vez que se ha enviado el formulario, recibirás un mensaje de confirmación que detalla los próximos pasos.  
 
  --------
 
 
-## Common application features
+## Propiedades comunes de la aplicación
 
 
-Within Conforma there are lots of different field types used to capture information in the application forms. 
+Dentro de Conforma existen muchos tipos diferentes de campos utilizados para capturar información en los formularios de solicitud. 
 
-The following are examples of the some common field types and how to use them:
+A continuación, se muestran ejemplos de algunos tipos de campos comunes y cómo utilizarlos:
 
 
-**Drop down lists**
+**Listas Desplegables**
 
-Select the applicable option for the list
+Selecciona la opción aplicable para la lista
 
 ![Dropdown lists](/docs/about/demo/11.png)
 
-**Free text fields**
+**Campos de texto libre**
 
-Type the required text into the field
+Escribe el texto requerido en el campo
 
 ![Free text fields](/docs/about/demo/12.png)
 
-**Checkboxes**
+**Casillas de verificación**
 
-Check the relevant boxes. More than one checkbox can be selected if relevant. 
+Marca las casillas relevantes. Si es necesario, se pueden seleccionar más de una casilla.
 
 ![Checkbox](/docs/about/demo/check.png)
 
-**Look-up lists** 
+**Listas de búsqueda** 
 
-As you type into the field, the list of options will filter down. You can select the correct option from the filtered list. 
+A medida que escribes en el campo, la lista de opciones se filtrará. Puedes seleccionar la opción correcta de la lista filtrada. 
 
 ![Look-up lists](/docs/about/demo/ll.png)
 
-**Pre-filled text** 
+**Texto prellenado** 
 
-As you type into the field, the list of options will filter down. You can select the correct option from the filtered list. 
+A medida que escribes en el campo, la lista de opciones se filtrará. Puedes seleccionar la opción correcta de la lista filtrada. 
 
 ![prefill](/docs/about/demo/pre.png)
 
-**Upload boxes**
+**Casillas para subir archivos**
 
-Use the **Click to upload button** and select the relevant files for upload. 
+Usa el botón **Haga clic para cargar** y selecciona los archivos relevantes para cargar. 
 
 <div class="tip">
-You can upload multiple documents at one time within an upload box.
+Puedes cargar varios documentos a la vez dentro de una casilla de subida.
 </div>
 
 
