@@ -4,7 +4,7 @@ title = "Conforma Documentation"
 
 # The homepage contents
 [extra]
-lead = '<b>Conforma</b> is an open source workflow platform designed by <br><a href="https://msupply.foundation/">The mSupply Foundation </a></br> <span class="not-a-link"></br>You&#39;re on the English site: Cambiar a <a href="/es">Español</a>'
+lead = '<b>Conforma</b> is an open source workflow platform designed by <br><a href="https://msupply.foundation/">The mSupply Foundation </a></br> You&#39;re on the English site: Cambiar a <a href="/es">Español</a>'
 url = "/docs/about/introduction/"
 url_button = "Get started"
 repo_version = "GitHub v0.1.0"
