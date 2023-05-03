@@ -1,5 +1,5 @@
 +++
-title = "Propiedades"
+title = "Features"
 description = "Features"
 date = 2025-05-01T08:00:00+00:00
 updated = 2021-05-01T08:00:00+00:00
