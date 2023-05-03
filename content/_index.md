@@ -13,7 +13,6 @@ repo_url = "https://github.com/openmsupply/application-manager-server"
 
 
 [[extra.list]]
-icon = "conforma.png"
 title = ""
 content = '<img src="msupply-foundation-logo square.png" class="light_msupply"><img src="msupply-foundation-logo square-dark.png" class="dark_msupply">'
 
