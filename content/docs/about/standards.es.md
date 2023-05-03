@@ -1,5 +1,5 @@
 +++
-title = "Incorporating recognised standards"
+title = "Estándares Reconocidos"
 description = " **Incorporating recognised standards**."
 date = 2021-05-01T08:00:00+00:00
 updated = 2021-05-01T08:00:00+00:00
@@ -13,36 +13,34 @@ toc = true
 
 +++
 
-## Incorporating recognised standards
+## Incorporando estándares reconocidos
 
-We have designed Conforma to meet international standards for regulatory systems from how we designed the system - for example ensuring applications can be submitted in line with Common Technical Document format, to the data we use in the system - standardised data tables for terms and definitions.
+Hemos diseñado Conforma para cumplir con los estándares internacionales de sistemas regulatorios, desde el diseño del sistema, asegurándonos de que las solicitudes puedan ser presentadas en línea con el formato del Documento Técnico Común, hasta los datos que utilizamos en el sistema, utilizando tablas de datos estandarizadas para términos y definiciones.
 
-Here are some key examples.
+A continuación, se presentan algunos ejemplos clave.
 
-#### Good Review Practices
+#### Prácticas de Buena Revisión
 
-Features to encourage Good Review Practices are built into the system. 
+Se han incorporado características al sistema para fomentar las Prácticas de Buena Revisión.
 
 ![GRP](/docs/about/demo/grp.png)
 
 
-#### Ingredient names
+#### Nombres de ingredientes
 
-Using the International Nonproprietary Names (INN) for the identification of pharmaceutical substances or active pharmaceutical ingredients. 
+Usando los Nombres Internacionales Comunes (NIC) para la identificación de sustancias farmacéuticas o ingredientes farmacéuticos activos. 
 
 ![INN](/docs/about/demo/ing.png)
 
-#### ATC Classification
+#### Clasificación ATC 
 
-Capturing the products using the Anatomical Therapeutic Chemical (ATC) classification system.
+Capturando los productos utilizando el sistema de clasificación Anatómico Terapéutico Químico (ATC).
 
 ![ATC](/docs/about/demo/ATC.png)
 
-#### Access to data tables
+#### Acceso a tablas de datos
 
-Data tables for dose forms, routes and methods of administration, containers, closures, administration devices and units of presentation to help improve data quality and sharing. 
-
-You can also use your own data and standards if needed. 
+Conforma ofrece acceso a tablas de datos para formas de dosificación, rutas y métodos de administración, envases, cierres, dispositivos de administración y unidades de presentación para mejorar la calidad y el intercambio de datos. Estas tablas están diseñadas para ayudar a estandarizar la información y garantizar una entrada de datos consistente. Además, si es necesario, puede utilizar sus propios datos y estándares para personalizar la información en el sistema. 
 
 
 ![datatables](/docs/about/demo/tb1.png)
