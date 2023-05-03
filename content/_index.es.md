@@ -14,6 +14,6 @@ repo_url = "https://github.com/openmsupply/application-manager-server"
 
 [[extra.list]]
 title = ""
-content = '<img src="msupply-foundation-logo square.png" class="light_msupply"><img src="msupply-foundation-logo square-dark.png" class="dark_msupply">'
+content = '<img src="msupply-foundation-logo square.png" class="light_msupply"><img src="content/msupply-foundation-logo square.png" class="dark_msupply">'
 
 +++
