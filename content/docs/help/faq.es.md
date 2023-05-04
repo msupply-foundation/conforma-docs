@@ -14,40 +14,40 @@ toc = true
 top = false
 +++
 
-## Is Conforma free?
+## ¿Es Conforma gratis?
 
-Yes! Conforma is an open-source! 
+¡Sí! ¡Conforma es de código abierto!
 
-Optionally, you can ask us to help you set it up (We would love to!) eif you are interested in using Conforma.
+Opcionalmente, puedes pedirnos ayuda para configurarlo (¡Nos encantaría!) si estás interesado en usar Conforma.
 
-The Conforma code lives half in the [`Conforma server` repository](https://github.com/openmsupply/application-manager-server) and half in the [`Conforma front-end` repository](https://github.com/openmsupply/application-manager-web-app)
+El código de Conforma se encuentra en parte en el [repositorio del `servidor de Conforma`](https://github.com/openmsupply/application-manager-server) y en parte en el [repositorio `front-end de Conforma`](https://github.com/openmsupply/application-manager-web-app)
 
-## What are the benefits of Conforma being open source
+## ¿Cuáles son los beneficios de que Conforma sea de código abierto?
 
-Apart from being licence free, being open-source means that as Conforma continues to grow and develop all of our users will benefit from any additional features. 
+Además de ser gratuito, ser de código abierto significa que a medida que Conforma sigue creciendo y desarrollándose, todos nuestros usuarios se beneficiarán de cualquier función adicional.
 
-## Can Conforma be integrated with other softwares?
+## ¿Puede Conforma ser integrado con otros softwares?
 
-Yes Conforma has been desgined so that it can be integrated with other softwares! 
+¡Sí! Conforma ha sido diseñado para poder ser integrado con otros softwares.  
 
-This includes planned integrations with our other suite of [mSupply Foundation softwares](https://docs.msupply.foundation/). 
+Esto incluye integraciones planificadas con nuestra otra suite de [softwares de mSupply Foundation](https://docs.msupply.foundation/). 
 
-## Do you offer support?
+## ¿Ofrecen soporte?
 
-We provide different levels of support for customers depending on their needs. 
+Proporcionamos diferentes niveles de soporte para los clientes dependiendo de sus necesidades. 
 
-We can provide support in the set-up, hosting, maintenance, on-going support and training. 
+Podemos brindar soporte en la configuración, alojamiento, mantenimiento, soporte continuo y capacitación. 
 
-## Is my data secure?
+## ¿Está segura mi información?
 
-Whether deployed locally or remotely, Conforma is secure. 
+Ya sea que se implemente localmente o de forma remota, Conforma es segura.
 
-Conforma uses a postgreSQL database to store data. The database is only accessible via a secure HTTPS connection through Conforma. Users require password credentials to access Conforma and passwords are encrypted via bcrypt (recommended encryption mechanism by OWASP). 
+Conforma utiliza una base de datos postgreSQL para almacenar datos. La base de datos solo es accesible a través de una conexión segura HTTPS a través de Conforma. Los usuarios requieren credenciales de contraseña para acceder a Conforma y las contraseñas se cifran mediante bcrypt (mecanismo de cifrado recomendado por OWASP).
 
-Additionally, the database uses row level policies to restrict user access to only data to which they are specifically permitted to access. 
+Además, la base de datos utiliza políticas de nivel de fila para restringir el acceso del usuario solo a los datos a los que se le ha otorgado permiso específicamente.
 
 
-## Can I have a demo of Conforma?
+## ¿Puedo obtener una demo de Conforma?
 
-Anytime! Please send us an email at support@conforma.nz and we will be in touch. 
+¡Claro! ¡En cualquier momento! Por favor, envíanos un correo electrónico a support@conforma.nz y nos pondremos en contacto contigo. 
 

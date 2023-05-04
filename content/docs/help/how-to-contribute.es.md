@@ -9,22 +9,22 @@ sort_by = "weight"
 template = "docs/page.html"
 
 [extra]
-lead = "Contribute to Conforma, improve documentation, or submit to showcase."
+lead = "Contribuye a Conforma, mejora la documentación o envía una solicitud para mostrar tu trabajo."
 toc = true
 top = false
 +++
 
-👉 Make sure to read the [Code of Conduct](../code-of-conduct/).
+👉 Asegúrate de leer el [Código de Conducta](../code-of-conduct/).
 
-## Contribute to Conforma
+## Contribuye a Conforma
 
-👉 The Conforma code lives half in the [`Conforma server` repository](https://github.com/openmsupply/application-manager-server) and half in the [`Conforma front-end` repository](https://github.com/openmsupply/application-manager-web-app)
+👉 El código de Conforma se encuentra en dos lugares: la mitad en el [repositorio del `Servidor de Conforma`](https://github.com/openmsupply/application-manager-server) y la otra mitad en el [repositorio del `Front-end de Conforma`](https://github.com/openmsupply/application-manager-web-app)
 
 ### Create an issue
 
-- [Bug report](https://github.com/openmsupply/application-manager-server/issues/new)
-- [Feature request](https://github.com/openmsupply/application-manager-server/issues/new)
+- [Reporte de errores](https://github.com/openmsupply/application-manager-server/issues/new)
+- [Solicitud de funciones](https://github.com/openmsupply/application-manager-server/issues/new)
 
-### Improve documentation
+### Mejorar la documentación
 
-👉 The documentation lives in the [`Conforma docs` repository](https://github.com/openmsupply/conforma-docs)
+👉 La documentación se encuentra en el [repositorio `Conforma docs`](https://github.com/openmsupply/conforma-docs)
