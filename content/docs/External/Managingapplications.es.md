@@ -1,5 +1,5 @@
 +++
-title = "Gestiona tus aplicaciones"
+title = "Gestiona tus solicitudes"
 description = "Learning how submit applications"
 date = 2021-05-01T08:20:00+00:00
 updated = 2021-05-01T08:20:00+00:00
@@ -14,33 +14,33 @@ toc = true
 top = false
 +++
 
-In this section we will go over some of the ways external users can manage applications in Conforma. 
+En esta sección repasaremos algunas de las formas en que los usuarios externos pueden gestionar las solicitudes en Conforma. 
 
-## Viewing submitted applications
+## Ver las solicitudes presentadas
 
-1. From the dashboard, click on the application type you are interested in, from either the home page view or from the Application List menu. 
+1. Desde el tablero de control, haz clic en el tipo de solicitud que te interesa, ya sea desde la vista de la página de inicio o desde el menú de Lista de solicitudes. 
 
 ![Navigating to your applications](/docs/about/demo/navlist.png)
 
-2. From here you can view your submitted applications, including any pending, approved, rejected or draft applications. 
+2. Desde aquí puedes ver tus solicitudes enviadas, incluyendo cualquier solicitud pendiente, aprobada, rechazada o en borrador.
 
-    This view also displays the status of your applications as well as any due dates for amendment requests. 
+    Esta vista también muestra el estado de tus solicitudes, así como cualquier fecha de vencimiento para solicitudes de enmienda. 
 
 ![Application list](/docs/about/demo/List.png)
 
-## Continuing a draft application
+## Continuar una aplicación en borrador
 
-1. Click on the application type from either the home page view, or from the Application List menu. 
+1. Haz clic en el tipo de solicitud desde la vista de la página principal o desde el menú de lista de aplicaciones.
 
-2. Then click the Continue button to resume your application.
+2. TLuego, haz clic en el botón Continuar para reanudar tu solicitud.
 
 ![Continue](/docs/about/demo/cont.png)
 
-## Deleting a draft application
+## Eliminar una solicitud en borrador
 
-1. Click on the application type from either the home page view, or from the Application List menu. 
+1. Haz clic en el tipo de solicitud desde la vista de la página principal o desde el menú de lista de solicitudes.
 
-2. Find the relevant application and click the Bin icon to delete. 
+2. Encuentra la solicitud relevante y haz clic en el icono de papelera para eliminarla.
 
 ![Continue](/docs/about/demo/cont.png)
 
