@@ -28,7 +28,7 @@ ensure that you are running a recent version of zola.
 
 ## Contributing
 
-Update and commit directly to main until a review process is defined :wink:
+Create a branch and create a pull request for review. 
 
 If you wish to serve images from a subdirectory rather than co-locating the content or storing in the static folder, you have to include an index file (`_index.md`) for the subdirectory to be included in the build.
 
