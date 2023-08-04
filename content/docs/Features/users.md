@@ -1,10 +1,10 @@
 +++
 title = "Users"
-description = "Learning how to use Conforma"
+description = "An overview of the different types of users in Conforma"
 date = 2021-05-01T08:20:00+00:00
-updated = 2021-05-01T08:20:00+00:00
+updated = 2023-08-01T08:20:00+00:00
 draft = false
-weight = 46
+weight = 23
 sort_by = "weight"
 template = "docs/page.html"
 
@@ -14,68 +14,61 @@ toc = true
 top = false
 +++
 
-
-Conforma is a web-based application that allows all users to access the system through a browser as long as they have internet. 
-
-![log-in page](/docs/about/demo/1.png)
-
-
-
-
-## User types
-
-Lets go over a couple of the common user types and how they can interact with the system. 
-
+Conforma allows for highly granular permissions for different users, as we know not all users need to see everything at once (nor should they be able to). Let's go over a couple of the common user types and how they can interact with the system.
 
 ![users](/docs/about/demo/users.png)
 
-#### External user
+Any user can access Conforma from anywhere simply by using their own login details. As Conforma is a web-based application, so long as users have access to the internet, they can access the system through a desktop or tablet browser.
 
-An external user is a user that is outside of your organisation, one that interacts with your organisation through sending applications or providing notifications of important details. 
+![login](/docs/about/demo/1.png)
 
-So what kinds of things can external users do in the system?: 
+## External users
 
-- Submit applications such as 'Product registrations' to a regulatory agency for review.
-- Respond to queries and requests for information from the regulatory agency. 
-- Receive system generated correspondence related to submitted applications. 
-- Track and manage applications within the systems. Transparency is key in reducing the number of enquiries a regulatory agency revieves from applicants.  
-- View and manage any outcomes of their applications, such as 'Registered Products' or 'Licences'. 
+External users are typically users outside of the organisation that Conforma is being used by, but one that interacts with Conforma by submitting applications or notifications of important information to the key organisation.
 
-*An example of an applicants view:*
+Key examples of what external users would normally be set up to do in Conforma include: 
+
+* Establishing their own user profile and setting up a company profile (which can have multiple external users assigned to it)
+* Submitting applications to an organisation (for example, submitting a product registration application to a regulatory agency for review)
+* Responding to queries and communications (for example, responding to requests for information from a regulatory agency reviewing their application)
+* Receiving system generated correspondence related to submitted applications
+* Tracking and managing applications within Conforma. The intention is to ensure external users have a transparent oversight of their applications to reduce the number of enquiries the organisation using Conforma might receive
+* Viewing and managing any outcomes of their applications, such as 'Registered Products' or 'Licences'.
+
+Below is an example of an external applicants view of a medicine application form:
+
 ![externaluser](/docs/about/demo/exuser1.png)
 
+## Internal user
 
-### Internal user
+An internal user is typically a staff member of the organisation using Conforma to manage their processes, such as a regulatory authority.
 
-An internal user is a staff member to the Organisation using Conforma to manage their processes, such as a regulatory authority.
+Key examples of what internal users would normally be setup to do in Conforma include: 
 
-So what kinds of things can internal users do in the system?: 
+* Reviewing and determining outcomes for submitted applications (for example, an internal user could be an evaluator who assesses medicine applications from pharmaceutical suppliers)
+* Managing complex work processes or 'workflows' in the system, which can require multiple steps and several users involved
+* Generating correspondence, for example approval certificates or amendment requests to an external user in relation to their application
+* Storing notes and documents related to a workflow, such as meeting minutes, lab results or evaluation reports uploaded from outside Conforma
+* Tracking and managing the lifecycle of applications and products in the system, relevant for tasks such as renewals of licences as a regulator
+* Managing workloads for team members, tracking upcoming or overdue tasks, and managing databases of application by-products
+* Viewing data and customised reports from a centralised location.
 
-- Review and determine outcomes for submitted applications. 
-- Manage complex work processes 'Workflows' in the system. We know that complex workflows such as managing drug registration require multiple steps and people involved. 
-- Generate official correspondence related to an application. This includes approval certificates or requesting an applicant amend their application. 
-- Store notes and files related to an application process - Think meeting minutes, lab results or evaluation reports. 
-- Track and manage the lifecycle of applications and their products in the system, such as 'Renewal applications of licences'. 
-- Manage workloads, track applications and manage and view databases of application by-products. 
-- View data and reports from a centralised location!
+Below is an example of an internal users view of the status of applications received:
 
-*An example of an internal users view:*
-![header](/docs/about/demo/inuser.png)
+![Internal User view](/docs/about/demo/intuser.png)
 
-### Admin user
+## Admin user
 
-Last but not least we have admin users. These users are able to peform higher level administrative and configuration functions.
+Admin users are able to perform higher level administrative and configuration functions, such as:
 
-So what kinds of things can admin users do in the system?: 
+* Managing users and their permissions
+* Editing existing workflows or forms, or even creating new ones
+* Turning different modules or workflows on or off as needed
+* Editing the wording of emails or updating generated documents
+* Updating and managing local data lists and look-up tables.
 
-- Manage users and their permissions.
-- Edit existing workflows or forms or even create new ones. 
-- Turn on or off different modules or worfklow as needed.
-- Edit the wording of emails or update generated documents. 
-- Update and manage local data lists and look-up tables
-- And much much more! 
+What’s great and unique about Conforma is that it can be easily configured within the system interface using the template builder tool. This means that a non-developer user can be trained on how to manage and configure their own setup, in turn providing countries and organisations with governance over their own systems.
 
-One great thing about the Conforma system is that it can configured in the system interface in the easy to use template builder tool. This means that non-developer users can be trained on how to manage and configure their system, giving countries and organisations governance over their own systems. 
+Below is an example of the look-up table management:
 
-*An example of the look-up table management:*
-![header](/docs/about/demo/lts.png)
+![Admin User View](/docs/about/demo/lts.png)
