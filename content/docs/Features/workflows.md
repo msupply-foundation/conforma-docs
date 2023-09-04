@@ -1,10 +1,10 @@
 +++
-title = "Worfklows"
+title = "Workflows"
 description = "How to create workflows using Conforma"
 date = 2021-05-01T08:20:00+00:00
-updated = 2021-05-01T08:20:00+00:00
+updated = 2023-08-01T08:20:00+00:00
 draft = false
-weight = 43
+weight = 21
 sort_by = "weight"
 template = "docs/page.html"
 
@@ -14,21 +14,8 @@ toc = true
 top = false
 +++
 
-<div>
-    <p class = "light_omsupdate">Work in Progress - please come back soon and we will have updated this page!
-    <br>
-    <br>
-    In the meantime, if you are interested in using Conforma please contact <a href="https://msupply.foundation/about" target = "_blank"> The mSupply Foundation</a>  and we will be glad to help :) 
-    </p>
-</div>
+## Workflows
 
-<div>
-    <p class = "dark_omsupdate">Work in Progress - please come back soon and we will have updated this page!
-    <br>
-    <br>
-    In the meantime, if you are interested in using Conforma please contact <a href="https://msupply.foundation/about" target = "_blank"> The mSupply Foundation</a>  and we will be glad to help :) 
-    </p>
-</div>
+Custom workflows can be set up to suit your organisation’s requirements and all processes can be carried out with integrity and efficiency.
 
-
-
+These custom workflows can be configured to incorporate sequential and parallel steps, review processes, and provide options for communication between different users.

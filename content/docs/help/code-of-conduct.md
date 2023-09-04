@@ -2,9 +2,9 @@
 title = "Code of conduct"
 description = "Contributor Covenant Code of Conduct."
 date = 2021-05-01T18:20:00+00:00
-updated = 2021-05-01T18:20:00+00:00
+updated = 2023-08-01T18:20:00+00:00
 draft = false
-weight = 51
+weight = 91
 sort_by = "weight"
 template = "docs/page.html"
 
@@ -37,7 +37,7 @@ community include:
 * Accepting responsibility and apologizing to those affected by our mistakes,
   and learning from the experience
 * Focusing on what is best not just for us as individuals, but for the
-  overall community
+  overall community.
 
 Examples of unacceptable behavior include:
 
@@ -48,7 +48,7 @@ Examples of unacceptable behavior include:
 * Publishing others' private information, such as a physical or email
   address, without their explicit permission
 * Other conduct which could reasonably be considered inappropriate in a
-  professional setting
+  professional setting.
 
 ## Enforcement Responsibilities
 
@@ -74,7 +74,7 @@ representative at an online or offline event.
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
 reported to the community leaders responsible for enforcement at
-[The mSupply Foundation](https://msupply.foundation/contact).
+[the mSupply Foundation](https://msupply.foundation/contact).
 All complaints will be reviewed and investigated promptly and fairly.
 
 All community leaders are obligated to respect the privacy and security of the
@@ -129,7 +129,7 @@ the community.
 ## Attribution
 
 This Code of Conduct is adapted from the [Contributor Covenant][homepage],
-version 2.0, available at
+version 2.0, available at:
 [https://www.contributor-covenant.org/version/2/0/code_of_conduct.html][v2.0].
 
 Community Impact Guidelines were inspired by 
