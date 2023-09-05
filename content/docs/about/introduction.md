@@ -40,7 +40,7 @@ Conforma's functionality and flexibility means that it can be used in a wide ran
 
 ## A little bit about us
 
-Conforma has been developed by the team at [the mSupply Foundation](https://msupply.foundation/about) - a friendly bunch who’s primary aim is to create useful, open-source software to provide healthcare solutions in low to middle-income countries.
+Conforma has been developed by the team at [the mSupply Foundation](https://msupply.foundation/about) - a friendly bunch whose primary aim is to create useful, open-source software to provide healthcare solutions in low to middle-income countries.
 
 Creating Conforma has been a labour of love — thousands of hours of work. We hope you find it a joy to use, and that it results in your organisation being able to perform its role accurately, quickly and to a high standard.
 
