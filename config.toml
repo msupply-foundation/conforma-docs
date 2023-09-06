@@ -46,7 +46,7 @@ include_content = true
 # Put all your custom variables here
 
 # Set theme-color meta tag for Chrome browser
-theme_color = "#fff"
+theme_color = "#45818e"
 
 # Set HTML file language
 language_code = "en-US"

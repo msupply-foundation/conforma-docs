@@ -14,7 +14,7 @@ toc = true
 top = false
 +++
 
-## Powerful application forms
+## Powerful Application Forms
 
 Conforma has easily customisable application forms that can include many different types of fields and data sources. These can be tailored to match exactly what you need.
 

@@ -18,7 +18,7 @@ top = false
 
 ## Contribute to Conforma
 
-👉 The Conforma code lives half in the [`Conforma server` repository](https://github.com/openmsupply/application-manager-server) and half in the [`Conforma front-end` repository](https://github.com/openmsupply/application-manager-web-app).
+👉 Half of the Conforma code is available from the [Conforma server repository](https://github.com/openmsupply/conforma-server) and the other half from the [Conforma front-end repository](https://github.com/openmsupply/conforma-web-app).
 
 ### Create an issue
 
@@ -27,4 +27,4 @@ top = false
 
 ### Improve documentation
 
-👉 The documentation lives in the [`Conforma docs` repository](https://github.com/openmsupply/conforma-docs).
+👉 The documentation lives in the [Conforma docs repository](https://github.com/openmsupply/conforma-docs).

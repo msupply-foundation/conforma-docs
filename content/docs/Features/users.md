@@ -55,7 +55,7 @@ Key examples of what internal users would normally be setup to do in Conforma in
 
 Below is an example of an internal users view of the status of applications received:
 
-![Internal User view](/docs/about/demo/intuser.png)
+![Internal User view](/docs/about/demo/IntUser.png)
 
 ## Admin user
 

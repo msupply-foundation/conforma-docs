@@ -18,17 +18,23 @@ toc = true
 Through the use of Conforma, countries (particularly low and middle income countries), are able to develop stronger, more robust and efficient regulatory systems, which in turn support improved health supply chains and better access to medicines.
 
 We have built Conforma to be:
-**1. An open-source solution
-2. Flexible
-3. An integrated system
-4. Sustainable
-5. User-friendly**
 
-![header](/docs/about/demo/about2.png)
+**1. An open-source solution**
+
+**2. Flexible**
+
+**3. An integrated system**
+
+**4. Sustainable**
+
+**5. User-friendly**
+
+
+![Conforma Design Principles](/docs/about/demo/about2.png)
 
 ### An Open-source solution
 
-Conforma’s source code is open-source. This means there is no licensing and no annual fees, making Conforma a highly accessible solution. Conforma’s source code is [freely available], transferring power to countries or organisations using it.
+Conforma’s source code is open-source. This means there is no licensing and no annual fees, making Conforma a highly accessible solution. Conforma’s source code is [freely available](https://docs.conforma.nz/docs/about/standards/), transferring power to countries or organisations using it.
 
 Open-source solutions not only remove cost barriers but also allow for continued improvements to be made and felt by all users. Developers outside of the mSupply Foundation can contribute to improving it.
 
