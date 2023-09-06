@@ -1,5 +1,5 @@
 +++
-title = "Incorporating recognised standards"
+title = "Incorporating Recognised Standards"
 description = "Outlining the way Conforma has been designed to flexibly incorporate recognised standards"
 date = 2021-05-01T08:20:00+00:00
 updated = 2023-08-01T08:20:00+00:00
@@ -14,7 +14,7 @@ toc = true
 top = false
 +++
 
-## Incorporating recognised standards
+## Incorporating Recognised Standards
 
 We have designed Conforma to meet international standards for regulatory systems.
 

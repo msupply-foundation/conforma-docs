@@ -22,9 +22,9 @@ Notes can be made by different users depending on the task, and these notes can 
 
 In the case of medicines assessment, this allows evaluators to make notes in Conforma, where issues or questions can be recorded and directly communicated between both internal users (the regulator) and external users (medicine suppliers) within the application. This also means potential issues can be resolved within the application without the need for numerous emails between suppliers and the regulator.
 
-![reviewnotes](/docs/about/demo/keynotes.png)
+![reviewnotes](/docs/about/demo/KeyNotes.png)
 
-## Feedback within Forms
+## Feedback within forms
 
 The notes function above can enable feedback to be provided clearly to other users by highlighting questions or issues to be amended. For example, a supplier can see the feedback from the evaluator to update an error on the form they previously submitted, reducing the need to cross check correspondence.
 
@@ -44,7 +44,7 @@ Conforma workflows can be configured to automatically generate documents and cer
 
 ![cert](/docs/about/demo/cert.png)
 
-## Email Notifications
+## Email notifications
 
 Automatic emails can be configured and sent from Conforma to help speed your work up and ensure no users miss an update.
 
