@@ -39,6 +39,8 @@ Below is an example of an external applicants view of a medicine application for
 
 ![externaluser](/docs/about/demo/exuser1.png)
 
+Basic guidance on how to use Conforma as an external user is available in the [Tutorials](../creatingextuser/) section.
+
 ## Internal user
 
 An internal user is typically a staff member of the organisation using Conforma to manage their processes, such as a regulatory authority.
@@ -56,6 +58,8 @@ Key examples of what internal users would normally be setup to do in Conforma in
 Below is an example of an internal users view of the status of applications received:
 
 ![Internal User view](/docs/about/demo/IntUser.png)
+
+Basic guidance on how to use Conforma as an internal user is available in the [Tutorials](../loginintuser/) section.
 
 ## Admin user
 

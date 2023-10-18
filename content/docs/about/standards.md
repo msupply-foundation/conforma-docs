@@ -25,6 +25,8 @@ If you would like to learn more about Conforma or are interested in using the sy
 
 support@conforma.nz
 
+A demo version of Conforma is available for you or your team to test, complete with walk-through tutorials. Please see the [Demo](../Accessingdemo/) section.
+
 ## Accessing the source code
 
 Half of the Conforma code is available from the [Conforma server repository](https://github.com/openmsupply/conforma-server) and the other half from the [Conforma front-end repository](https://github.com/openmsupply/conforma-web-app).

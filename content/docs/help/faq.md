@@ -50,6 +50,8 @@ Additionally, the database uses row level policies to restrict user access to on
 
 ## Can I have a demo of Conforma?
 
-Anytime! 
+A demo version of Conforma is available for you or your team to test, complete with walk-through tutorials. Please see the [Demo](../Accessingdemo/) section.
 
-Please send us an email at support@conforma.nz and we will be in touch. 
+If you would like to learn more about Conforma or are interested in using the system, please reach out to our team at The mSupply Foundation:
+support@conforma.nz
+

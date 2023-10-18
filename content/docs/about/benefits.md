@@ -53,7 +53,9 @@ Conforma allows for highly granular permissions, supporting various types of rev
 
 ### Interoperable
 
-Conforma works interoperably with other software (including [Open mSupply](https://docs.msupply.foundation/)), so that its benefits can be utilised across wider systems, such as health supply chains.
+Conforma works interoperably with other software (including mSupply’s electronic logistics management information system, [Open mSupply](https://docs.msupply.foundation/)), so that its benefits can be utilised across wider systems, such as health supply chains. The diagram below represents how Conforma can be used alongside Open mSupply to manage medicines from pre-market to patient level to post-market monitoring.
+
+![conforma and msupply market diagram](/docs/about/demo/conformamsupply.png)
 
 ### Sustainable
 
