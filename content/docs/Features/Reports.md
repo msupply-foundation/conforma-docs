@@ -18,7 +18,7 @@ top = false
 
 Flexible and filterable databases can be configured for workflow management in Conforma. Below is an example of an application list for a medicine registration workflow, which can be filtered by a range of variables.
 
-![applist](/docs/about/demo/applist.png)
+![applist](/docs/about/demo/applist2.png)
 
 ## Customisable databases
 

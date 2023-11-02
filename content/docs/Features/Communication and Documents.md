@@ -22,7 +22,7 @@ Notes can be made by different users depending on the task, and these notes can 
 
 In the case of medicines assessment, this allows evaluators to make notes in Conforma, where issues or questions can be recorded and directly communicated between both internal users (the regulator) and external users (medicine suppliers) within the application. This also means potential issues can be resolved within the application without the need for numerous emails between suppliers and the regulator.
 
-![reviewnotes](/docs/about/demo/KeyNotes.png)
+![reviewnotes](/docs/about/demo/keynotes2.png)
 
 ## Feedback within forms
 
@@ -42,7 +42,11 @@ Conforma has no restrictions on file type or size of documents being uploaded, h
 
 Conforma workflows can be configured to automatically generate documents and certificates, such as product registration certificates, which can then be communicated to a user, and stored against the application record.
 
-![cert](/docs/about/demo/cert.png)
+![cert](/docs/about/demo/cert2.png)
+
+Below is an example certificate generated from information supplied by an external user through an application form, which has then been reviewed and approved by the regulatory agency using Conforma.
+
+![certicate example](/docs/about/demo/NRAcert.png)
 
 ## Email notifications
 

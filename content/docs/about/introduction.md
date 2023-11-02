@@ -19,6 +19,8 @@ toc = true
 
 Conforma is an open-source, web-based software that provides a set of tools to help streamline the work processes of medicines regulatory authorities.
 
+Conforma can be described as an Integrated Regulatory Information Management System (IRIMS).
+
 We know that different organisations’ processes are unique, and will change over time. That is why we built Conforma to be flexible and easy to configure without the need for development, to adapt an organisation's needs.
  
 
@@ -37,6 +39,9 @@ Conforma's functionality and flexibility means that it can be used in a wide ran
 
 ![Examples uses of Conforma](/docs/about/demo/ww.png)
 
+Conforma is very customisable and can be set up to support the work of any agency and in any language. Examples of this can be seen with the different configurations used by Fiji and Angola while designing Conforma to manage their medicines regulatory activities.
+
+![Fiji and Angola customisations](/docs/about/demo/fijiangola.png)
 
 ## A little bit about us
 
