@@ -1,5 +1,5 @@
 +++
-title = "Creating an External User Account
+title = "Creating an External User Account"
 description = "Tutorial on creating an external user account"
 date = 2021-05-01T18:20:00+00:00
 updated = 2023-08-01T18:20:00+00:00
