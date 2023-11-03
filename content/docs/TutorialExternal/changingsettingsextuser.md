@@ -40,9 +40,9 @@ From the home page:
 
 3. You can make the changes you need to, such as updating your contact details or your password. Once you have completed your changes in the form, select the <b>Review & Summary button</b>.
 
-You will then be provided a summary of your completed application for final  review. Once you are ready to submit, click <b>Submit Application</b>.
+4. You will then be provided a summary of your completed application for final  review. Once you are ready to submit, click <b>Submit Application</b>.
 
-You will then need to log out and log back into the system for the changes to take effect.
+5. You will then need to log out and log back into the system for the changes to take effect.
 
 ## Forgotten Password
 

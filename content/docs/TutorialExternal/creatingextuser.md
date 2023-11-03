@@ -19,7 +19,7 @@ toc = true
 
 2. Navigate to the system URL (this will be different for every set-up).
 
-The demo version of Conforma is available here: https://conforma-demo.msupply.org:50000/login 
+The demo version of Conforma is available here: [https://conforma-demo.msupply.org:50000/login](https://conforma-demo.msupply.org:50000/login) 
 
 The login page will appear as shown below.
 
@@ -30,7 +30,9 @@ You will need to create an account to access Conforma.
 <div class="tip">
 Alternatively, if you are using the Conforma demo, you can log straight in using an existing user account below:
 
-#### External user:
+
+<b>External user:</b>
+
 Username: External_User
 
 Password: demo

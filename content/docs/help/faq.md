@@ -4,7 +4,7 @@ description = "Answers to frequently asked questions."
 date = 2021-05-01T19:30:00+00:00
 updated = 2023-08-01T19:30:00+00:00
 draft = false
-weight = 90
+weight = 60
 sort_by = "weight"
 template = "docs/page.html"
 
@@ -50,7 +50,7 @@ Additionally, the database uses row level policies to restrict user access to on
 
 ## Can I have a demo of Conforma?
 
-A demo version of Conforma is available for you or your team to test, complete with walk-through tutorials. Please see the [Demo](../Accessingdemo/) section.
+A demo version of Conforma is available for you or your team to test, complete with walk-through tutorials. Please see the [Demo](https://docs.conforma.nz/docs/Demo/accessingdemo/) section.
 
 If you would like to learn more about Conforma or are interested in using the system, please reach out to our team at The mSupply Foundation:
 support@conforma.nz

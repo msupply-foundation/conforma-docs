@@ -16,7 +16,7 @@ toc = true
 ## Accessing Conforma
 1. Open your internet browser to access Conforma, which is a web-based application. We recommend ensuring your browser is up to date.  
 
-2. Navigate to the system URL (this will be different for every set-up). The demo version of Conforma is available here: https://conforma-demo.msupply.org:50000/login. 
+2. Navigate to the system URL (this will be different for every set-up). The demo version of Conforma is available here: [https://conforma-demo.msupply.org:50000/login](https://conforma-demo.msupply.org:50000/login). 
 The login page will appear as shown below:
 
 ![login](/docs/about/demo/login.png)

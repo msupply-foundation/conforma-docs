@@ -55,7 +55,7 @@ Application review processes come in many different formats, and can include mul
 ![Comment Box](/docs/about/demo/comment2.png)
 
 <div class="tip">
-You can also use the Approve all button to mark all fields within that section as conforming requirements.
+You can also use the <b>Approve all</b> button to mark all fields within that section as conforming requirements.
 </div>
 
 10. Once you have completed your review of all of the form fields, an outcome recommendation or decision is required, depending on what stage of the review you are completing. 

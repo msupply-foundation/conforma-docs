@@ -23,7 +23,7 @@ The image and table below outline the basics of navigating within the system.
 
 #### Navigation table
 
-![Navigation Table](/docs/about/demo/navtable2png)
+![Navigation Table](/docs/about/demo/navtable2.png)
 
 ## Application review permissions
 The types of applications/workflows an internal user can interact with are limited by their permissions.

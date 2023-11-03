@@ -16,7 +16,7 @@ top = false
 
 ## Workflows
 
-Custom workflows can be set up to suit your organisation’s requirements and all processes can be carried out with integrity and efficiency.
+Custom workflows can be set up to suit your organisation’s requirements, and all processes can be carried out with integrity and efficiency.
 
 These custom workflows can be configured to incorporate sequential and parallel steps, review processes, and provide options for communication between different users.
 

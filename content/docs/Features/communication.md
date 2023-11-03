@@ -18,24 +18,27 @@ top = false
 
 Conforma has easily customisable application forms that can include many different types of fields and data sources. These can be tailored to match exactly what you need.
 
-Forms can be designed with a wide range of different types of elements. Examples include: 
-Free text
+Forms can be designed with a wide range of different types of elements. 
+
+Examples include: 
+
+<b>Free text</b>
 
 ![free text example](/docs/about/demo/freetext.png)
 
-Radio button selectors and check boxes
+<b>Radio button selectors and check boxes</b>
 
 ![radio button and check box examples](/docs/about/demo/radiobutton.png)
 
-Drop down lists
+<b>Drop down lists</b>
 
 ![drop down list example](/docs/about/demo/dropdown.png)
 
-Document upload boxes
+<b>Document upload boxes</b>
 
 ![document upload boxes example](/docs/about/demo/documentupload.png)
 
-Customisable modals
+<b>Customisable modals</b>
 
 ![custom example](/docs/about/demo/customisablemodal.png)
 
