@@ -39,7 +39,7 @@ Below is an example of an external applicants view of a medicine application for
 
 ![externaluser](/docs/about/demo/exuser1.png)
 
-Basic guidance on how to use Conforma as an external user is available in the [Tutorials](../creatingextuser/) section.
+Basic guidance on how to use Conforma as an external user is available in the [Tutorials](https://docs.conforma.nz/docs/TutorialExternal/creatingextuser/) section.
 
 ## Internal user
 
@@ -59,7 +59,7 @@ Below is an example of an internal users view of the status of applications rece
 
 ![Internal User view](/docs/about/demo/IntUser.png)
 
-Basic guidance on how to use Conforma as an internal user is available in the [Tutorials](../loginintuser/) section.
+Basic guidance on how to use Conforma as an internal user is available in the [Tutorials](https://docs.conforma.nz/docs/TutorialInternal/loginintuser/) section.
 
 ## Admin user
 

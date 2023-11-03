@@ -44,7 +44,7 @@ If you are logged in using the generic External_User account in the Conforma Dem
 
 5. Complete the application form with the required product information. Answers to questions on the form with a red asterisk * next to it are mandatory and you won’t be able to progress the application without providing an answer.
 
-6. Use the Next button to move through the application pages.
+6. Use the <b>Next</b> button to move through the application pages.
 
 ![Product Information](/docs/about/demo/productinfo.png)
 

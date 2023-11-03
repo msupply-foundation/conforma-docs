@@ -17,10 +17,12 @@ Custom reporting and visualisations are available for Conforma setups, and the m
 
 1. To access this for your setup, you will need to enter the URL on a web browser.
 
-There is a demo reporting setup for anyone to access, which correlates with the Conforma demo. You can access this here: https://conforma-demo.msupply.org:50001. 
+There is a demo reporting setup for anyone to access, which correlates with the Conforma demo. You can access this here: [https://conforma-demo.msupply.org:50001](https://conforma-demo.msupply.org:50001). 
 
 You will need to use the following login details to access the demo:
+
 Username: Internal_User
+
 Password: demo
 
 2. Once logged in, you will arrive on the homepage. You can use the contents menu to navigate the different dashboards. For example, you can select the Provisional Medicines Register, as below.
@@ -36,11 +38,11 @@ Password: demo
  ![Provisional medicines register](/docs/about/demo/register.png)
 
 #### Adjusting preferences
-You can adjust your user settings by clicking on the user icon in the bottom left of the screen and selecting Preferences.
+You can adjust your user settings by clicking on the user icon in the bottom left of the screen and selecting <b>Preferences</b>.
 
  ![Prefences Select](/docs/about/demo/preferences2.png)
 
- Under Preferences, you can make changes to the reporting timezone and the user interface theme, eg switching between dark and light.
+ Under Preferences, you can make changes to the reporting timezone and the user interface theme, e.g. switching between dark and light.
 
  ![Grafana Preferences](/docs/about/demo/preferences3.png)
 

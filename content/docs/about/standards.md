@@ -25,7 +25,7 @@ If you would like to learn more about Conforma or are interested in using the sy
 
 support@conforma.nz
 
-A demo version of Conforma is available for you or your team to test, complete with walk-through tutorials. Please see the [Demo](../Accessingdemo/) section.
+A demo version of Conforma is available for you or your team to test, complete with walk-through tutorials. Please see the [Demo](https://docs.conforma.nz/docs/Demo/accessingdemo/) section.
 
 ## Accessing the source code
 

@@ -28,7 +28,7 @@ This view also displays the status of your applications as well as any due dates
 ## Continuing a draft application
 1. Click on the application type from either the dashboard, or from the Application List menu.
 
-2. Then click the Continue button to resume your application.
+2. Then click the <b>Continue</b> button to resume your application.
 
 ![Continue Application](/docs/about/demo/continue.png)
 

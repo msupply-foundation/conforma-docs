@@ -65,6 +65,6 @@ Conforma has been designed to be a sustainable and high standard information man
 
 Most importantly, Conforma makes its users' lives easier! 
 
-With efficient, user friendly workflows and a modern easy to use system design, Conforma allows countries and organisations to improve existing manual processes through digitisation and in turn reduce workloads on overburdened departments. 
+With efficient, user friendly workflows and a modern easy to use system design, Conforma allows countries and organisations to improve existing manual processes through digitisation, and in turn reduce workloads on overburdened departments. 
 
-We have sought input from existing users of our software during the development of Conforma’s to make sure it is as fit-for-purpose and accessible as possible.
+We have sought input from existing users of our software during the development of Conforma to make sure it is as fit-for-purpose and accessible as possible.

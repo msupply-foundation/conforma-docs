@@ -29,19 +29,19 @@ Before you can submit any applications, you will need to register your company o
 
 Within the system there are lots of different field types used to capture information. The following are examples of the some common field types:
 
- - Drop down lists - for selecting the applicable option from the list.
+ - <b>Drop down lists</b> - for selecting the applicable option from the list.
 
  ![Drop down list example](/docs/about/demo/dropdown3.png)
 
- - Free text fields - for entering the required text into the field.
+ - <b>Free text fields</b> - for entering the required text into the field.
 
  ![Free text example](/docs/about/demo/freetext3.png)
 
-- Look-up lists - As you type into the field, the list of options will filter down. You can select the correct option from the filtered list.
+- <b>Look-up lists</b> - As you type into the field, the list of options will filter down. You can select the correct option from the filtered list.
 
  ![Look up list example](/docs/about/demo/lookup3.png)
 
-Upload boxes - for attaching relevant documentation.
+- <b>Upload boxes</b> - for attaching relevant documentation.
 
  ![Upload box example](/docs/about/demo/upload3.png)
 
