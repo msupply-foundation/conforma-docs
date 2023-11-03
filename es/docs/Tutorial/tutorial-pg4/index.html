@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="preload" as="font" href="https://docs.conforma.nz/fonts/vendor/jost/jost-v4-latin-regular.woff2" type="font/woff2" crossorigin>
+  <link rel="preload" as="font" href="https://docs.conforma.nz/fonts/vendor/jost/jost-v4-latin-700.woff2"  type="font/woff2" crossorigin>
+
+
+<link rel="stylesheet" href="https://docs.conforma.nz/main.css">
+<link rel="stylesheet" href="https://docs.conforma.nz/msupply.css">
+
+
+
+
+  
+  
+    
+  
+
+  
+  
+    
+    
+  
+  
+  
+    
+  
+  
+  
+  
+    
+  
+  
+  
+
+
+  <meta name="robots" content="index, follow">
+  <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+
+
+	
+
+
+	
+
+<title>4. Revisar una solicitud de registro de empresa - Conforma 🇪🇸</title>
+<meta name="description" content="Demonstration of a sample Conforma system">
+<link rel="canonical" href="https://docs.conforma.nz/es/docs/Tutorial/tutorial-pg4/">
+
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "BreadcrumbList",
+    
+      
+      
+        
+        
+        
+        
+        
+        
+        
+        
+          {
+            "@type": "ListItem",
+            "position":  1 ,
+            "name": "Home",
+            "item": "https://docs.conforma.nz/"
+          },
+          
+          
+          {
+            "@type": "ListItem",
+            "position":  2 ,
+            "name": "Es",
+            "item": "https://docs.conforma.nz/es/"
+          },
+        
+      
+        
+        
+        
+        
+        
+        
+        
+        
+          
+          
+          {
+            "@type": "ListItem",
+            "position":  3 ,
+            "name": "Docs",
+            "item": "https://docs.conforma.nz/es/docs/"
+          },
+        
+      
+        
+        
+        
+        
+        
+        
+        
+        
+          
+          
+          {
+            "@type": "ListItem",
+            "position":  4 ,
+            "name": "Tutorial",
+            "item": "https://docs.conforma.nz/es/docs/Tutorial/"
+          },
+        
+      
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+          
+          
+          {
+            "@type": "ListItem",
+            "position":  5 ,
+            "name": "Tutorial Pg4",
+            "item": "https://docs.conforma.nz/es/docs/Tutorial/tutorial-pg4/"
+          },
+        
+      
+    
+  }
+</script>
+
+
+
+
+
+
+  <meta name="theme-color" content="#45818e">
+  <link rel="apple-touch-icon" sizes="180x180" href="https://docs.conforma.nz/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://docs.conforma.nz/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://docs.conforma.nz/favicon-16x16.png">
+  
+    <link rel="manifest" href="https://docs.conforma.nz/site.webmanifest" crossorigin>
+  
+
+
+  
+
+</head>
+  
+<body class="docs single">
+    
+ 
+
+    
+
+<div class="header-bar fixed-top"></div>
+<header class="navbar fixed-top navbar-expand-md navbar-light">
+	<div class="container">
+		<input class="menu-btn order-0" type="checkbox" id="menu-btn">
+		<label class="menu-icon d-md-none" for="menu-btn"><span class="navicon"></span></label>
+		<a class="navbar-brand order-1 order-md-0 me-auto" href="https://docs.conforma.nz/es">Conforma 🇪🇸</a>
+		<button id="mode" class="btn btn-link order-2 order-md-4" type="button" aria-label="Toggle mode">
+			<span class="toggle-dark"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-moon"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg></span>
+			<span class="toggle-light"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-sun"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg></span>
+		</button>
+		<ul class="navbar-nav fork-me order-3 order-md-5">
+			
+				<li class="nav-item">
+					<a class="nav-link" href="https://twitter.com/aaranxu"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-twitter"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg><span class="ms-2 visually-hidden">Twitter</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="https://github.com/aaranxu/adidoks"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg><span class="ms-2 visually-hidden">GitHub</span></a>
+				</li>
+			
+		</ul>
+		<div class="collapse navbar-collapse order-4 order-md-1">
+			<ul class="navbar-nav main-nav me-auto order-5 order-md-2">
+				
+					
+				
+				
+				
+				<li class="nav-item">
+					<a class="nav-link" href="https://docs.conforma.nz/docs/">Docs</a>
+				</li>
+				
+			</ul>
+			<div class="break order-6 d-md-none"></div>
+			
+				<form class="navbar-form flex-grow-1 order-7 order-md-3">
+					<input id="userinput" class="form-control is-search" type="search" placeholder="Buscar documentos..."
+						aria-label="Search docs..." autocomplete="off">
+					<div id="suggestions" class="shadow bg-white rounded"></div>
+				</form>
+			
+		</div>
+	</div>
+</header>
+ 
+
+  
+<div class="wrap container" role="document">
+  <div class="content">
+    <div class="row flex-xl-nowrap">
+      
+<div class="col-lg-5 col-xl-4 docs-sidebar">
+	<nav class="docs-links" aria-label="Main navigation">
+		
+			
+		
+			
+			
+			
+					
+					
+					
+							<h3>Sobre Conforma</h3>
+							<ul class="list-unstyled">
+							                           
+									<li><a class="docs-link" href="https://docs.conforma.nz/es/docs/about/introduction/">Introducción</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.conforma.nz/es/docs/about/benefits/">Beneficios de Conforma</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.conforma.nz/es/docs/about/standards/">Estándares Reconocidos</a></li>
+							
+					</ul>
+					
+					
+					
+					
+							<h3>Propiedades</h3>
+							<ul class="list-unstyled">
+							                           
+									<li><a class="docs-link" href="https://docs.conforma.nz/es/docs/Features/theforms/">Formularios</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.conforma.nz/es/docs/Features/workflows/">Flujos de trabajo</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.conforma.nz/es/docs/Features/communication/">Comunicación y Documentos</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.conforma.nz/es/docs/Features/users/">Usuarios</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.conforma.nz/es/docs/Features/reports/">Reportes &amp; Bases de Datos</a></li>
+							
+					</ul>
+					
+					
+					
+					
+					
+					
+					
+							<h3>Usuarios Administradores</h3>
+							<ul class="list-unstyled">
+							                           
+									<li><a class="docs-link" href="https://docs.conforma.nz/es/docs/Admin/lookup/">Tablas de Búsqueda</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.conforma.nz/es/docs/Admin/languages/">Idiomas</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.conforma.nz/es/docs/Admin/templateedit/">Edición de formularios</a></li>
+							
+					</ul>
+					
+					
+					
+					
+							<h3>Ayuda</h3>
+							<ul class="list-unstyled">
+							                           
+									<li><a class="docs-link" href="https://docs.conforma.nz/es/docs/help/faq/">Preguntas Frecuentes</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.conforma.nz/es/docs/help/code-of-conduct/">Código de conducta</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.conforma.nz/es/docs/help/how-to-contribute/">Cómo contribuir</a></li>
+							
+					</ul>
+					
+					
+					
+					
+							<h3>Recursos &amp; Tutoriales</h3>
+							<ul class="list-unstyled">
+							                           
+									<li><a class="docs-link" href="https://docs.conforma.nz/es/docs/Tutorial/tutorial-overview/">2. Empezando como usuario solicitante</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.conforma.nz/es/docs/Tutorial/tutorial-pg3/">3. Registrar una empresa</a></li>
+							                           
+									<li><a class="docs-link active" href="https://docs.conforma.nz/es/docs/Tutorial/tutorial-pg4/">4. Revisar una solicitud de registro de empresa</a></li>
+							
+					</ul>
+					
+					
+			
+	</nav>
+</div>
+   
+      <main class="docs-content col-lg-11 col-xl-9">
+        
+        <div class="flagster" style="float: right; padding: 5px">
+          <a href="https:&#x2F;&#x2F;docs.conforma.nz&#x2F;es&#x2F;docs&#x2F;Tutorial&#x2F;tutorial-pg4&#x2F;" title="Change language to es"
+            >🇪🇸</a
+          >
+        </div>
+        
+
+        <h1>4. Revisar una solicitud de registro de empresa</h1>
+         <p>Regresa a la página de inicio de sesión del sistema de demostración (¡preferiblemente en otro navegador!) navegando a:
+https://conforma-demo.msupply.org:50000/ </p>
+<p>Ahora, para esta parte del tutorial, vamos a iniciar sesión como miembro del personal de la Agencia Reguladora.</p>
+<p>Vamos a utilizar las siguientes credenciales de un miembro del personal:</p>
+<p><img src="/docs/about/demo/24.png" alt="Internal user details" /></p>
+<p>Como se señala arriba, el rol de Alice es Administradora de Servicios Empresariales y parte de su trabajo es administrar las solicitudes de registro de empresas</p>
+<p>Ve adelante e inicia sesión utilizando las credenciales de Alice (arriba)..</p>
+<h3 id="navegando-en-el-sistema-como-un-usuario-del-personal-regulador">Navegando en el sistema como un usuario del personal regulador</h3>
+<p>Una vez que hayas iniciado sesión, serás llevado a la página de inicio del tablero de Alice. Puede que hayas notado que el diseño del tablero se parece mucho a la página de inicio de tu cuenta de usuario externa que creaste anteriormente.</p>
+<p>¡Sin embargo, hay diferencias entre las cuentas de usuario externas e internas!</p>
+<p>En esta sección explicamos algunas de las principales diferencias.</p>
+<p><strong>Para empezar, veamos las diferencias al mirar el tablero de control:</strong></p>
+<ol>
+<li>En la esquina superior izquierda, verás que los miembros del personal interno están asociados con la organización 'Autoridad Reguladora'</li>
+</ol>
+<p><img src="/docs/about/demo/25.png" alt="Internal organisation" /></p>
+<ol start="2">
+<li>
+<p>Los tipos de solicitudes/ flujos de trabajo con los que puedes interactuar están limitados por tus permisos.</p>
+<p>A continuación, se presentan ejemplos de dos miembros del personal diferentes de la Autoridad Reguladora. La primera es Alice y la segunda es Bob Vance, jefe de sección de la sección de registro de medicamentos. </p>
+</li>
+<li>
+<p>La sección de resumen de solicitudes muestra las solicitudes relevantes en las que puedes trabajar.</p>
+</li>
+<li>
+<p>Las bases de datos son bases de datos internas que incluyen todos los productos de solicitudes aprobados (por ejemplo, una base de datos de todas las empresas registradas)</p>
+</li>
+</ol>
+<div class="note">
+Como se mencionó anteriormente, los diferentes miembros del personal tendrán diferentes accesos a diferentes módulos/ solicitudes según sus permisos. Por ejemplo, Alice puede ver e interactuar con olicitudes de registro de empresas, pero no con solicitudes de registro de productos.
+</div>
+<hr />
+<h3 id="pagina-de-revision-de-solicitudes">Página de revisión de solicitudes</h3>
+<p>Bien, echemos un vistazo a la página de revisión de la solicitud que presentaste anteriormente.</p>
+<ol>
+<li>
+<p>Haz clic en <strong>Revisiones pendientes de asignación</strong> para filtrar la lista de aplicaciones a aquellas que aún necesitan ser asignadas.</p>
+<p>Esto mostrará una lista filtrada como:</p>
+<p><img src="/docs/about/demo/26.png" alt="Filtered application list" /></p>
+</li>
+<li>
+<p>Haz clic en el enlace de la solicitud que acabas de enviar.</p>
+</li>
+</ol>
+<p><img src="/docs/about/demo/27.png" alt="Application link" /></p>
+<ol start="3">
+<li>Esto te llevará a la página de revisión de la solicitud. </li>
+</ol>
+<p>La página de revisión tiene 4 pestañas de información/función que se describen a continuación</p>
+<pre style="background-color:#2b303b;color:#c0c5ce;"><code><span>**Overview tab**
+</span><span>
+</span><span>Dentro de la pestaña de resumen se puede ver información como:
+</span><span>
+</span><span>- Detalles de la solicitud: *Información básica relacionada con la solicitud, como quién la presentó, la fecha de presentación y el ID de la solicitud*
+</span><span>
+</span><span>- Historial de Actividad: *Esta sección muestra un historial detallado del proceso de flujo de trabajo de la solicitud. Es especialmente útil para las solicitudes con más de una etapa para monitorear y realizar un seguimiento de su progreso*
+</span><span>
+</span><span>![overview tab](/docs/about/demo/28.png)
+</span><span>
+</span><span>
+</span><span> **Pestaña de asignación**
+</span><span>
+</span><span> Dentro de la pestaña de asignación, puedes asignar aplicaciones y ver asignaciones actuales y pasadas para todas las etapas de una solicitud.
+</span><span>
+</span><span> Para la mayoría de las solicitudes, cuando asignas una sección, asigna todas las secciones de una solicitud al usuario. Para solicitudes complejas, que pueden necesitar ser revisadas por múltiples personas al mismo tiempo, cada sección puede ser asignada a un miembro del personal diferente.
+</span><span>    
+</span><span>
+</span><span> ![assignment tab](/docs/about/demo/30.png)
+</span><span>
+</span><span> **Pestaña de notas internas**
+</span><span>
+</span><span> La pestaña de notas internas permite a los miembros del personal interno agregar comentarios y archivos ad hoc relacionados con una solicitud. El sistema registra el historial de quién hizo cada comentario.
+</span><span>
+</span><span> En el siguiente ejemplo, otro miembro del personal adjuntó una consulta por correo electrónico relacionada con una solicitud. 
+</span><span>
+</span><span>
+</span><span> ![internal notes tab](/docs/about/demo/29.png)
+</span><span>
+</span><span> **Pestaña de notas de documentos**
+</span><span>
+</span><span> Dentro de la pestaña de documentos, podrás ver cualquier certificado generado por el sistema relacionado con una solicitud (por ejemplo, un certificado de registro de producto). En el caso de que no se haya generado ningún certificado, esta sección estará en blanco. 
+</span><span>
+</span><span> ![Documents tab](/docs/about/demo/31.png)
+</span></code></pre>
+<hr />
+<h3 id="asignar-la-solicitud-a-tu-carga-de-trabajo">Asignar la solicitud a tu carga de trabajo</h3>
+<p>Ahora que estás familiarizado con la página de revisión y su funcionalidad, comencemos a revisar la solicitud de registro de empresa que presentaste anteriormente.</p>
+<p>Primero, necesitamos asignarnos la solicitud para poder comenzar a revisarla.</p>
+<ol>
+<li>Navega hasta la pestaña de asignaciones de la solicitud</li>
+</ol>
+<div class="tip">
+¡Puedes acceder directamente a la pestaña de asignaciones desde la lista de solicitudes, simplemente haz clic en el botón de autoasignación!
+</div>
+<p><img src="/docs/about/demo/32.png" alt="self-assign" /></p>
+<ol start="2">
+<li>
+<p>Utilizando la lista desplegable que muestra <strong>Not assigned</strong>,'Tú mismo' de la lista.</p>
+</li>
+<li>
+<p>Ahora haz clic en el botón <strong>enviar</strong> </p>
+</li>
+</ol>
+<p><img src="/docs/about/demo/30.png" alt="assignment tab" /></p>
+<ol start="4">
+<li>
+<p>Ahora has sido asignado a la solicitud. </p>
+<p>Esto se refleja en la pestaña de asignaciones.</p>
+</li>
+</ol>
+<p><img src="/docs/about/demo/33.png" alt="assignment tab" /></p>
+<div class="tip">
+No olvides que esta actividad también se refleja en la sección de actividad de la pestaña de resumen.
+</div>
+<hr />
+<h3 id="revision-de-una-solicitud-de-registro-de-empresa">Revisión de una solicitud de registro de empresa</h3>
+<p>Ahora que la solicitud ha sido asignada a ti mismo, puedes empezar a trabajar y revisar la aplicación.</p>
+<ol>
+<li>Dentro de la pestaña de asignaciones en la página de revisión, haz clic en el botón <strong>Empezar</strong>.</li>
+</ol>
+<p><img src="/docs/about/demo/35.png" alt="assignment tab" /></p>
+<ol start="2">
+<li>
+<p>Dentro de cada formulario de la solicitud, se pueden revisar todos los campos que requieren revisión. Para revisar un campo individual, haz clic en el botón <strong>Revisar</strong>. Esto abre un espacio para que el revisor marque el requisito del formulario como Conforme (cumple con los requisitos) o No conforme (no cumple con los requisitos). </p>
+<p>Avanza a través del formulario de revisión y marca cada requisito como un campo conforme o no conforme. Para este tutorial, marca todo como conforme por ahora (¡nos ocuparemos del resto después!).</p>
+<p>El campo de comentarios dentro del cuadro de revisión se puede utilizar para registrar notas internas según sea necesario. Las notas internas para los campos conformes no son visibles para el solicitante. </p>
+<p>Sin embargo, cuando se marca un campo con un resultado no conforme, se requiere un comentario para comunicar al solicitante (.por ejemplo, proporcionar orientación al solicitante).</p>
+</li>
+</ol>
+<div class="tip">
+También se puede utilizar el botón Aprobar todo para marcar todos los campos de esa sección como requisitos conformes.
+</div>
+<p><img src="/docs/about/demo/37.png" alt="assignment tab" /></p>
+<div class="warning">
+Recuerda que si registras elementos del formulario con un resultado de no conformidad y emites una lista de preguntas (o solicitud de información) al solicitante, cualquier comentario incluido en esos campos no conformes será visible para el solicitante.
+</div>
+<ol start="3">
+<li>
+<p>Una vez que hayas completado tu revisión de todos los campos del formulario, es hora de registrar el resultado de tu revisión para esa solicitud. Para esta aplicación solo hay una etapa. </p>
+<p>El siguiente diagrama describe lo que significan los resultados para esta solicitud.</p>
+<p><img src="/docs/about/demo/38.png" alt="assignment tab" /></p>
+<p>Los botones de resultado de la revisión aparecen en la parte inferior de la página y cambian según la revisión de los campos del formulario anterior.</p>
+<p>Como seleccionamos 'Conforme' para todos los campos anteriores, nuestra única opción es marcar el resultado de la aplicación como <strong>Conform</strong>.</p>
+<p><img src="/docs/about/demo/39.png" alt="assignment tab" /></p>
+</li>
+<li>
+<p>El último campo para completar es el campo de <strong>Comentario general</strong>. </p>
+<p>Este campo es un cuadro de texto libre que se puede utilizar de la siguiente manera:</p>
+<ul>
+<li>
+<p>Si el resultado es aprobar o enviar una lista de preguntas al solicitante, se puede utilizar el comentario general para registrar una nota sobre la decisión interna. Esto no será visible para el solicitante. </p>
+</li>
+<li>
+<p>Si el resultado es rechazar la solicitud, <strong>debe</strong> tilizarse el comentario general para registrar el motivo del rechazo. Este comentario será utilizado por el sistema para generar la correspondencia de rechazo. </p>
+</li>
+</ul>
+</li>
+</ol>
+<p><img src="/docs/about/demo/40.png" alt="assignment tab" /></p>
+<div class="warning">
+Recuerda que si marcas el resultado general de la aplicación como No Conforme, debes incluir el motivo del rechazo en el campo de Comentario general para proporcionar al solicitante. 
+</div>
+<ol start="5">
+<li>
+<p>Una vez que estés satisfecho con tu revisión, haz clic en el botón <strong>Enviar revisión</strong>.</p>
+<p>Aparecerá una ventana emergente de confirmación final que te preguntará si deseas confirmar tu decisión de enviar la revisión.</p>
+<p>Haz clic en <strong>Enviar</strong></p>
+</li>
+</ol>
+<p><img src="/docs/about/demo/41.png" alt="submission message" /></p>
+<ol start="6">
+<li>
+<p>Genial, ahora has aprobado la solicitud de registro de empresa. En la pantalla verás un resumen de tu revisión. Este registro de revisión se almacenará en el sistema y se puede acceder en cualquier momento.</p>
+</li>
+<li>
+<p>Si has utilizado tu cuenta de correo electrónico para registrarte en el sistema, habrás recibido un correo electrónico que indica la aprobación de la solicitud de registro de empresa.</p>
+<p>Los correos electrónicos se pueden adaptar para cada tipo de solicitud y resultado. Para esta solicitud, el correo electrónico debería verse así:</p>
+<p><img src="/docs/about/demo/42.png" alt="Company approval email" /></p>
+</li>
+</ol>
+<hr />
+<p>Ahora que has aprobado esa solicitud de registro de empresa, cierra la sesión de la cuenta de Alice y vuelve a tu cuenta de usuario creada para solicitantes. </p>
+<p>Luego, continúa con la sección <strong>5. Envío de una solicitud de registro de producto</strong> del tutorial para continuar con la guía.</p>
+  
+<div class="docs-navigation d-flex justify-content-between">
+  
+  
+  
+  
+  
+  <a href="https:&#x2F;&#x2F;docs.conforma.nz&#x2F;es&#x2F;docs&#x2F;Tutorial&#x2F;tutorial-pg3&#x2F;">
+    <div class="card my-1">
+      <div class="card-body py-2">
+        &larr; 3. Registrar una empresa
+      </div>
+    </div>
+  </a>
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+      
+      
+        
+      
+    
+      
+      
+        
+      
+    
+      
+      
+        
+      
+    
+      
+      
+        
+      
+    
+      
+      
+        
+      
+    
+  
+</div>
+
+      </main>
+    </div>
+  </div>
+</div>
+
+
+  
+    
+<footer class="footer text-muted">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 order-last order-lg-first">
+				<ul class="list-inline">
+					
+						<li class="list-inline-item">Powered by <a href="https://www.getzola.org/">Zola</a>, and <a href="https://github.com/aaranxu/adidoks">AdiDoks</a></li>
+					
+				</ul>
+			</div>
+			<div class="col-lg-8 order-first order-lg-last text-lg-end">
+				<ul class="list-inline">
+					
+				</ul>
+			</div>
+		</div>
+	</div>
+</footer>
+
+  
+
+  
+<script type="text/javascript" src="https://docs.conforma.nz/js/main.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+<script>mermaid.initialize({startOnLoad:true});</script>
+
+  <script type="text/javascript" src="https://docs.conforma.nz/plugins/elasticlunr.min.js" defer></script>
+  <script type="text/javascript" src="https://docs.conforma.nz/plugins/lunr.stemmer.support.js" defer></script>
+  <script type="text/javascript" src="https://docs.conforma.nz/plugins/lunr.fr.js" defer></script>
+  <script type="text/javascript" src="https://docs.conforma.nz/search_index.es.js" defer></script>
+  <script type="text/javascript" src="https://docs.conforma.nz/js/search.js" defer></script>
+
+  
+</body>
+</html>
