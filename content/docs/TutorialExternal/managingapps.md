@@ -16,7 +16,7 @@ toc = true
 This section discusses some of the ways external users can manage applications in Conforma.
 
 ## Viewing submitted applications
-1. From the dashboard, click on the application type you are interested in, from either the home page view or from the Application List menu.
+1. From the dashboard view, you can click on the application type you are interested in from either the homepage view or from the Application List menu.
 
 ![Select Application](/docs/about/demo/importpermit.png)
 

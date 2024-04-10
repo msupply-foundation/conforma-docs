@@ -25,9 +25,11 @@ We have built Conforma to be:
 
 **3. An integrated system**
 
-**4. Sustainable**
+**4. Interoperable**
 
-**5. User-friendly**
+**5. Sustainable**
+
+**6. User-friendly**
 
 
 ![Conforma Design Principles](/docs/about/demo/about2.png)
@@ -53,7 +55,7 @@ Conforma allows for highly granular permissions, supporting various types of rev
 
 ### Interoperable
 
-Conforma works interoperably with other software (including mSupply’s electronic logistics management information system, [Open mSupply](https://docs.msupply.foundation/)), so that its benefits can be utilised across wider systems, such as health supply chains. The diagram below represents how Conforma can be used alongside Open mSupply to manage medicines from pre-market to patient level to post-market monitoring.
+Conforma works interoperably with other software (including our electronic logistics management information system, [Open mSupply](https://docs.msupply.foundation/)), so that its benefits can be utilised across wider systems, such as health supply chains. The diagram below represents how Conforma can be used alongside Open mSupply to manage medicines from pre-market to patient level to post-market monitoring.
 
 ![conforma and msupply market diagram](/docs/about/demo/conformamsupply.png)
 

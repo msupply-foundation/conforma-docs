@@ -1,5 +1,5 @@
 +++
-title = "Users"
+title = "Configurable Permissions for Users"
 description = "An overview of the different types of users in Conforma"
 date = 2021-05-01T08:20:00+00:00
 updated = 2023-08-01T08:20:00+00:00
@@ -24,7 +24,7 @@ Any user can access Conforma from anywhere simply by using their own login detai
 
 ## External users
 
-External users are typically users outside of the organisation that Conforma is being used by, but one that interacts with Conforma by submitting applications or notifications of important information to the key organisation.
+External users are typically users outside of the organisation using Conforma, but one that interacts with Conforma by submitting applications or notifications of important information to the key organisation.
 
 Key examples of what external users would normally be set up to do in Conforma include: 
 
@@ -39,7 +39,7 @@ Below is an example of an external applicants view of a medicine application for
 
 ![externaluser](/docs/about/demo/exuser1.png)
 
-Basic guidance on how to use Conforma as an external user is available in the [Tutorials](https://docs.conforma.nz/docs/TutorialExternal/creatingextuser/) section.
+Basic guidance on how to use Conforma as an external user is available in the [Guidance](https://docs.conforma.nz/docs/TutorialExternal/creatingextuser/) section.
 
 ## Internal user
 
@@ -49,17 +49,17 @@ Key examples of what internal users would normally be setup to do in Conforma in
 
 * Reviewing and determining outcomes for submitted applications (for example, an internal user could be an evaluator who assesses medicine applications from pharmaceutical suppliers)
 * Managing complex work processes or 'workflows' in the system, which can require multiple steps and several users involved
-* Generating correspondence, for example approval certificates or amendment requests to an external user in relation to their application
+* Generating correspondence, for example approval certificates or amendment requests to an external user in response to their application
 * Storing notes and documents related to a workflow, such as meeting minutes, lab results or evaluation reports uploaded from outside Conforma
 * Tracking and managing the lifecycle of applications and products in the system, relevant for tasks such as renewals of licences as a regulator
 * Managing workloads for team members, tracking upcoming or overdue tasks, and managing databases of application by-products
 * Viewing data and customised reports from a centralised location.
 
-Below is an example of an internal users view of the status of applications received:
+Below is an example of an internal user's view of the status of applications received:
 
 ![Internal User view](/docs/about/demo/IntUser.png)
 
-Basic guidance on how to use Conforma as an internal user is available in the [Tutorials](https://docs.conforma.nz/docs/TutorialInternal/loginintuser/) section.
+Basic guidance on how to use Conforma as an internal user is available in the [Guidance](https://docs.conforma.nz/docs/TutorialInternal/loginintuser/) section.
 
 ## Admin user
 
@@ -76,3 +76,5 @@ What’s great and unique about Conforma is that it can be easily configured wit
 Below is an example of the look-up table management:
 
 ![Admin User View](/docs/about/demo/lts.png)
+
+Basic guidance on how to use Conforma as an admin user is available in the [guidance](https://docs.conforma.nz/docs/Tutorialadmin/accessingdconforma/) section.

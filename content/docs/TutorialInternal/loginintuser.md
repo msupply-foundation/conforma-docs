@@ -16,19 +16,42 @@ toc = true
 ## Accessing Conforma
 1. Open your internet browser to access Conforma, which is a web-based application. We recommend ensuring your browser is up to date.  
 
-2. Navigate to the system URL (this will be different for every set-up). The demo version of Conforma is available here: [https://conforma-demo.msupply.org:50000/login](https://conforma-demo.msupply.org:50000/login). 
-The login page will appear as shown below:
+2. Navigate to the system URL (this will be different for every set-up).
+
+<div class="tip">
+On a typical setup, a login page will appear as shown below. An admin user at your agency will need to create an account for you to access Conforma.
+</div> 
 
 ![login](/docs/about/demo/login.png)
 
-An admin user at your agency will need to create an account for you to access Conforma as an internal user. 
+## Creating an account for the Conforma demo
+
+Setting up an account is slightly different for the demo version of Conforma, which is available here: [https://conforma-demo.msupply.org:50002/login](https://conforma-demo.msupply.org:50002/login)
+
+1. The login page for the demo will appear as shown below:
+
+![login](/docs/about/demo/demologin.png)
+
+2. To set up an account (which will be valid for 24 hours), select <b>Request online demo</b>, and complete the basic user information.
+
+![user info](/docs/about/demo/demologin2.png)
+
+3. Once you have completed the form, click the <b>Review & Summary</b> button.
+
+4. Review your answers on the form, then click the <b>Submit</b> button.
+
+5. Once you have registered, a verification email will be sent to the email address you provided in the form. Verify your account by clicking the provided link in the email you received.
+
+6. Following this, you will receive a second email, which contains a link to your personalised demo version of Conforma. This second email will explain how to log in as an external user or an internal user with your credentials.
 
 <div class="tip">
-Alternatively, if you are using the Conforma demo, you can log straight in using with an existing user account below:
+Please note that your personalised demo is reset after 24 hours, after which, you will not have ongoing access to your account or applications that you have been working on.
+</div> 
 
-<b>Internal user:</b>
+7. Enter your username and password. To log in as an internal user, you will need to use the following details:
 
-Username: Internal_User
+<b>Username:</b> Internal_User
 
-Password: demo
-</div>
+<b>Password:</b> what you entered when registering for the demo
+
+8. Click <b>Log in</b>.

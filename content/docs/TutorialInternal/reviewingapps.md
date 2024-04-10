@@ -13,7 +13,7 @@ toc = true
 
 +++
 
-Logged in as an internal user, this tutorial outlines how to review a medicine application in the Conforma Demo. This will cover the basics of reviewing applications and should transfer to other application types. 
+This guide outlines how to review a medicine application in the Conforma Demo as an internal user. This will cover the basics of reviewing applications and should transfer to other application types. 
 
 If you have any questions or issues relating to an application, please reach out to support@conforma.nz.
 
@@ -80,7 +80,7 @@ You can also use the <b>Approve all</b> button to mark all fields within that se
 15. You will be asked to confirm, choose <b>Submit</b>.
 
 #### Progressing the application
-16. If the application has multiple stages of review, it will progress to the next stage, depending on the recommendation or decision made. The application may have been sent back to the applicant or it will be ready for the next stage of review.
+16. If the application has multiple stages of review, it will either progress to the next stage, or be sent back to the applicant.
 
 17. The recommendations and stages of review can be found in the Overview tab of the application.
 
@@ -91,7 +91,7 @@ You can also use the <b>Approve all</b> button to mark all fields within that se
 #### Final decision
 19. Once all screening and evaluation stages have been completed, a final decision is required. This is assigned and initiated in the same way as any other assessment.
 
-20. Once on the final decision stage, each section of reviews and recommendations can be viewed by selecting the dropdowns. This gives the person making the final decision a consolidated overview of the application’s review and the recommendations by the evaluators.
+20. Once on the final decision stage, each section of reviews and recommendations can be viewed by selecting the drop-downs. This gives the person making the final decision a consolidated overview of the application’s review and the recommendations by the evaluators.
 
  ![Final decision](/docs/about/demo/finaldecision2.png)
 
@@ -106,4 +106,4 @@ You can also use the <b>Approve all</b> button to mark all fields within that se
 
   ![Product Certificate](/docs/about/demo/prodcert.png)
 
-24. Documentation, including certificates are fully customisable within the system to suit the objectives of the workflow, and everything is saved as part of the application, providing a record of decisions.
+Documentation, including certificates are fully customisable within the system to suit the objectives of the workflow, and everything is saved as part of the application, providing a record of decisions.

@@ -1,5 +1,5 @@
 +++
-title = "Incorporating Recognised Standards"
+title = "Recognised International Standards Built In"
 description = "Outlining the way Conforma has been designed to flexibly incorporate recognised standards"
 date = 2021-05-01T08:20:00+00:00
 updated = 2023-08-01T08:20:00+00:00
@@ -13,8 +13,6 @@ lead = ""
 toc = true
 top = false
 +++
-
-## Incorporating Recognised Standards
 
 We have designed Conforma to meet international standards for regulatory systems.
 
@@ -34,7 +32,7 @@ Capturing the products using the Anatomical Therapeutic Chemical (ATC) classific
 
 ![picture of ATC Code and Category search by ingredient](/docs/about/demo/ATC.png)
 
-### Access to data tables
+### Access to standard datasets
 
 For medicines registration processing, we have incorporated data tables for dose forms, routes and methods of administration, containers, closures, administration devices and units of presentation to help improve data quality and sharing.
 

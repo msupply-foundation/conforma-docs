@@ -4,7 +4,7 @@ description = "Contributor Covenant Code of Conduct."
 date = 2021-05-01T18:20:00+00:00
 updated = 2023-08-01T18:20:00+00:00
 draft = false
-weight = 61
+weight = 71
 sort_by = "weight"
 template = "docs/page.html"
 

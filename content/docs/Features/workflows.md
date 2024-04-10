@@ -14,7 +14,7 @@ toc = true
 top = false
 +++
 
-## Workflows
+## Custom Workflows Built for your Processes
 
 Custom workflows can be set up to suit your organisation’s requirements, and all processes can be carried out with integrity and efficiency.
 

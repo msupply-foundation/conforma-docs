@@ -17,7 +17,7 @@ toc = true
 
 From the home page:
 
-1. In the top right corner of the screen, click the drop down menu next to your user details.
+1. In the top right corner of the screen, click the drop-down menu next to your user details.
 
 2. Click <b>Change Language</b>. 
 
@@ -40,7 +40,7 @@ From the home page:
 
 3. You can make the changes you need to, such as updating your contact details or your password. Once you have completed your changes in the form, select the <b>Review & Summary button</b>.
 
-4. You will then be provided a summary of your completed application for final  review. Once you are ready to submit, click <b>Submit Application</b>.
+4. You will then be provided a summary of your completed application for final review. Once you are ready to submit, click <b>Submit Application</b>.
 
 5. You will then need to log out and log back into the system for the changes to take effect.
 

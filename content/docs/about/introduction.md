@@ -21,12 +21,12 @@ Conforma is an open-source, web-based software that provides a set of tools to h
 
 Conforma can be described as an Integrated Regulatory Information Management System (IRIMS).
 
-We know that different organisations’ processes are unique, and will change over time. That is why we built Conforma to be flexible and easy to configure without the need for development, to adapt an organisation's needs.
+We know that different organisations’ processes are unique and will change over time. That is why we built Conforma to be flexible and easy to configure without the need for development, to adapt to an organisation's needs.
  
 
 ## What does Conforma do?
 
-Conforma has primarily been designed to manage and improve work processes for Medicines Regulatory Authorities, however, it has the potential to manage workflow processes at just about any organisation.
+Conforma has primarily been designed to manage and improve work processes for Medicines Regulatory Authorities; however, it has the potential to manage workflow processes at just about any organisation.
 
 Conforma provides a platform to:
 * Create and manage digital application forms and databases
@@ -39,14 +39,14 @@ Conforma's functionality and flexibility means that it can be used in a wide ran
 
 ![Examples uses of Conforma](/docs/about/demo/ww.png)
 
-Conforma is very customisable and can be set up to support the work of any agency and in any language. Examples of this can be seen with the different configurations used by Fiji and Angola while designing Conforma to manage their medicines regulatory activities.
+Conforma is very customisable and can be set up to support the work of any agency in any language. Examples of this can be seen with the different configurations used by Fiji and Angola while designing Conforma to manage their medicines regulatory activities.
 
 ![Fiji and Angola customisations](/docs/about/demo/fijiangola.png)
 
 ## A little bit about us
 
-Conforma has been developed by the team at [the mSupply Foundation](https://msupply.foundation/about) - a friendly bunch whose primary aim is to create useful, open-source software to provide healthcare solutions in low to middle-income countries.
+Conforma has been developed by the team at [the mSupply Foundation](https://msupply.foundation/about) - a friendly bunch whose primary aim is to create useful, open-source software that provides healthcare solutions in low to middle-income countries.
 
-Creating Conforma has been a labour of love — thousands of hours of work. We hope you find it a joy to use, and that it results in your organisation being able to perform its role accurately, quickly and to a high standard.
+Creating Conforma has been a labour of love — thousands of hours of work. We hope you find it a joy to use, and that it results in your organisation being able to perform its role accurately, quickly, and to a high standard.
 
 Conforma's initial development was kindly sponsored by the [Australian Government's Department of Foreign Affairs and Trade](https://www.dfat.gov.au/).
