@@ -1,5 +1,5 @@
 +++
-title = "Recognised International Standards Built In"
+title = "Recognised International Standards"
 description = "Outlining the way Conforma has been designed to flexibly incorporate recognised standards"
 date = 2021-05-01T08:20:00+00:00
 updated = 2023-08-01T08:20:00+00:00
