@@ -18,14 +18,12 @@ Once your user account has been verified, you can now log in to Conforma.
 1. Enter your username and password.
 
 <div class="tip">
-If you are using the Conforma demo, you can log straight in using an existing user account below:
+If you are using the Conforma demo, you can log in as an external user:
+
+<b>Username:</b> External_User
 
 
-<b>External user:</b>
-
-Username: External_User
-
-Password: demo
+<b>Password:</b> what you entered when registering for the demo
 </div>
 
 2. Click <b>Log in</b>.

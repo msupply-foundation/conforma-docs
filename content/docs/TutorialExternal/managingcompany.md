@@ -30,7 +30,7 @@ Once your application has been approved, you will be able to manage your company
 
 2. Once you have completed your changes in the form, select the <b>Review & Summary</b> button. 
 
-3. You will then be provided a summary of your completed application for final  review. Once you are ready to submit, click <b>Submit Application</b>.
+3. You will then be provided a summary of your completed application for final review. Once you are ready to submit, click <b>Submit Application</b>.
 
 ## Managing Company Admin Users
 It is possible to assign or remove users as admins for a company. Admins have additional permissions (such as adding and removing users from their organisation).
@@ -43,7 +43,7 @@ Note: if you are using the Conforma Demo, this function has been disabled.
 
  ![Manage Company Admin Users](/docs/about/demo/companyusers.png)
 
- 2. Start typing or select the user to add or remove from as a company admin. They will need to already be a member of the registered company in Conforma.
+ 2. Start typing or select the user from which to add or remove company admin permissions. They will need to already be a member of the registered company in Conforma.
 
  ![Add or remove users](/docs/about/demo/Demopharma.png)
 

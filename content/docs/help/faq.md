@@ -4,7 +4,7 @@ description = "Answers to frequently asked questions."
 date = 2021-05-01T19:30:00+00:00
 updated = 2023-08-01T19:30:00+00:00
 draft = false
-weight = 60
+weight = 70
 sort_by = "weight"
 template = "docs/page.html"
 
@@ -16,7 +16,7 @@ top = false
 
 ## Is Conforma free?
 
-Yes! Conforma is open-source, for those that wish to access it at no cost.
+Yes! Conforma is open-source, and doesn't come with licence fees.
 
 Half of the Conforma code is available from the [Conforma server repository](https://github.com/openmsupply/conforma-server) and the other half from the [Conforma front-end repository](https://github.com/openmsupply/conforma-web-app).
 

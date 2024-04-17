@@ -35,7 +35,7 @@ From the home page:
 
 ![Forgotten Password](/docs/about/demo/forgotpassword.png)
 
-1. Enter your username in the text box, then click <b>Review & Summary</b>.
+2. Enter your username in the text box, then click <b>Review & Summary</b>.
 
 ![Forgotten Password](/docs/about/demo/indentifyuser.png)
 

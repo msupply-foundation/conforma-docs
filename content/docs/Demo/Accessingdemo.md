@@ -13,7 +13,6 @@ toc = true
 
 +++
 
-## Accessing the Demo
 We have developed a demo version of Conforma to help you get a feel for how it works. 
 
 Just like any version of Conforma, the demo is accessed by all users through a web browser.
@@ -22,35 +21,31 @@ Just like any version of Conforma, the demo is accessed by all users through a w
 Conforma can be used on Windows, macOS, and Linux desktop systems, as well as on tablets. We recommend that you ensure your browser version is up to date.
  </div>
 
-The link to the demo is here: [https://conforma-demo.msupply.org:50000/login](https://conforma-demo.msupply.org:50000/login).
+The link to the demo is here: [https://conforma-demo.msupply.org:50002/login](https://conforma-demo.msupply.org:50002/login).
 
 ## Setting up as a new user in the demo
-You can set up your own user account as an external user (as a supplier), or you can log in with an existing user account below:
+You can set up your own user account and explore Conforma as an external user (e.g. a supplier), and as an internal user (e.g. as a regulator staff member). 
 
-<b>External user:</b>
+To set up an account, select <b>Request online demo</b>, and complete the basic user information. This account will remain valid for 24 hours.
 
-Username: External_User
+![Demo login](/docs/about/demo/demologin.png)
 
-Password: demo
+![Demo login](/docs/about/demo/demologin.png)
 
+Once you have registered, you will receive an email to verify your email address. Once you have verified your email by clicking the link, you will receive a second email that contains a link to your personalised demo version of Conforma. The second email will explain how to log in as an external user or an internal user with your credentials.
 
-<b>Internal user:</b>
-
-Username: Internal_User
-
-Password: demo
 
  <div class="tip">
-Please note that the demo is reset regularly so you will not have ongoing access to an account or applications that you have created.
+Please note that your personalised demo is reset after 24 hours, after which, you will not have ongoing access to your account or applications that you have created.
  </div>
 
 ## Guidance on how to navigate the demo
-See the [Tutorials](https://docs.conforma.nz/docs/TutorialExternal/creatingextuser/) sections for step by step walk-throughs on different activities and processes that you can familiarise yourself with in the Conforma Demo.
+See the [Guidance](https://docs.conforma.nz/docs/TutorialExternal/creatingextuser/) sections for step-by-step walk-throughs on different activities and processes that you can familiarise yourself with in the Conforma Demo.
 
 If you have any questions at all on the demo or on a specific process, please reach out to us at support@conforma.nz. 
 
 ## Accessing Conforma Data Visualisation 
-We have also created a demo version to show how Grafana can be used as a visualisation reporting tool to produce customisable integrated reports based on Conforma workflows and records. 
+We have also created a demo Conforma dashboard to show how Grafana can be used as a visualisation reporting tool to produce customisable integrated reports based on Conforma workflows and records. 
 
 The link to the demo visualisation reporting tool is here: [https://conforma-demo.msupply.org:50001](https://conforma-demo.msupply.org:50001) 
 

@@ -15,6 +15,10 @@ toc = true
 
 Before you can submit any applications, you will need to register your company or become a member of a registered company. 
 
+<div class="tip">
+In the demo, there are pre-existing companies set up which you can use, or you may wish to set up your own.
+</div>
+
 ## Registering your company in the system
 
 Before you can submit any applications, you will need to register your company or become a member of a registered company. 
@@ -63,7 +67,7 @@ Note: When reviewing your application, you can use the edit icon to go quickly b
 
 Your application to register a company has been submitted, and will need to be approved by an internal user for the regulatory authority. 
 
-In the dashboard, you will now see that within the Company Registrations module, you now have one submitted application.
+In the dashboard, you will see that within the Company Registrations module, you now have one submitted application.
 
  ![company registrations](/docs/about/demo/companyapp3.png)
 
@@ -76,17 +80,17 @@ In the dashboard, you will now see that within the Company Registrations module,
 1. If your company has already been registered by another user, you can request to join by heading to the main dashboard and selecting <b>Start a new Join Registered Company</b>. 
 
 <div class="tip">
-Note, this function is not available in the Conforma demo, so you will need to set up your own Company, or use one of the preset companies with the generic user login.
+Note, this function is not available in the Conforma demo, so you will need to set up your own Company, or use one of the preset companies.
  </div>
 
 2. Before you start a new application, the system will provide you with an overview page to give guidance to what information and documents are required.
 
-3. Once you have reviewed this information and are ready to begin the application click <b>Get Started</b>.
+3. Once you have reviewed this information and are ready to begin, click <b>Get Started</b>.
 
-4. Fill in the application form with the required information.  Use the <b>Next</b> button to move through the application pages. 
+4. Fill in the application form with the required information. Use the <b>Next</b> button to move through the application pages. 
 
 5. Once you have completed the form, select the <b>Review & Summary</b> button. 
 
-6. You will then be provided a summary of your completed application for final  review. Once you are ready to submit, click <b>Submit Application</b>.
+6. You will then be provided a summary of your completed application for final review. Once you are ready to submit, click <b>Submit Application</b>.
 
 7. The application has now been submitted and will await review by the Regulatory Authority. 

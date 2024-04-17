@@ -1,6 +1,6 @@
 +++
 title = "Creating an External User Account"
-description = "Tutorial on creating an external user account"
+description = "Guidance for creating an external user account"
 date = 2021-05-01T18:20:00+00:00
 updated = 2023-08-01T18:20:00+00:00
 draft = false
@@ -19,26 +19,17 @@ toc = true
 
 2. Navigate to the system URL (this will be different for every set-up).
 
-The demo version of Conforma is available here: [https://conforma-demo.msupply.org:50000/login](https://conforma-demo.msupply.org:50000/login) 
-
-The login page will appear as shown below.
+On a typical setup, a login page will appear as shown below. You will need to create an account to access Conforma.
 
 ![Login](/docs/about/demo/login.png)
 
-You will need to create an account to access Conforma.
-
-<div class="tip">
-Alternatively, if you are using the Conforma demo, you can log straight in using an existing user account below:
-
-
-<b>External user:</b>
-
-Username: External_User
-
-Password: demo
-</div>
+Setting up an account is slightly different for the demo version of Conforma, which is available here: [https://conforma-demo.msupply.org:50002/login](https://conforma-demo.msupply.org:50002/login) 
 
 ## Creating an account
+
+<div class="tip">
+This is for a typical Conforma setup. For creating an account in the demo version of Conforma, see the next section.
+</div>
 
 1. From the login page, click the <b>Create new account</b> button.
 
@@ -61,3 +52,22 @@ Remember - the forms shown here and in the demo are just example forms. They can
 Your new account will now be verified. Click <b>Log In</b> to proceed to the login screen.
 
 ![complete](/docs/about/demo/regcomplete.png)
+
+## Creating an account for the Conforma demo
+
+1. The login page for the demo will appear as shown below:
+
+![demo login](/docs/about/demo/demologin.png)
+
+2. To set up an account (which will be valid for 24 hours), select <b>Request online demo</b>, and complete the basic user information.
+
+![user infomation demo](/docs/about/demo/demologin2.png)
+
+3. Once you have completed the form, click the <b>Review & Summary</b> button.
+4. Review your answers on the form, then click the <b>Submit</b> button.
+5. Once you have registered, a verification email will be sent to the email address you provided in the form. Verify your account by clicking the provided link in the email you received.
+6. Following this, you will receive a second email, which contains a link to your personalised demo version of Conforma. This second email will explain how to log in as an external user or an internal user with your credentials.
+
+<div class="tip">
+Please note that your personalised demo is reset after 24 hours, after which, you will not have ongoing access to your account or applications that you have created.
+</div>

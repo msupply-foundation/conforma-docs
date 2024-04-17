@@ -1,5 +1,5 @@
 +++
-title = "Workflows"
+title = "Custom Workflows Built for your Processes"
 description = "How to create workflows using Conforma"
 date = 2021-05-01T08:20:00+00:00
 updated = 2023-08-01T08:20:00+00:00
@@ -9,12 +9,9 @@ sort_by = "weight"
 template = "docs/page.html"
 
 [extra]
-lead = "How to create workflows using Conforma"
 toc = true
 top = false
 +++
-
-## Workflows
 
 Custom workflows can be set up to suit your organisation’s requirements, and all processes can be carried out with integrity and efficiency.
 

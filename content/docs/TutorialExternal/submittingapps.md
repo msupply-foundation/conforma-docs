@@ -15,7 +15,7 @@ toc = true
 
 There are endless application types which can be developed in Conforma. A number of custom workflows have been developed for different Conforma users. 
 
-In this tutorial, we will go through the steps of a medicine application, in the format available to use in the Conforma Demo. This will cover the basics of submitting applications and should transfer to other application types. 
+In this guide, we will go through the steps of a medicine application, in the format available to use in the Conforma Demo. This will cover the basics of submitting applications and should transfer to other application types. 
 
 If you have any questions or issues relating to an application, please reach out to support@conforma.nz
 
@@ -33,7 +33,7 @@ As noted, this example is for submitting a medicinal product registration applic
 ![Start a new application](/docs/about/demo/Startnewapp.png)
 
 <div class="tip">
-If you are logged in using the generic External_User account in the Conforma Demo, you can continue one of the existing draft applications where the information has been pre-filled.
+If you are logged into the Conforma demo, you can continue one of the existing draft applications where the information has been pre-filled.
 </div>
 
 3. Before you start a new application, the system will provide you with an overview page to provide guidance to what information and documents are required.
@@ -61,7 +61,7 @@ If you are logged in using the generic External_User account in the Conforma Dem
 ![CoA from Manufacturer](/docs/about/demo/coa.png)
 
 <div class="tip">
-If you are submitting an application in Conforma Demo, you can upload blank or alternative documents. If logged in as the generic External_User, there are prefilled applications with documents already uploaded. 
+If you are submitting an application in Conforma Demo, you can upload blank or alternative documents. There are also prefilled applications with documents already uploaded you can use to quickly gain an understanding of the process. 
 </div>
 
 11. Once the form has been completed, select the <b>Review & Summary</b> button.
