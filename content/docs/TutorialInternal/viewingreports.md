@@ -17,7 +17,7 @@ Custom reporting and visualisations are available for Conforma setups, and the m
 
 1. To access this for your setup, you will need to enter the URL on a web browser.
 
-There is a demo reporting setup for anyone to access, which correlates with the Conforma demo. You can access this here: [https://conforma-demo.msupply.org:50001](https://conforma-demo.msupply.org:50001). 
+There is a demo reporting setup for anyone to access, which correlates with the Conforma demo. You can access this here: [https://demo1-dashboard.conforma.nz/](https://demo1-dashboard.conforma.nz/). 
 
 You will need to use the following login details to access the demo:
 

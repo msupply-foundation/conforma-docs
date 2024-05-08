@@ -26,7 +26,7 @@ On a typical setup, a login page will appear as shown below. An admin user at yo
 
 ## Creating an account for the Conforma demo
 
-Setting up an account is slightly different for the demo version of Conforma, which is available here: [https://conforma-demo.msupply.org:50002/login](https://conforma-demo.msupply.org:50002/login)
+Setting up an account is slightly different for the demo version of Conforma, which is available here: [https://demo.conforma.nz/login](https://demo.conforma.nz/login)
 
 1. The login page for the demo will appear as shown below:
 

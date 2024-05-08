@@ -18,7 +18,7 @@ The template builder within Conforma is a simple way to configure and customise 
 Users with Admin permissions are able to access the template builder and make changes to application forms, emails, and workflows. This section contains instructions for how to make some of the most common changes within template builder.
 
 <div class="tip">
-Due to the changes that can be made in the template builder, we recommend that users be very careful when editing forms. Please contact Conforma support for any assistance (support@conforma.nz)
+Due to the changes that can be made in the template builder, we recommend that users be very careful when editing forms. Please contact Conforma support for any assistance (support@conforma.nz).
 </div> 
 
 ## Viewing your templates
@@ -84,7 +84,7 @@ Click the <b>cog icon</b> next to the element you wish to edit
 
 ![Templates/Procedures](/docs/about/demo/templates9.png)
 
-2. Begin editing the properties of the new element by clicking the cog icon
+2. Begin editing the properties of the new element by clicking the <b>cog</b> icon
 
 3. You can choose from a number of element types from the drop-down at the top
 
@@ -92,7 +92,7 @@ Click the <b>cog icon</b> next to the element you wish to edit
 
 4. You can then create the element to add to your application form, before selecting <b>Save</b> and then <b>Close</b> 
 
-5. For further information on creating new elements, check out our developer docs[docs](https://github.com/msupply-foundation/conforma-web-app/wiki/Template-Builder). 
+5. For further information on creating new elements, check out our developer [docs](https://github.com/msupply-foundation/conforma-web-app/wiki/Template-Builder). 
 
 ## Changing permissions on a template
 Permissions to allow users to apply, assign, view, or review applications can be managed under the <b>Permissions</b> tab.

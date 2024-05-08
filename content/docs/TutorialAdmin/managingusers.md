@@ -19,7 +19,7 @@ Admin users can create new internal users within an organisation. This could be 
 
 1. To do this, select <b>Create Internal User</b> from the Configuration drop-down menu.
 
-![create internal user](/docs/about/demo/createintuser.png)
+![create internal user](/docs/about/demo/Createintuser.png)
 
 2. Enter the new users’ basic user information, then select <b>Next</b>
 
@@ -41,7 +41,7 @@ Admin users can manage the permissions of existing users, including both interna
 
 To change a user's existing permissions:
 
-1. Select Grant Permissions from the Configuration dropdown menu
+1. Select <b>Grant User Permissions</b> from the Configuration dropdown menu
 
 ![edit permissions](/docs/about/demo/editpermissions.png)
 
