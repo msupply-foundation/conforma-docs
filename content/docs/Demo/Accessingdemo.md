@@ -21,7 +21,7 @@ Just like any version of Conforma, the demo is accessed by all users through a w
 Conforma can be used on Windows, macOS, and Linux desktop systems, as well as on tablets. We recommend that you ensure your browser version is up to date.
  </div>
 
-The link to the demo is here: [https://conforma-demo.msupply.org:50002/login](https://conforma-demo.msupply.org:50002/login).
+The link to the demo is here: [https://demo.conforma.nz/login](https://demo.conforma.nz/login).
 
 ## Setting up as a new user in the demo
 You can set up your own user account and explore Conforma as an external user (e.g. a supplier), and as an internal user (e.g. as a regulator staff member). 
@@ -47,7 +47,7 @@ If you have any questions at all on the demo or on a specific process, please re
 ## Accessing Conforma Data Visualisation 
 We have also created a demo Conforma dashboard to show how Grafana can be used as a visualisation reporting tool to produce customisable integrated reports based on Conforma workflows and records. 
 
-The link to the demo visualisation reporting tool is here: [https://conforma-demo.msupply.org:50001](https://conforma-demo.msupply.org:50001) 
+The link to the demo visualisation reporting tool is here: [https://demo1-dashboard.conforma.nz/](https://demo1-dashboard.conforma.nz/) 
 
 Username: Internal_User
 

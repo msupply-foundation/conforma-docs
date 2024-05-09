@@ -77,4 +77,4 @@ Below is an example of the look-up table management:
 
 ![Admin User View](/docs/about/demo/lts.png)
 
-Basic guidance on how to use Conforma as an admin user is available in the [guidance](https://docs.conforma.nz/docs/Tutorialadmin/accessingdconforma/) section.
+Basic guidance on how to use Conforma as an admin user is available in the [Guidance](https://docs.conforma.nz/docs/Tutorialadmin/accessingdconforma/) section.

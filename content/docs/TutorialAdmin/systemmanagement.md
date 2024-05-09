@@ -26,8 +26,6 @@ In order to manage the template files:
 
 3. You will then be prompted to select whether to add a new file or update an existing file
 
-![template file management form](/docs/about/demo/filemgmtform.png)
-
 4. You can then choose to enter the subfolder to upload your file into
 
 5. Select <b>Click to Upload</b> to choose your file to upload. You can add a description of the file
@@ -58,7 +56,7 @@ Reference docs can be uploaded into Conforma to assist users with processes or r
 
 6. Review your uploads and then select <b>Submit Application</b> to proceed or <b>Back to form</b> to make any changes.
 
-7. Your reference documents will now be visible to users.
+7. Your reference documents will now be visible to users:
 
 ![manage reference docs](/docs/about/demo/refdocs4.png)
 
