@@ -30,8 +30,6 @@ To set up an account, select <b>Request online demo</b>, and complete the basic 
 
 ![Demo login](/docs/about/demo/demologin.png)
 
-![Demo login](/docs/about/demo/demologin.png)
-
 Once you have registered, you will receive an email to verify your email address. Once you have verified your email by clicking the link, you will receive a second email that contains a link to your personalised demo version of Conforma. The second email will explain how to log in as an external user or an internal user with your credentials.
 
 
