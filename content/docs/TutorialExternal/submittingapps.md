@@ -15,7 +15,7 @@ toc = true
 
 There are endless application types which can be developed in Conforma. A number of custom workflows have been developed for different Conforma users. 
 
-In this guide, we will go through the steps of a medicine application, in the format available to use in the Conforma Demo. This will cover the basics of submitting applications and should transfer to other application types. 
+In this guide, we will go through the steps of a medicine application. This will cover the basics of submitting applications and should transfer to other application types. 
 
 If you have any questions or issues relating to an application, please reach out to support@conforma.nz
 

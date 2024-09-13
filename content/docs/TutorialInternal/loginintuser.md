@@ -24,34 +24,4 @@ On a typical setup, a login page will appear as shown below. An admin user at yo
 
 ![login](/docs/about/demo/login.png)
 
-## Creating an account for the Conforma demo
-
-Setting up an account is slightly different for the demo version of Conforma, which is available here: [https://demo.conforma.nz/login](https://demo.conforma.nz/login)
-
-1. The login page for the demo will appear as shown below:
-
-![login](/docs/about/demo/demologin.png)
-
-2. To set up an account (which will be valid for 24 hours), select <b>Request online demo</b>, and complete the basic user information.
-
-![user info](/docs/about/demo/demologin2.png)
-
-3. Once you have completed the form, click the <b>Review & Summary</b> button.
-
-4. Review your answers on the form, then click the <b>Submit</b> button.
-
-5. Once you have registered, a verification email will be sent to the email address you provided in the form. Verify your account by clicking the provided link in the email you received.
-
-6. Following this, you will receive a second email, which contains a link to your personalised demo version of Conforma. This second email will explain how to log in as an external user or an internal user with your credentials.
-
-<div class="tip">
-Please note that your personalised demo is reset after 24 hours, after which, you will not have ongoing access to your account or applications that you have been working on.
-</div> 
-
-7. Enter your username and password. To log in as an internal user, you will need to use the following details:
-
-<b>Username:</b> Internal_User
-
-<b>Password:</b> what you entered when registering for the demo
-
-8. Click <b>Log in</b>.
+Setting up an account is different for the demo version of Conforma, which is outlined in the [Accessing the Demo](https://docs.conforma.nz/docs/Demo/accessingdemo/) section.

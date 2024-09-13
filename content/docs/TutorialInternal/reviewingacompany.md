@@ -17,10 +17,6 @@ In Conforma, external users can access the system through approved company accou
 
 Once logged in as an internal user (i.e. a staff member for a regulatory agency using Conforma), this guide outlines how to then review a company registration application. 
 
-<div class="tip">
- If you are following along using the Conforma Demo, this feature is not available in the demo, as company registration applications are automatically approved. But the guide below includes helpful information and screenshots that will allow you to get an idea of how it works in practice. 
- </div>
-
 1. On the main dashboard, select the <b>Reviews awaiting assignment</b> link under Company Registrations.
 
  ![Reviews awaiting assignment](/docs/about/demo/reviewsawaiting.png)
