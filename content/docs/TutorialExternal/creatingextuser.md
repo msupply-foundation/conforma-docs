@@ -23,13 +23,9 @@ On a typical setup, a login page will appear as shown below. You will need to cr
 
 ![Login](/docs/about/demo/login.png)
 
-Setting up an account is slightly different for the demo version of Conforma, which is available here: [https://demo.conforma.nz/login](https://demo.conforma.nz/login) 
+Setting up an account is slightly different for the demo version of Conforma, which is outlined in the [Accessing the Demo](https://docs.conforma.nz/docs/Demo/accessingdemo/) section.
 
 ## Creating an account
-
-<div class="tip">
-This section is for a typical Conforma setup. For creating an account in the demo version of Conforma, see the next section, below.
-</div>
 
 1. From the login page, click the <b>Create new account</b> button.
 

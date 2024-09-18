@@ -71,10 +71,6 @@ In the dashboard, you will see that within the Company Registrations module, you
 
  ![company registrations](/docs/about/demo/companyapp3.png)
 
- <div class="tip">
- If you are using the Conforma demo, company registration applications are automatically approved and you will be able to submit applications as a member of the registered company. You will need to log out and log back in for this to take effect.
- </div>
-
  ## Joining an existing company
 
 1. If your company has already been registered by another user, you can request to join by heading to the main dashboard and selecting <b>Start a new Join Registered Company</b>. 

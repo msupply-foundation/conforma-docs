@@ -17,14 +17,6 @@ Custom reporting and visualisations are available for Conforma setups, and the m
 
 1. To access this for your setup, you will need to enter the URL on a web browser.
 
-There is a demo reporting setup for anyone to access, which correlates with the Conforma demo. You can access this here: [https://demo1-dashboard.conforma.nz/](https://demo1-dashboard.conforma.nz/). 
-
-You will need to use the following login details to access the demo:
-
-Username: Internal_User
-
-Password: demo
-
 2. Once logged in, you will arrive on the homepage. You can use the contents menu to navigate the different dashboards. For example, you can select the Provisional Medicines Register, as below.
 
  ![Grafana Menu](/docs/about/demo/grafanamenu.png)

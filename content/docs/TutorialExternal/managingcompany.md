@@ -15,10 +15,6 @@ toc = true
 
 Once your application to either register a new company or join an existing company has been assessed by the Regulatory Authority, you will receive an email notifying you of the outcome of your application. 
 
-<div class="tip">
-Note: if you are using the Conforma Demo, your application will automatically be approved.
-</div>
-
 The email update will either confirm that your application has been rejected, explain that your application requires an amendment, or that your application has been approved.
 
 Once your application has been approved, you will be able to manage your company within Conforma. 
