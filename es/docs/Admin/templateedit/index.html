@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="preload" as="font" href="https://docs.conforma.nz/fonts/vendor/jost/jost-v4-latin-regular.woff2" type="font/woff2" crossorigin>
+  <link rel="preload" as="font" href="https://docs.conforma.nz/fonts/vendor/jost/jost-v4-latin-700.woff2"  type="font/woff2" crossorigin>
+
+
+<link rel="stylesheet" href="https://docs.conforma.nz/main.css">
+<link rel="stylesheet" href="https://docs.conforma.nz/msupply.css">
+
+
+
+
+  
+  
+    
+  
+
+  
+  
+    
+    
+  
+  
+  
+    
+  
+  
+  
+  
+    
+  
+  
+  
+
+
+  <meta name="robots" content="index, follow">
+  <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+
+
+	
+
+
+	
+
+<title>Edición de formularios - Conforma 🇪🇸</title>
+<meta name="description" content="How to edit forms">
+<link rel="canonical" href="https://docs.conforma.nz/es/docs/Admin/templateedit/">
+
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "BreadcrumbList",
+    
+      
+      
+        
+        
+        
+        
+        
+        
+        
+        
+          {
+            "@type": "ListItem",
+            "position":  1 ,
+            "name": "Home",
+            "item": "https://docs.conforma.nz/"
+          },
+          
+          
+          {
+            "@type": "ListItem",
+            "position":  2 ,
+            "name": "Es",
+            "item": "https://docs.conforma.nz/es/"
+          },
+        
+      
+        
+        
+        
+        
+        
+        
+        
+        
+          
+          
+          {
+            "@type": "ListItem",
+            "position":  3 ,
+            "name": "Docs",
+            "item": "https://docs.conforma.nz/es/docs/"
+          },
+        
+      
+        
+        
+        
+        
+        
+        
+        
+        
+          
+          
+          {
+            "@type": "ListItem",
+            "position":  4 ,
+            "name": "Admin",
+            "item": "https://docs.conforma.nz/es/docs/Admin/"
+          },
+        
+      
+        
+        
+        
+        
+        
+        
+        
+        
+          
+          
+          {
+            "@type": "ListItem",
+            "position":  5 ,
+            "name": "Templateedit",
+            "item": "https://docs.conforma.nz/es/docs/Admin/templateedit/"
+          },
+        
+      
+    
+  }
+</script>
+
+
+
+
+
+
+  <meta name="theme-color" content="#45818e">
+  <link rel="apple-touch-icon" sizes="180x180" href="https://docs.conforma.nz/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://docs.conforma.nz/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://docs.conforma.nz/favicon-16x16.png">
+  
+    <link rel="manifest" href="https://docs.conforma.nz/site.webmanifest" crossorigin>
+  
+
+
+  
+
+</head>
+  
+<body class="docs single">
+    
+ 
+
+    
+
+<div class="header-bar fixed-top"></div>
+<header class="navbar fixed-top navbar-expand-md navbar-light">
+	<div class="container">
+		<input class="menu-btn order-0" type="checkbox" id="menu-btn">
+		<label class="menu-icon d-md-none" for="menu-btn"><span class="navicon"></span></label>
+		<a class="navbar-brand order-1 order-md-0 me-auto" href="https://docs.conforma.nz/es">Conforma 🇪🇸</a>
+		<button id="mode" class="btn btn-link order-2 order-md-4" type="button" aria-label="Toggle mode">
+			<span class="toggle-dark"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-moon"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg></span>
+			<span class="toggle-light"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-sun"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg></span>
+		</button>
+		<ul class="navbar-nav fork-me order-3 order-md-5">
+			
+				<li class="nav-item">
+					<a class="nav-link" href="https://twitter.com/aaranxu"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-twitter"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg><span class="ms-2 visually-hidden">Twitter</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="https://github.com/aaranxu/adidoks"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg><span class="ms-2 visually-hidden">GitHub</span></a>
+				</li>
+			
+		</ul>
+		<div class="collapse navbar-collapse order-4 order-md-1">
+			<ul class="navbar-nav main-nav me-auto order-5 order-md-2">
+				
+					
+				
+				
+				
+				<li class="nav-item">
+					<a class="nav-link" href="https://docs.conforma.nz/docs/">Docs</a>
+				</li>
+				
+			</ul>
+			<div class="break order-6 d-md-none"></div>
+			
+				<form class="navbar-form flex-grow-1 order-7 order-md-3">
+					<input id="userinput" class="form-control is-search" type="search" placeholder="Buscar documentos..."
+						aria-label="Search docs..." autocomplete="off">
+					<div id="suggestions" class="shadow bg-white rounded"></div>
+				</form>
+			
+		</div>
+	</div>
+</header>
+ 
+
+  
+<div class="wrap container" role="document">
+  <div class="content">
+    <div class="row flex-xl-nowrap">
+      
+<div class="col-lg-5 col-xl-4 docs-sidebar">
+	<nav class="docs-links" aria-label="Main navigation">
+		
+			
+		
+			
+			
+			
+					
+					
+					
+							<h3>Sobre Conforma</h3>
+							<ul class="list-unstyled">
+							                           
+									<li><a class="docs-link" href="https://docs.conforma.nz/es/docs/about/introduction/">Introducción</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.conforma.nz/es/docs/about/benefits/">Beneficios de Conforma</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.conforma.nz/es/docs/about/standards/">Estándares Reconocidos</a></li>
+							
+					</ul>
+					
+					
+					
+					
+							<h3>Propiedades</h3>
+							<ul class="list-unstyled">
+							                           
+									<li><a class="docs-link" href="https://docs.conforma.nz/es/docs/Features/theforms/">Formularios</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.conforma.nz/es/docs/Features/workflows/">Flujos de trabajo</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.conforma.nz/es/docs/Features/communication/">Comunicación y Documentos</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.conforma.nz/es/docs/Features/users/">Usuarios</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.conforma.nz/es/docs/Features/reports/">Reportes &amp; Bases de Datos</a></li>
+							
+					</ul>
+					
+					
+					
+					
+					
+					
+					
+							<h3>Usuarios Administradores</h3>
+							<ul class="list-unstyled">
+							                           
+									<li><a class="docs-link" href="https://docs.conforma.nz/es/docs/Admin/lookup/">Tablas de Búsqueda</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.conforma.nz/es/docs/Admin/languages/">Idiomas</a></li>
+							                           
+									<li><a class="docs-link active" href="https://docs.conforma.nz/es/docs/Admin/templateedit/">Edición de formularios</a></li>
+							
+					</ul>
+					
+					
+					
+					
+							<h3>Ayuda</h3>
+							<ul class="list-unstyled">
+							                           
+									<li><a class="docs-link" href="https://docs.conforma.nz/es/docs/help/faq/">Preguntas Frecuentes</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.conforma.nz/es/docs/help/code-of-conduct/">Código de conducta</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.conforma.nz/es/docs/help/how-to-contribute/">Cómo contribuir</a></li>
+							
+					</ul>
+					
+					
+					
+					
+							<h3>Recursos &amp; Tutoriales</h3>
+							<ul class="list-unstyled">
+							                           
+									<li><a class="docs-link" href="https://docs.conforma.nz/es/docs/Tutorial/tutorial-overview/">2. Empezando como usuario solicitante</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.conforma.nz/es/docs/Tutorial/tutorial-pg3/">3. Registrar una empresa</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.conforma.nz/es/docs/Tutorial/tutorial-pg4/">4. Revisar una solicitud de registro de empresa</a></li>
+							
+					</ul>
+					
+					
+			
+	</nav>
+</div>
+  
+<nav class="docs-toc d-none d-xl-block col-xl-3" aria-label="Secondary navigation">
+  <div class="page-links">
+    <h3>En esta pagina</h3>
+    <nav id="TableOfContents">
+      <ul>
+        
+        <li><a href="https://docs.conforma.nz/es/docs/Admin/templateedit/#visualizar-plantillas">Visualizar plantillas</a></li>
+         
+        <li><a href="https://docs.conforma.nz/es/docs/Admin/templateedit/#cambiar-el-nombre-de-un-campo">Cambiar el nombre de un campo</a></li>
+         
+      </ul>
+    </nav>
+  </div>
+</nav>
+ 
+      <main class="docs-content col-lg-11 col-xl-9">
+        
+        <div class="flagster" style="float: right; padding: 5px">
+          <a href="https:&#x2F;&#x2F;docs.conforma.nz&#x2F;es&#x2F;docs&#x2F;Admin&#x2F;templateedit&#x2F;" title="Change language to es"
+            >🇪🇸</a
+          >
+        </div>
+        
+
+        <h1>Edición de formularios</h1>
+         <p>El constructor de plantillas es una manera sencilla de configurar y personalizar su sistema.</p>
+<p>Los usuarios con permisos de administrador pueden acceder al constructor de plantillas y realizar cambios en formularios de solicitud, correos electrónicos y flujos de trabajo. Esta sección contiene instrucciones sobre cómo realizar algunos de los cambios más comunes dentro del constructor de plantillas.</p>
+<div class="warning">
+Debido a los cambios que se pueden realizar en el constructor de plantillas, recomendamos que los usuarios sean muy cuidadosos al editar formularios. Por favor, ponte en contacto con el soporte de Conforma para obtener ayuda si es necesario.
+</div>
+<h2 id="visualizar-plantillas">Visualizar plantillas</h2>
+<p>Para ver tus plantillas, ve al menú de <strong>Configuració</strong>, y haz clic en <strong>Plantillas/Procedimientos</strong></p>
+<p><img src="/docs/about/demo/menu3.png" alt="Templates menu" /></p>
+<p>Esto mostrará una lista de las plantillas (tanto activas como inactivas) en tu sistema. Junto a cada plantilla hay tres iconos de configuración que se pueden utilizar para interactuar con los formularios. </p>
+<p><img src="/docs/about/demo/icons.png" alt="Icons" /></p>
+<p>Haz clic en el botón <strong>Editar</strong> para ver una plantilla específica en el constructor de plantillas.</p>
+<p><img src="/docs/about/demo/openingaform.gif" alt="Edit form" /></p>
+<h2 id="cambiar-el-nombre-de-un-campo">Cambiar el nombre de un campo</h2>
+<p>Aquí tienes un ejemplo de cómo puedes editar un campo de un formulario existente. </p>
+<ol>
+<li>
+<p>Haz clic en el botón <strong>Editar</strong> para ver la plantilla seleccionada en el constructor de plantillas. </p>
+</li>
+<li>
+<p>Primero debes verificar si hay alguna aplicación asociada a la plantilla.</p>
+</li>
+</ol>
+<p><img src="/docs/about/demo/check1.png" alt="Checking active applications" /></p>
+<ul>
+<li>
+<p>Si no hay aplicaciones, haz clic en el botón <strong>Hacer borrador</strong>  y salta al paso 6.</p>
+</li>
+<li>
+<p>Si hay aplicaciones asociadas, continúa con los siguientes pasos. </p>
+</li>
+</ul>
+<ol start="3">
+<li>Regresa a la lista de plantillas. </li>
+</ol>
+<p><img src="/docs/about/demo/backtolist.png" alt="Back to list" /></p>
+<ol start="4">
+<li>
+<p>Haz clic en el botón <strong>duplicar</strong> que corresponde a tu plantilla. Esto creará una nueva versión de borrador de tu plantilla. </p>
+</li>
+<li>
+<p>Haz clic en tu plantilla para expandir y ver las diferentes versiones de la plantilla. Encuentra la nueva versión de borrador y haz clic en el botón <strong>Editar</strong>. </p>
+</li>
+</ol>
+<p><img src="/docs/about/demo/newdraft.gif" alt="New draft" /></p>
+<ol start="6">
+<li>Select the <strong>Form</strong> tab.</li>
+</ol>
+<p><img src="/docs/about/demo/formtab.gif" alt="Form tab" /></p>
+<ol start="6">
+<li>En la pestaña 'Formulario' puedes ver las diferentes secciones de la plantilla de formulario, selecciona aquella que contiene el elemento que deseas editar. En este ejemplo solo hay una sección llamada'Detalles de farmacia'. </li>
+</ol>
+<p><img src="/docs/about/demo/Section1.png" alt="Form section" /></p>
+<ol start="7">
+<li>A continuación, selecciona la página que contiene el elemento que deseas editar. En este ejemplo, se encuentra en la Página 1.</li>
+</ol>
+<p><img src="/docs/about/demo/page.png" alt="Page section" /></p>
+<ol start="8">
+<li>
+<p>Ahora verás una vista previa de la plantilla de formulario y sus elementos. </p>
+<p>Haz clic en el icono de engranaje junto al elemento que deseas editar.</p>
+</li>
+</ol>
+<p><img src="/docs/about/demo/cog1.png" alt="Cog" /></p>
+<ol start="9">
+<li>
+<p>Aparecerá una nueva pantalla. Aquí es donde puedes editar todos los parámetros que rigen la apariencia y el comportamiento del elemento. </p>
+<p>Para cambiar el título, expande la caja de ‘Parámetros específicos del plugin’ haciendo clic en la flecha hacia abajo.</p>
+</li>
+</ol>
+<p><img src="/docs/about/demo/paramater.gif" alt="Config box" /></p>
+  
+<div class="docs-navigation d-flex justify-content-between">
+  
+  
+  
+  
+  
+  <a href="https:&#x2F;&#x2F;docs.conforma.nz&#x2F;es&#x2F;docs&#x2F;Admin&#x2F;languages&#x2F;">
+    <div class="card my-1">
+      <div class="card-body py-2">
+        &larr; Idiomas
+      </div>
+    </div>
+  </a>
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+      
+      
+        
+      
+    
+      
+      
+        
+      
+    
+      
+      
+        
+      
+    
+      
+      
+        
+          
+          
+          <a class="ms-auto" href="https:&#x2F;&#x2F;docs.conforma.nz&#x2F;es&#x2F;docs&#x2F;help&#x2F;faq&#x2F;">
+            <div class="card my-1">
+              <div class="card-body py-2">
+               Preguntas Frecuentes &rarr;
+              </div>
+            </div>
+          </a>
+          
+          
+          
+        
+      
+    
+      
+      
+        
+      
+    
+  
+</div>
+
+      </main>
+    </div>
+  </div>
+</div>
+
+
+  
+    
+<footer class="footer text-muted">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 order-last order-lg-first">
+				<ul class="list-inline">
+					
+						<li class="list-inline-item">Powered by <a href="https://www.getzola.org/">Zola</a>, and <a href="https://github.com/aaranxu/adidoks">AdiDoks</a></li>
+					
+				</ul>
+			</div>
+			<div class="col-lg-8 order-first order-lg-last text-lg-end">
+				<ul class="list-inline">
+					
+				</ul>
+			</div>
+		</div>
+	</div>
+</footer>
+
+  
+
+  
+<script type="text/javascript" src="https://docs.conforma.nz/js/main.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+<script>mermaid.initialize({startOnLoad:true});</script>
+
+  <script type="text/javascript" src="https://docs.conforma.nz/plugins/elasticlunr.min.js" defer></script>
+  <script type="text/javascript" src="https://docs.conforma.nz/plugins/lunr.stemmer.support.js" defer></script>
+  <script type="text/javascript" src="https://docs.conforma.nz/plugins/lunr.fr.js" defer></script>
+  <script type="text/javascript" src="https://docs.conforma.nz/search_index.es.js" defer></script>
+  <script type="text/javascript" src="https://docs.conforma.nz/js/search.js" defer></script>
+
+  
+</body>
+</html>

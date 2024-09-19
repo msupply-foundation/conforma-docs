@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="preload" as="font" href="https://docs.conforma.nz/fonts/vendor/jost/jost-v4-latin-regular.woff2" type="font/woff2" crossorigin>
+  <link rel="preload" as="font" href="https://docs.conforma.nz/fonts/vendor/jost/jost-v4-latin-700.woff2"  type="font/woff2" crossorigin>
+
+
+<link rel="stylesheet" href="https://docs.conforma.nz/main.css">
+<link rel="stylesheet" href="https://docs.conforma.nz/msupply.css">
+
+
+
+
+  
+  
+    
+  
+
+  
+  
+    
+    
+  
+  
+  
+    
+  
+  
+  
+  
+    
+  
+  
+  
+
+
+  <meta name="robots" content="index, follow">
+  <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+
+
+	
+
+
+	
+
+<title>Configuring Forms and Workflows - Conforma</title>
+<meta name="description" content="How to edit, create templates, fields, elements">
+<link rel="canonical" href="https://docs.conforma.nz/docs/TutorialAdmin/configuringforms/">
+
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "BreadcrumbList",
+    
+      
+      
+        
+        
+        
+        
+        
+        
+        
+        
+          {
+            "@type": "ListItem",
+            "position":  1 ,
+            "name": "Home",
+            "item": "https://docs.conforma.nz/"
+          },
+          
+          
+          {
+            "@type": "ListItem",
+            "position":  2 ,
+            "name": "Docs",
+            "item": "https://docs.conforma.nz/docs/"
+          },
+        
+      
+        
+        
+        
+        
+        
+        
+        
+        
+          
+          
+          {
+            "@type": "ListItem",
+            "position":  3 ,
+            "name": "Tutorialadmin",
+            "item": "https://docs.conforma.nz/docs/TutorialAdmin/"
+          },
+        
+      
+        
+        
+        
+        
+        
+        
+        
+        
+          
+          
+          {
+            "@type": "ListItem",
+            "position":  4 ,
+            "name": "Configuringforms",
+            "item": "https://docs.conforma.nz/docs/TutorialAdmin/configuringforms/"
+          },
+        
+      
+    
+  }
+</script>
+
+
+
+
+
+
+  <meta name="theme-color" content="#45818e">
+  <link rel="apple-touch-icon" sizes="180x180" href="https://docs.conforma.nz/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://docs.conforma.nz/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://docs.conforma.nz/favicon-16x16.png">
+  
+    <link rel="manifest" href="https://docs.conforma.nz/site.webmanifest" crossorigin>
+  
+
+
+  
+
+</head>
+  
+<body class="docs single">
+    
+ 
+
+    
+
+<div class="header-bar fixed-top"></div>
+<header class="navbar fixed-top navbar-expand-md navbar-light">
+	<div class="container">
+		<input class="menu-btn order-0" type="checkbox" id="menu-btn">
+		<label class="menu-icon d-md-none" for="menu-btn"><span class="navicon"></span></label>
+		<a class="navbar-brand order-1 order-md-0 me-auto" href="https://docs.conforma.nz">Conforma</a>
+		<button id="mode" class="btn btn-link order-2 order-md-4" type="button" aria-label="Toggle mode">
+			<span class="toggle-dark"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-moon"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg></span>
+			<span class="toggle-light"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-sun"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg></span>
+		</button>
+		<ul class="navbar-nav fork-me order-3 order-md-5">
+			
+				<li class="nav-item">
+					<a class="nav-link" href="https://twitter.com/aaranxu"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-twitter"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg><span class="ms-2 visually-hidden">Twitter</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="https://github.com/aaranxu/adidoks"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg><span class="ms-2 visually-hidden">GitHub</span></a>
+				</li>
+			
+		</ul>
+		<div class="collapse navbar-collapse order-4 order-md-1">
+			<ul class="navbar-nav main-nav me-auto order-5 order-md-2">
+				
+					
+				
+				
+				
+				<li class="nav-item">
+					<a class="nav-link" href="https://docs.conforma.nz/docs/">Docs</a>
+				</li>
+				
+			</ul>
+			<div class="break order-6 d-md-none"></div>
+			
+				<form class="navbar-form flex-grow-1 order-7 order-md-3">
+					<input id="userinput" class="form-control is-search" type="search" placeholder="Search docs..."
+						aria-label="Search docs..." autocomplete="off">
+					<div id="suggestions" class="shadow bg-white rounded"></div>
+				</form>
+			
+		</div>
+	</div>
+</header>
+ 
+
+  
+<div class="wrap container" role="document">
+  <div class="content">
+    <div class="row flex-xl-nowrap">
+      
+<div class="col-lg-5 col-xl-4 docs-sidebar">
+	<nav class="docs-links" aria-label="Main navigation">
+		
+			
+		
+			
+			
+			
+					
+					
+					
+							<h3>About</h3>
+							<ul class="list-unstyled">
+							                           
+									<li><a class="docs-link" href="https://docs.conforma.nz/docs/about/introduction/">Introduction to Conforma</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.conforma.nz/docs/about/benefits/">Why use Conforma?</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.conforma.nz/docs/about/standards/">How to access Conforma</a></li>
+							
+					</ul>
+					
+					
+					
+					
+							<h3>Features</h3>
+							<ul class="list-unstyled">
+							                           
+									<li><a class="docs-link" href="https://docs.conforma.nz/docs/Features/theforms/">Recognised International Standards</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.conforma.nz/docs/Features/workflows/">Custom Workflows Built for your Processes</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.conforma.nz/docs/Features/communication/">Powerful Application Forms</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.conforma.nz/docs/Features/users/">Configurable Permissions for Users</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.conforma.nz/docs/Features/communication-and-documents/">Communication and Documents</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.conforma.nz/docs/Features/reports/">Reports &amp; Databases</a></li>
+							
+					</ul>
+					
+					
+					
+					
+							<h3>Demo</h3>
+							<ul class="list-unstyled">
+							                           
+									<li><a class="docs-link" href="https://docs.conforma.nz/docs/Demo/accessingdemo/">Accessing the Conforma Demo</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.conforma.nz/docs/Demo/howdemoworks/">How the Conforma Demo Works</a></li>
+							
+					</ul>
+					
+					
+					
+					
+							<h3>Guidance for External Users</h3>
+							<ul class="list-unstyled">
+							                           
+									<li><a class="docs-link" href="https://docs.conforma.nz/docs/TutorialExternal/creatingextuser/">Creating an External User Account</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.conforma.nz/docs/TutorialExternal/loginextuser/">Logging in as an External User</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.conforma.nz/docs/TutorialExternal/quickguideextuser/">Quick Guide for External Users</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.conforma.nz/docs/TutorialExternal/registeringacompany/">Registering a Company</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.conforma.nz/docs/TutorialExternal/managingcompany/">Managing a Company Account</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.conforma.nz/docs/TutorialExternal/submittingapps/">Submitting Applications</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.conforma.nz/docs/TutorialExternal/managingapps/">Managing your Applications</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.conforma.nz/docs/TutorialExternal/changingsettingsextuser/">Changing Settings as an External User</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.conforma.nz/docs/TutorialExternal/loggingoutextuser/">Logging out as an External User</a></li>
+							
+					</ul>
+					
+					
+					
+					
+					
+					
+					
+							<h3>Guidance for Internal Users</h3>
+							<ul class="list-unstyled">
+							                           
+									<li><a class="docs-link" href="https://docs.conforma.nz/docs/TutorialInternal/loginintuser/">Logging in as an Internal User</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.conforma.nz/docs/TutorialInternal/quickguideintuser/">Quick Guide for Internal Users</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.conforma.nz/docs/TutorialInternal/reviewingacompany/">Reviewing a Company Registration Application</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.conforma.nz/docs/TutorialInternal/reviewingapps/">Reviewing Applications</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.conforma.nz/docs/TutorialInternal/managingworkflows/">Managing Workflows</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.conforma.nz/docs/TutorialInternal/viewingreports/">Viewing Reports</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.conforma.nz/docs/TutorialInternal/changingsettingsintuser/">Changing Settings as an Internal User</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.conforma.nz/docs/TutorialInternal/loggingoutintuser/">Logging out as an Internal User</a></li>
+							
+					</ul>
+					
+					
+					
+					
+							<h3>Guidance for Admin Users</h3>
+							<ul class="list-unstyled">
+							                           
+									<li><a class="docs-link" href="https://docs.conforma.nz/docs/TutorialAdmin/accessingconforma/">Accessing Conforma as an Admin User</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.conforma.nz/docs/TutorialAdmin/managingusers/">Managing Users as an Admin User</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.conforma.nz/docs/TutorialAdmin/systemmanagement/">System Management</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.conforma.nz/docs/TutorialAdmin/managinglookuptables/">Managing Lookup Tables</a></li>
+							                           
+									<li><a class="docs-link active" href="https://docs.conforma.nz/docs/TutorialAdmin/configuringforms/">Configuring Forms and Workflows</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.conforma.nz/docs/TutorialAdmin/configuringlanguages/">Configuring Languages</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.conforma.nz/docs/TutorialAdmin/loggingoutadmin/">Logging Out as an Admin User</a></li>
+							
+					</ul>
+					
+					
+					
+					
+							<h3>Help</h3>
+							<ul class="list-unstyled">
+							                           
+									<li><a class="docs-link" href="https://docs.conforma.nz/docs/help/faq/">FAQ</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.conforma.nz/docs/help/code-of-conduct/">Code of conduct</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.conforma.nz/docs/help/how-to-contribute/">How to contribute</a></li>
+							
+					</ul>
+					
+					
+					
+					
+					
+					
+					
+					
+			
+	</nav>
+</div>
+  
+<nav class="docs-toc d-none d-xl-block col-xl-3" aria-label="Secondary navigation">
+  <div class="page-links">
+    <h3>On this page</h3>
+    <nav id="TableOfContents">
+      <ul>
+        
+        <li><a href="https://docs.conforma.nz/docs/TutorialAdmin/configuringforms/#viewing-your-templates">Viewing your templates</a></li>
+         
+        <li><a href="https://docs.conforma.nz/docs/TutorialAdmin/configuringforms/#renaming-a-field">Renaming a field</a></li>
+         
+        <li><a href="https://docs.conforma.nz/docs/TutorialAdmin/configuringforms/#creating-a-new-element">Creating a new element</a></li>
+         
+        <li><a href="https://docs.conforma.nz/docs/TutorialAdmin/configuringforms/#changing-permissions-on-a-template">Changing permissions on a template</a></li>
+         
+        <li><a href="https://docs.conforma.nz/docs/TutorialAdmin/configuringforms/#changing-actions-on-a-template">Changing actions on a template</a></li>
+         
+      </ul>
+    </nav>
+  </div>
+</nav>
+ 
+      <main class="docs-content col-lg-11 col-xl-9">
+        
+        <div class="flagster" style="float: right; padding: 5px">
+          <a href="https:&#x2F;&#x2F;docs.conforma.nz&#x2F;docs&#x2F;TutorialAdmin&#x2F;configuringforms&#x2F;" title="Change language to en"
+            >🇬🇧</a
+          >
+        </div>
+        
+
+        <h1>Configuring Forms and Workflows</h1>
+         <p>The template builder within Conforma is a simple way to configure and customise your system.</p>
+<p>Users with Admin permissions are able to access the template builder and make changes to application forms, emails, and workflows. This section contains instructions for how to make some of the most common changes within template builder.</p>
+<div class="tip">
+Due to the changes that can be made in the template builder, we recommend that users be very careful when editing forms. Please contact Conforma support for any assistance (support@conforma.nz).
+</div> 
+<h2 id="viewing-your-templates">Viewing your templates</h2>
+<p>To navigate to the template builder go to the Configuration drop-down menu, then click <b>Templates/Procedures</b>.</p>
+<p><img src="/docs/about/demo/templates1.png" alt="Templates/Procedures" /></p>
+<p>This displays a list of the templates (both active and inactive) in your system. Next to each template, there are three configuration icons that can be used to interact with the forms.</p>
+<p><img src="/docs/about/demo/templates2.png" alt="Templates/Procedures" /></p>
+<p><img src="/docs/about/demo/openingaform.gif" alt="Templates/Procedures" /></p>
+<h2 id="renaming-a-field">Renaming a field</h2>
+<p>Here is an example of how you can edit an existing form field.</p>
+<ol>
+<li>
+<p>Click the <b>Edit</b> button to view your selected template in the template builder. Form templates must be in ‘DRAFT’ status before they can be edited</p>
+</li>
+<li>
+<p>But first you must check to see if there are any applications associated with the template</p>
+</li>
+</ol>
+<p><img src="/docs/about/demo/templates3.png" alt="Templates/Procedures" /></p>
+<ul>
+<li>
+<p>If there are no applications, click the <b>Make draft</b> button and jump to step 6</p>
+</li>
+<li>
+<p>If there are associated applications, continue through the following steps</p>
+</li>
+</ul>
+<ol start="3">
+<li>Navigate back to the list of templates</li>
+</ol>
+<p><img src="/docs/about/demo/templates4.png" alt="Templates/Procedures" /></p>
+<ol start="4">
+<li>
+<p>Click the <b>Duplicate</b> button that corresponds to your template. This will create a new draft version of your template</p>
+</li>
+<li>
+<p>Click onto your template to expand and view the different template versions. Find the new draft version and click the <b>Edit</b> button</p>
+</li>
+</ol>
+<p><img src="/docs/about/demo/newdraft.gif" alt="Templates/Procedures" /></p>
+<ol start="6">
+<li>Select the <b>Form</b> tab</li>
+</ol>
+<p><img src="/docs/about/demo/formtab.gif" alt="Templates/Procedures" /></p>
+<ol start="7">
+<li>Under the Form tab, you can see the different sections of the Form Template. Select the one containing the element you wish to edit. For this example there is only one section: 'Pharmacy Details'</li>
+</ol>
+<p><img src="/docs/about/demo/templates5.png" alt="Templates/Procedures" /></p>
+<ol start="8">
+<li>Next, select the page containing the element you wish to edit. In this example, it is in Page 1</li>
+</ol>
+<p><img src="/docs/about/demo/templates6.png" alt="Templates/Procedures" /></p>
+<ol start="9">
+<li>You will now see a preview of the Form Template and its elements.
+Click the <b>cog icon</b> next to the element you wish to edit</li>
+</ol>
+<p><img src="/docs/about/demo/templates7.png" alt="Templates/Procedures" /></p>
+<ol start="10">
+<li>A new screen will appear. This is where you can edit all the parameters that govern the appearance and behaviour of the element. Once your changes have been made, click Save and then <b>Close</b></li>
+</ol>
+<p><img src="/docs/about/demo/templates8.png" alt="Templates/Procedures" /></p>
+<ol start="11">
+<li>To change the title, expand the ‘Plugin specific parameters’ box by clicking on the <b>down arrow</b>.</li>
+</ol>
+<h2 id="creating-a-new-element">Creating a new element</h2>
+<ol>
+<li>To add a new element to an application form, scroll to the bottom of the page and section of the form you are working on and select <b>New Element</b></li>
+</ol>
+<p><img src="/docs/about/demo/templates9.png" alt="Templates/Procedures" /></p>
+<ol start="2">
+<li>
+<p>Begin editing the properties of the new element by clicking the <b>cog</b> icon</p>
+</li>
+<li>
+<p>You can choose from a number of element types from the drop-down at the top</p>
+</li>
+</ol>
+<p><img src="/docs/about/demo/templates10.png" alt="Templates/Procedures" /></p>
+<ol start="4">
+<li>
+<p>You can then create the element to add to your application form, before selecting <b>Save</b> and then <b>Close</b> </p>
+</li>
+<li>
+<p>For further information on creating new elements, check out our developer <a href="https://github.com/msupply-foundation/conforma-web-app/wiki/Template-Builder">docs</a>. </p>
+</li>
+</ol>
+<h2 id="changing-permissions-on-a-template">Changing permissions on a template</h2>
+<p>Permissions to allow users to apply, assign, view, or review applications can be managed under the <b>Permissions</b> tab.</p>
+<ol>
+<li>
+<p>An ‘apply’ permission will allow applications to create new applications</p>
+</li>
+<li>
+<p>A ‘view’ permission allows supervisors of reviewers to view all submitted reviews</p>
+</li>
+<li>
+<p>Both of these types of permissions can be easily added by selecting a pre-existing type from the dropdown</p>
+</li>
+</ol>
+<p><img src="/docs/about/demo/templates11.png" alt="Templates/Procedures" /></p>
+<ol start="4">
+<li>
+<p>Assign and review permissions are more complex as there are a number of options  available, which allows for very customised form/application development. These can be added in the same way as apply and view permissions but using stages to create the desired workflow</p>
+</li>
+<li>
+<p>For further information on adding or managing permissions, check out our developer <a href="https://github.com/msupply-foundation/conforma-web-app/wiki/Template-Builder">docs</a>. </p>
+</li>
+</ol>
+<h2 id="changing-actions-on-a-template">Changing actions on a template</h2>
+<p>The Actions tab of the template builder allows users to create actions specific to the application type being configured.</p>
+<ol>
+<li>To add a new action, select the type of trigger you want the action to occur as a result of using the drop-down selection</li>
+</ol>
+<p><img src="/docs/about/demo/templates12.png" alt="Templates/Procedures" /></p>
+<ol start="2">
+<li>Select the <b>plus</b> icon to add that trigger</li>
+</ol>
+<p><img src="/docs/about/demo/templates13.png" alt="Templates/Procedures" /></p>
+<ol start="3">
+<li>With the new trigger established, you can then add the desired action by selecting the <b>Add Action</b> button under next to the newly generated trigger</li>
+</ol>
+<p><img src="/docs/about/demo/templates14.png" alt="Templates/Procedures" /></p>
+<ol start="4">
+<li>Use the <b>cog icon</b> to edit and configure the action in the pop up, before selecting <b>Save</b> and then <b>Close</b>. Actions can be independent or part of a sequential process in the application</li>
+</ol>
+<p><img src="/docs/about/demo/templates15.png" alt="Templates/Procedures" /></p>
+<ol start="5">
+<li>For further information on adding or managing actions, check out our developer <a href="https://github.com/msupply-foundation/conforma-web-app/wiki/Template-Builder">docs</a>. </li>
+</ol>
+  
+<div class="docs-navigation d-flex justify-content-between">
+  
+  
+  
+  
+  
+  <a href="https:&#x2F;&#x2F;docs.conforma.nz&#x2F;docs&#x2F;TutorialAdmin&#x2F;managinglookuptables&#x2F;">
+    <div class="card my-1">
+      <div class="card-body py-2">
+        &larr; Managing Lookup Tables
+      </div>
+    </div>
+  </a>
+  
+
+  
+  
+  
+  
+  
+    <a class="ms-auto" href="https:&#x2F;&#x2F;docs.conforma.nz&#x2F;docs&#x2F;TutorialAdmin&#x2F;configuringlanguages&#x2F;">
+      <div class="card my-1">
+        <div class="card-body py-2">
+          Configuring Languages &rarr;
+        </div>
+      </div>
+    </a>
+  
+</div>
+
+      </main>
+    </div>
+  </div>
+</div>
+
+
+  
+    
+<footer class="footer text-muted">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 order-last order-lg-first">
+				<ul class="list-inline">
+					
+						<li class="list-inline-item">Powered by <a href="https://www.getzola.org/">Zola</a>, and <a href="https://github.com/aaranxu/adidoks">AdiDoks</a></li>
+					
+				</ul>
+			</div>
+			<div class="col-lg-8 order-first order-lg-last text-lg-end">
+				<ul class="list-inline">
+					
+				</ul>
+			</div>
+		</div>
+	</div>
+</footer>
+
+  
+
+  
+<script type="text/javascript" src="https://docs.conforma.nz/js/main.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+<script>mermaid.initialize({startOnLoad:true});</script>
+
+  <script type="text/javascript" src="https://docs.conforma.nz/plugins/elasticlunr.min.js" defer></script>
+  <script type="text/javascript" src="https://docs.conforma.nz/plugins/lunr.stemmer.support.js" defer></script>
+  <script type="text/javascript" src="https://docs.conforma.nz/plugins/lunr.fr.js" defer></script>
+  <script type="text/javascript" src="https://docs.conforma.nz/search_index.en.js" defer></script>
+  <script type="text/javascript" src="https://docs.conforma.nz/js/search.js" defer></script>
+
+  
+</body>
+</html>

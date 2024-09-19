@@ -1,0 +1,893 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es">
+    <title>Conforma 🇪🇸</title>
+    <link href="https://docs.conforma.nz/es/atom.xml" rel="self" type="application/atom+xml"/>
+    <link href="https://docs.conforma.nz"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2021-05-01T19:30:00+00:00</updated>
+    <id>https://docs.conforma.nz/es/atom.xml</id>
+    <entry xml:lang="es">
+        <title>Preguntas Frecuentes</title>
+        <published>2021-05-01T19:30:00+00:00</published>
+        <updated>2021-05-01T19:30:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://docs.conforma.nz/es/docs/help/faq/" type="text/html"/>
+        <id>https://docs.conforma.nz/es/docs/help/faq/</id>
+        <content type="html">&lt;h2 id=&quot;es-conforma-gratis&quot;&gt;¿Es Conforma gratis?&lt;&#x2F;h2&gt;
+&lt;p&gt;¡Sí! ¡Conforma es de código abierto!&lt;&#x2F;p&gt;
+&lt;p&gt;Opcionalmente, puedes pedirnos ayuda para configurarlo (¡Nos encantaría!) si estás interesado en usar Conforma.&lt;&#x2F;p&gt;
+&lt;p&gt;El código de Conforma se encuentra en parte en el &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;openmsupply&#x2F;application-manager-server&quot;&gt;repositorio del &lt;code&gt;servidor de Conforma&lt;&#x2F;code&gt;&lt;&#x2F;a&gt; y en parte en el &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;openmsupply&#x2F;application-manager-web-app&quot;&gt;repositorio &lt;code&gt;front-end de Conforma&lt;&#x2F;code&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;cuales-son-los-beneficios-de-que-conforma-sea-de-codigo-abierto&quot;&gt;¿Cuáles son los beneficios de que Conforma sea de código abierto?&lt;&#x2F;h2&gt;
+&lt;p&gt;Además de ser gratuito, ser de código abierto significa que a medida que Conforma sigue creciendo y desarrollándose, todos nuestros usuarios se beneficiarán de cualquier función adicional.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;puede-conforma-ser-integrado-con-otros-softwares&quot;&gt;¿Puede Conforma ser integrado con otros softwares?&lt;&#x2F;h2&gt;
+&lt;p&gt;¡Sí! Conforma ha sido diseñado para poder ser integrado con otros softwares.&lt;&#x2F;p&gt;
+&lt;p&gt;Esto incluye integraciones planificadas con nuestra otra suite de &lt;a href=&quot;https:&#x2F;&#x2F;docs.msupply.foundation&#x2F;&quot;&gt;softwares de mSupply Foundation&lt;&#x2F;a&gt;. &lt;&#x2F;p&gt;
+&lt;h2 id=&quot;ofrecen-soporte&quot;&gt;¿Ofrecen soporte?&lt;&#x2F;h2&gt;
+&lt;p&gt;Proporcionamos diferentes niveles de soporte para los clientes dependiendo de sus necesidades. &lt;&#x2F;p&gt;
+&lt;p&gt;Podemos brindar soporte en la configuración, alojamiento, mantenimiento, soporte continuo y capacitación. &lt;&#x2F;p&gt;
+&lt;h2 id=&quot;esta-segura-mi-informacion&quot;&gt;¿Está segura mi información?&lt;&#x2F;h2&gt;
+&lt;p&gt;Ya sea que se implemente localmente o de forma remota, Conforma es segura.&lt;&#x2F;p&gt;
+&lt;p&gt;Conforma utiliza una base de datos postgreSQL para almacenar datos. La base de datos solo es accesible a través de una conexión segura HTTPS a través de Conforma. Los usuarios requieren credenciales de contraseña para acceder a Conforma y las contraseñas se cifran mediante bcrypt (mecanismo de cifrado recomendado por OWASP).&lt;&#x2F;p&gt;
+&lt;p&gt;Además, la base de datos utiliza políticas de nivel de fila para restringir el acceso del usuario solo a los datos a los que se le ha otorgado permiso específicamente.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;puedo-obtener-una-demo-de-conforma&quot;&gt;¿Puedo obtener una demo de Conforma?&lt;&#x2F;h2&gt;
+&lt;p&gt;¡Claro! ¡En cualquier momento! Por favor, envíanos un correo electrónico a support@conforma.nz y nos pondremos en contacto contigo. &lt;&#x2F;p&gt;
+</content>
+    </entry>
+    <entry xml:lang="es">
+        <title>Código de conducta</title>
+        <published>2021-05-01T18:20:00+00:00</published>
+        <updated>2021-05-01T18:20:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://docs.conforma.nz/es/docs/help/code-of-conduct/" type="text/html"/>
+        <id>https://docs.conforma.nz/es/docs/help/code-of-conduct/</id>
+        <content type="html">&lt;h2 id=&quot;nuestra-promesa&quot;&gt;Nuestra Promesa&lt;&#x2F;h2&gt;
+&lt;p&gt;Nosotros, como miembros, contribuyentes y líderes, nos comprometemos a hacer que la participación en nuestra comunidad sea una experiencia libre de acoso para todos, independientemente de su edad, tamaño corporal, discapacidad visible o invisible, etnia, características sexuales, identidad y expresión de género, nivel de experiencia, educación, situación socioeconómica, nacionalidad, apariencia personal, raza, casta, color, religión o identidad y orientación sexual.&lt;&#x2F;p&gt;
+&lt;p&gt;Nos comprometemos a actuar e interactuar de manera que contribuya a una comunidad abierta, acogedora, diversa, inclusiva y saludable.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;nuestros-estandares&quot;&gt;Nuestros Estándares&lt;&#x2F;h2&gt;
+&lt;p&gt;Ejemplos de comportamiento que contribuyen a un ambiente positivo para nuestra comunidad incluyen:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Demostrar empatía y amabilidad hacia otras personas&lt;&#x2F;li&gt;
+&lt;li&gt;Ser respetuoso con las opiniones, puntos de vista y experiencias diferentes&lt;&#x2F;li&gt;
+&lt;li&gt;Dar y aceptar con gracia retroalimentación constructiva&lt;&#x2F;li&gt;
+&lt;li&gt;Aceptar la responsabilidad y disculparse con aquellos afectados por nuestros errores, y aprender de la experiencia.&lt;&#x2F;li&gt;
+&lt;li&gt;Centrarse en lo que es mejor no solo para nosotros como individuos, sino para la comunidad en general&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Ejemplos de comportamiento inaceptable incluyen:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;El uso de lenguaje o imágenes sexualizadas, y atención sexual o avances de cualquier tipo&lt;&#x2F;li&gt;
+&lt;li&gt;El troleo, comentarios insultantes o despectivos, y ataques personales o políticos&lt;&#x2F;li&gt;
+&lt;li&gt;El acoso público o privado&lt;&#x2F;li&gt;
+&lt;li&gt;La publicación de información privada de otros, como una dirección física o de correo electrónico, sin su permiso explícito.&lt;&#x2F;li&gt;
+&lt;li&gt;Otros comportamientos que podrían ser considerados inapropiados en un entorno profesional&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;responsabilidades-de-cumplimiento&quot;&gt;Responsabilidades de cumplimiento&lt;&#x2F;h2&gt;
+&lt;p&gt;Los líderes de la comunidad son responsables de aclarar y hacer cumplir nuestros estándares de comportamiento aceptable y tomarán medidas correctivas apropiadas y justas en respuesta a cualquier comportamiento que consideren inapropiado, amenazante, ofensivo o perjudicial.&lt;&#x2F;p&gt;
+&lt;p&gt;Los líderes de la comunidad tienen el derecho y la responsabilidad de eliminar, editar o rechazar comentarios, compromisos, código, ediciones de wiki, problemas y otras contribuciones que no estén alineadas con este Código de Conducta, y comunicarán las razones de las decisiones de moderación cuando sea apropiado.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;alcance&quot;&gt;Alcance&lt;&#x2F;h2&gt;
+&lt;p&gt;Este Código de Conducta se aplica en todos los espacios de la comunidad, y también se aplica cuando un individuo representa oficialmente a la comunidad en espacios públicos. Ejemplos de representación de nuestra comunidad incluyen el uso de una dirección de correo electrónico oficial, la publicación a través de una cuenta oficial en las redes sociales, o actuar como representante designado en un evento en línea o fuera de línea.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;cumplimiento&quot;&gt;Cumplimiento&lt;&#x2F;h2&gt;
+&lt;p&gt;Las instancias de comportamiento abusivo, acosador o de otro modo inaceptable pueden ser reportadas a los líderes de la comunidad responsables de la aplicación en
+&lt;a href=&quot;https:&#x2F;&#x2F;msupply.foundation&#x2F;contact&quot;&gt;The mSupply Foundation&lt;&#x2F;a&gt;.
+Todas las quejas serán revisadas e investigadas de manera pronta y justa.&lt;&#x2F;p&gt;
+&lt;p&gt;Todos los líderes de la comunidad están obligados a respetar la privacidad y seguridad del denunciante de cualquier incidente.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;lineamientos-del-cumplimiento&quot;&gt;Lineamientos del cumplimiento&lt;&#x2F;h2&gt;
+&lt;p&gt;Los líderes de la comunidad seguirán estas Directrices de Impacto en la Comunidad para determinar las consecuencias de cualquier acción que consideren que viola este Código de Conducta:&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;1-correccion&quot;&gt;1. Corrección&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;strong&gt;Impacto en la comunidad&lt;&#x2F;strong&gt;: Uso de un lenguaje inapropiado u otro comportamiento considerado poco profesional o no deseado en la comunidad.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Consecuencia&lt;&#x2F;strong&gt;: Una advertencia privada y escrita de los líderes de la comunidad, brindando claridad sobre la naturaleza de la violación y una explicación de por qué el comportamiento fue inapropiado. Se puede solicitar una disculpa pública.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;2-advertencia&quot;&gt;2. Advertencia&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;strong&gt;Impacto en la comunidad&lt;&#x2F;strong&gt;: Una violación a través de un incidente único o una serie de acciones.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Consecuencia&lt;&#x2F;strong&gt;: Una advertencia con consecuencias por comportamiento continuado. Ninguna interacción con las personas involucradas, incluyendo interacciones no solicitadas con aquellos que hacen cumplir el Código de Conducta, durante un período de tiempo especificado. Esto incluye evitar interacciones en los espacios de la comunidad así como en canales externos como las redes sociales. La violación de estos términos puede resultar en una prohibición temporal o permanente.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;3-suspension-temporal&quot;&gt;3. Suspensión temporal&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;strong&gt;Impacto en la comunidad&lt;&#x2F;strong&gt;: Una violación grave de los estándares de la comunidad, incluyendo un comportamiento inapropiado sostenido.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Consecuencia&lt;&#x2F;strong&gt;: Una suspensión temporal de cualquier tipo de interacción o comunicación pública con la comunidad por un período de tiempo específico. Durante este período, no se permite ninguna interacción pública o privada con las personas involucradas, incluyendo interacciones no solicitadas con aquellos que hacen cumplir el Código de Conducta. El incumplimiento de estos términos puede llevar a una prohibición permanente.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;4-suspension-permanente&quot;&gt;4. Suspensión permanente&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;strong&gt;Impacto en la comunidad&lt;&#x2F;strong&gt;: Demostración de un patrón de violación de los estándares de la comunidad, incluyendo un comportamiento inapropiado sostenido, acoso a un individuo o agresión o desprecio hacia clases de individuos.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Consecuencia&lt;&#x2F;strong&gt;:  Una prohibición permanente de cualquier tipo de interacción pública dentro de la comunidad.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;atribucion&quot;&gt;Atribución&lt;&#x2F;h2&gt;
+&lt;p&gt;Este Código de Conducta se adapta del &lt;a href=&quot;https:&#x2F;&#x2F;www.contributor-covenant.org&quot;&gt;Pacto del Colaborador&lt;&#x2F;a&gt;,
+versión 2.0, disponible en
+&lt;a href=&quot;https:&#x2F;&#x2F;www.contributor-covenant.org&#x2F;version&#x2F;2&#x2F;0&#x2F;code_of_conduct.html&quot;&gt;https:&#x2F;&#x2F;www.contributor-covenant.org&#x2F;version&#x2F;2&#x2F;0&#x2F;code_of_conduct.html&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;Los lineamientos de Impacto en la Comunidad se inspiraron en la 
+&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;mozilla&#x2F;diversity&quot;&gt;Mozilla&#x27;s code of conduct enforcement ladder&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;Para respuestas a preguntas comunes sobre este código de conducta, consulte las preguntas frecuentes en
+&lt;a href=&quot;https:&#x2F;&#x2F;www.contributor-covenant.org&#x2F;faq&quot;&gt;https:&#x2F;&#x2F;www.contributor-covenant.org&#x2F;faq&lt;&#x2F;a&gt;. Las traducciones están disponibles en &lt;a href=&quot;https:&#x2F;&#x2F;www.contributor-covenant.org&#x2F;translations&quot;&gt;https:&#x2F;&#x2F;www.contributor-covenant.org&#x2F;translations&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+</content>
+    </entry>
+    <entry xml:lang="es">
+        <title>Cómo contribuir</title>
+        <published>2021-05-01T18:10:00+00:00</published>
+        <updated>2021-05-01T18:10:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://docs.conforma.nz/es/docs/help/how-to-contribute/" type="text/html"/>
+        <id>https://docs.conforma.nz/es/docs/help/how-to-contribute/</id>
+        <content type="html">&lt;p&gt;👉 Asegúrate de leer el &lt;a href=&quot;..&#x2F;code-of-conduct&#x2F;&quot;&gt;Código de Conducta&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;contribuye-a-conforma&quot;&gt;Contribuye a Conforma&lt;&#x2F;h2&gt;
+&lt;p&gt;👉 El código de Conforma se encuentra en dos lugares: la mitad en el &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;openmsupply&#x2F;application-manager-server&quot;&gt;repositorio del &lt;code&gt;Servidor de Conforma&lt;&#x2F;code&gt;&lt;&#x2F;a&gt; y la otra mitad en el &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;openmsupply&#x2F;application-manager-web-app&quot;&gt;repositorio del &lt;code&gt;Front-end de Conforma&lt;&#x2F;code&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;create-an-issue&quot;&gt;Create an issue&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;openmsupply&#x2F;application-manager-server&#x2F;issues&#x2F;new&quot;&gt;Reporte de errores&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;openmsupply&#x2F;application-manager-server&#x2F;issues&#x2F;new&quot;&gt;Solicitud de funciones&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;mejorar-la-documentacion&quot;&gt;Mejorar la documentación&lt;&#x2F;h3&gt;
+&lt;p&gt;👉 La documentación se encuentra en el &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;openmsupply&#x2F;conforma-docs&quot;&gt;repositorio &lt;code&gt;Conforma docs&lt;&#x2F;code&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+</content>
+    </entry>
+    <entry xml:lang="es">
+        <title>Idiomas</title>
+        <published>2021-05-01T08:20:00+00:00</published>
+        <updated>2021-05-01T08:20:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://docs.conforma.nz/es/docs/Admin/languages/" type="text/html"/>
+        <id>https://docs.conforma.nz/es/docs/Admin/languages/</id>
+        <content type="html">&lt;p&gt;Todas las cadenas de localización que conforman el sistema, excepto los formularios que se gestionan de forma separada, se pueden localizar en diferentes idiomas.&lt;&#x2F;p&gt;
+&lt;p&gt;En esta página de configuración, puedes exportar e importar el archivo que lista todas las palabras en cada idioma. También puedes habilitar o deshabilitar un idioma en la solicitud.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;habilitar-un-idioma&quot;&gt;Habilitar un idioma&lt;&#x2F;h2&gt;
+&lt;p&gt;En la barra de menú, ve al menú &lt;strong&gt;Configuración&lt;&#x2F;strong&gt;, y luego haz clic en &lt;strong&gt;Localizaciones&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;about&#x2F;demo&#x2F;menu2.png&quot; alt=&quot;Localisations table menu&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Se mostrarán los idiomas disponibles. Marca la casilla de cualquier idioma que desees habilitar.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;about&#x2F;demo&#x2F;localisationui.png&quot; alt=&quot;Localisations menu&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Si se habilitan varios idiomas, los usuarios podrán seleccionar el idioma con el que desean trabajar &lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;about&#x2F;demo&#x2F;lsd.png&quot; alt=&quot;Localisations switch&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;ver-cadenas-de-localizacion&quot;&gt;Ver cadenas de localización&lt;&#x2F;h2&gt;
+&lt;p&gt;Usa el botón Exportar para descargar y ver un archivo csv de las cadenas de localización configuradas y sus traducciones.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;about&#x2F;demo&#x2F;importlang.png&quot; alt=&quot;Export strings&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;editar-cadenas-para-una-localizacion-que-ya-existe&quot;&gt;Editar cadenas para una localización que ya existe&lt;&#x2F;h2&gt;
+&lt;p&gt;Exporte el archivo CSV de los idiomas configurados actualmente. &lt;&#x2F;p&gt;
+&lt;p&gt;Dentro del archivo CSV, edite las cadenas según sea necesario y guarde el archivo actualizado. &lt;&#x2F;p&gt;
+&lt;p&gt;Luego, haga clic en el botón &lt;strong&gt;Importar&lt;&#x2F;strong&gt; ay cargue el archivo CSV actualizado. Los cambios se implementarán a partir de entonces. &lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;about&#x2F;demo&#x2F;importl1.png&quot; alt=&quot;import button&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;agregar-un-nuevo-idioma&quot;&gt;Agregar un nuevo idioma&lt;&#x2F;h2&gt;
+&lt;p&gt;Exporta el archivo CSV de idiomas configurados actualmente. &lt;&#x2F;p&gt;
+&lt;p&gt;Dentro del archivo CSV, agrega en una nueva columna los detalles básicos sobre el idioma que deseas incluir en el sistema, incluyendo el nombre, la descripción y si el idioma debe estar habilitado.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;about&#x2F;demo&#x2F;lglsht.png&quot; alt=&quot;language spreadsheet&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;En la nueva columna, ingresa las cadenas traducidas. Si se deja una celda en blanco, se utilizará la cadena predeterminada del sistema. &lt;&#x2F;p&gt;
+&lt;p&gt;Una vez que hayas completado la entrada de las cadenas necesarias para el nuevo idioma de localización, guarda e importa el archivo. &lt;&#x2F;p&gt;
+&lt;p&gt;El nuevo idioma aparecerá en la página de configuración de idiomas y se puede habilitar para su uso.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;about&#x2F;demo&#x2F;uplgl.png&quot; alt=&quot;Updated language&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;p&gt;Para obtener más información sobre cómo funciona la localización en Conforma, consulta nuestra página de desarrollo. &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;openmsupply&#x2F;conforma-web-app&#x2F;wiki&#x2F;Localisation&quot;&gt;docs&lt;&#x2F;a&gt;. &lt;&#x2F;p&gt;
+</content>
+    </entry>
+    <entry xml:lang="es">
+        <title>Tablas de Búsqueda</title>
+        <published>2021-05-01T08:20:00+00:00</published>
+        <updated>2021-05-01T08:20:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://docs.conforma.nz/es/docs/Admin/lookup/" type="text/html"/>
+        <id>https://docs.conforma.nz/es/docs/Admin/lookup/</id>
+        <content type="html">&lt;p&gt;Los usuarios con permisos de Administrador pueden gestionar las tablas de búsqueda dentro del sistema.&lt;&#x2F;p&gt;
+&lt;p&gt;Las tablas de búsqueda contienen datos que pueden ser referenciados por el formulario de solicitud, como una lista de ingredientes. &lt;&#x2F;p&gt;
+&lt;p&gt;Las opciones de configuración para las tablas de búsqueda se muestran a la derecha de cada tabla. Estos botones le permiten:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Ver la tabla y los datos&lt;&#x2F;li&gt;
+&lt;li&gt;Actualizar la tabla&lt;&#x2F;li&gt;
+&lt;li&gt;Exportar los datos de la tabla&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;about&#x2F;demo&#x2F;buttons1.png&quot; alt=&quot;conif buttons&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;ver-las-tablas-de-busqueda&quot;&gt;Ver las Tablas de búsqueda&lt;&#x2F;h2&gt;
+&lt;p&gt;En la barra de menú, ve al menú de &lt;strong&gt;Configuración&lt;&#x2F;strong&gt;, luego haz clic &lt;strong&gt;Tablas de búsqueda&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;about&#x2F;demo&#x2F;lookup1.png&quot; alt=&quot;Lookup table menu&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Para ver el contenido de una tabla de búsqueda, haz clic en el icono de ojo para la tabla de búsqueda que deseas ver.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;about&#x2F;demo&#x2F;lookupgif.gif&quot; alt=&quot;Lookup tables&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;exportar-una-tabla-de-busqueda&quot;&gt;Exportar una tabla de búsqueda&lt;&#x2F;h2&gt;
+&lt;p&gt;Haz clic en el botón naranja de exportación para descargar una copia de la tabla de búsqueda.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;about&#x2F;demo&#x2F;Lookuptable.gif&quot; alt=&quot;Lookup tables&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;editar-una-tabna-de-busqueda&quot;&gt;Editar una tabña de búsqueda&lt;&#x2F;h2&gt;
+&lt;p&gt;Las tablas de búsqueda existentes se pueden actualizar ya sea:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Editando una fila existente&lt;&#x2F;li&gt;
+&lt;li&gt;Agregando una nueva fila en la table&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;&lt;strong&gt;Editar una fila existente&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Exporta una copia de la tabla de búsqueda. &lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;En el archivo CSV, realiza los cambios necesarios y guarda el archivo. No edites el valor de ID en el archivo CSV.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;about&#x2F;demo&#x2F;editlook.png&quot; alt=&quot;Edit value&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;ol start=&quot;3&quot;&gt;
+&lt;li&gt;Desde la página de gestión de tablas de búsqueda, haz clic en el botón de carga que corresponde a la tabla correcta.&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;about&#x2F;demo&#x2F;export.gif&quot; alt=&quot;export&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Agrega una nueva fila&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Exporta una copia de la tabla de búsqueda. &lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;En la parte inferior del archivo CSV agrega una nueva fila sin completar la columna ID, el sistema generará el ID correcto. &lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;about&#x2F;demo&#x2F;addnew.png&quot; alt=&quot;add new row&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;ol start=&quot;3&quot;&gt;
+&lt;li&gt;
+&lt;p&gt;Desde la página de gestión de la tabla de búsqueda, haz clic en el botón de carga que corresponda a la tabla correcta. &lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Después de importar, los nuevos valores ahora pueden ser referenciados en la tabla de búsqueda. &lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+</content>
+    </entry>
+    <entry xml:lang="es">
+        <title>Edición de formularios</title>
+        <published>2021-05-01T08:20:00+00:00</published>
+        <updated>2021-05-01T08:20:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://docs.conforma.nz/es/docs/Admin/templateedit/" type="text/html"/>
+        <id>https://docs.conforma.nz/es/docs/Admin/templateedit/</id>
+        <content type="html">&lt;p&gt;El constructor de plantillas es una manera sencilla de configurar y personalizar su sistema.&lt;&#x2F;p&gt;
+&lt;p&gt;Los usuarios con permisos de administrador pueden acceder al constructor de plantillas y realizar cambios en formularios de solicitud, correos electrónicos y flujos de trabajo. Esta sección contiene instrucciones sobre cómo realizar algunos de los cambios más comunes dentro del constructor de plantillas.&lt;&#x2F;p&gt;
+&lt;div class=&quot;warning&quot;&gt;
+Debido a los cambios que se pueden realizar en el constructor de plantillas, recomendamos que los usuarios sean muy cuidadosos al editar formularios. Por favor, ponte en contacto con el soporte de Conforma para obtener ayuda si es necesario.
+&lt;&#x2F;div&gt;
+&lt;h2 id=&quot;visualizar-plantillas&quot;&gt;Visualizar plantillas&lt;&#x2F;h2&gt;
+&lt;p&gt;Para ver tus plantillas, ve al menú de &lt;strong&gt;Configuració&lt;&#x2F;strong&gt;, y haz clic en &lt;strong&gt;Plantillas&#x2F;Procedimientos&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;about&#x2F;demo&#x2F;menu3.png&quot; alt=&quot;Templates menu&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Esto mostrará una lista de las plantillas (tanto activas como inactivas) en tu sistema. Junto a cada plantilla hay tres iconos de configuración que se pueden utilizar para interactuar con los formularios. &lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;about&#x2F;demo&#x2F;icons.png&quot; alt=&quot;Icons&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Haz clic en el botón &lt;strong&gt;Editar&lt;&#x2F;strong&gt; para ver una plantilla específica en el constructor de plantillas.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;about&#x2F;demo&#x2F;openingaform.gif&quot; alt=&quot;Edit form&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;cambiar-el-nombre-de-un-campo&quot;&gt;Cambiar el nombre de un campo&lt;&#x2F;h2&gt;
+&lt;p&gt;Aquí tienes un ejemplo de cómo puedes editar un campo de un formulario existente. &lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Haz clic en el botón &lt;strong&gt;Editar&lt;&#x2F;strong&gt; para ver la plantilla seleccionada en el constructor de plantillas. &lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Primero debes verificar si hay alguna aplicación asociada a la plantilla.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;about&#x2F;demo&#x2F;check1.png&quot; alt=&quot;Checking active applications&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Si no hay aplicaciones, haz clic en el botón &lt;strong&gt;Hacer borrador&lt;&#x2F;strong&gt;  y salta al paso 6.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Si hay aplicaciones asociadas, continúa con los siguientes pasos. &lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;ol start=&quot;3&quot;&gt;
+&lt;li&gt;Regresa a la lista de plantillas. &lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;about&#x2F;demo&#x2F;backtolist.png&quot; alt=&quot;Back to list&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;ol start=&quot;4&quot;&gt;
+&lt;li&gt;
+&lt;p&gt;Haz clic en el botón &lt;strong&gt;duplicar&lt;&#x2F;strong&gt; que corresponde a tu plantilla. Esto creará una nueva versión de borrador de tu plantilla. &lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Haz clic en tu plantilla para expandir y ver las diferentes versiones de la plantilla. Encuentra la nueva versión de borrador y haz clic en el botón &lt;strong&gt;Editar&lt;&#x2F;strong&gt;. &lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;about&#x2F;demo&#x2F;newdraft.gif&quot; alt=&quot;New draft&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;ol start=&quot;6&quot;&gt;
+&lt;li&gt;Select the &lt;strong&gt;Form&lt;&#x2F;strong&gt; tab.&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;about&#x2F;demo&#x2F;formtab.gif&quot; alt=&quot;Form tab&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;ol start=&quot;6&quot;&gt;
+&lt;li&gt;En la pestaña &#x27;Formulario&#x27; puedes ver las diferentes secciones de la plantilla de formulario, selecciona aquella que contiene el elemento que deseas editar. En este ejemplo solo hay una sección llamada&#x27;Detalles de farmacia&#x27;. &lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;about&#x2F;demo&#x2F;Section1.png&quot; alt=&quot;Form section&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;ol start=&quot;7&quot;&gt;
+&lt;li&gt;A continuación, selecciona la página que contiene el elemento que deseas editar. En este ejemplo, se encuentra en la Página 1.&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;about&#x2F;demo&#x2F;page.png&quot; alt=&quot;Page section&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;ol start=&quot;8&quot;&gt;
+&lt;li&gt;
+&lt;p&gt;Ahora verás una vista previa de la plantilla de formulario y sus elementos. &lt;&#x2F;p&gt;
+&lt;p&gt;Haz clic en el icono de engranaje junto al elemento que deseas editar.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;about&#x2F;demo&#x2F;cog1.png&quot; alt=&quot;Cog&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;ol start=&quot;9&quot;&gt;
+&lt;li&gt;
+&lt;p&gt;Aparecerá una nueva pantalla. Aquí es donde puedes editar todos los parámetros que rigen la apariencia y el comportamiento del elemento. &lt;&#x2F;p&gt;
+&lt;p&gt;Para cambiar el título, expande la caja de ‘Parámetros específicos del plugin’ haciendo clic en la flecha hacia abajo.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;about&#x2F;demo&#x2F;paramater.gif&quot; alt=&quot;Config box&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+</content>
+    </entry>
+    <entry xml:lang="es">
+        <title>Comunicación y Documentos</title>
+        <published>2021-05-01T08:20:00+00:00</published>
+        <updated>2021-05-01T08:20:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://docs.conforma.nz/es/docs/Features/communication/" type="text/html"/>
+        <id>https://docs.conforma.nz/es/docs/Features/communication/</id>
+        <content type="html">&lt;h2 id=&quot;communication-documents&quot;&gt;Communication &amp;amp; Documents&lt;&#x2F;h2&gt;
+&lt;p&gt;Hay muchas formas de registrar y tomar notas en el sistema (¡muchas!), aquí están algunas de las herramientas principales de comunicación.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Notas de Evaluación&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Las notas y los problemas de evaluación se pueden registrar y comunicar directamente y resolver en la aplicación entre usuarios internos y externos. &lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;about&#x2F;demo&#x2F;reviewnotes.png&quot; alt=&quot;reviewnotes&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Retroalimentación del solicitante&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Proporciona retroalimentación clara para los solicitantes directamente dentro del formulario de solicitud para su acción.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;about&#x2F;demo&#x2F;feedback.png&quot; alt=&quot;feedback&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Generación de certificados y documentos&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;El sistema puede generar documentos y certificados complejos, como certificados de registro de productos, que se almacenan en el registro de solicitud. &lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;about&#x2F;demo&#x2F;cert.png&quot; alt=&quot;cert&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Correos&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Se pueden configurar y enviar correos electrónicos automáticos desde el sistema para ayudar a acelerar su trabajo.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;about&#x2F;demo&#x2F;email1.png&quot; alt=&quot;email&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+</content>
+    </entry>
+    <entry xml:lang="es">
+        <title>Reportes &amp; Bases de Datos</title>
+        <published>2021-05-01T08:20:00+00:00</published>
+        <updated>2021-05-01T08:20:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://docs.conforma.nz/es/docs/Features/reports/" type="text/html"/>
+        <id>https://docs.conforma.nz/es/docs/Features/reports/</id>
+        <content type="html">&lt;h2 id=&quot;reportes-bases-de-datos&quot;&gt;Reportes &amp;amp; Bases de Datos&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;strong&gt;Listas de aplicaciones&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Una base de datos flexible y fácilmente filtrable de aplicaciones para la gestión de tareas.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;about&#x2F;demo&#x2F;applist.png&quot; alt=&quot;applist&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Bases de datos personalizables&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Bases de datos de registros del sistema, como permisos y registros de productos, que son buscables y filtrables.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;about&#x2F;demo&#x2F;database.png&quot; alt=&quot;Database&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;tableros-de-control-grafana&quot;&gt;Tableros de control Grafana&lt;&#x2F;h4&gt;
+&lt;p&gt;Informes integrados con nuestra herramienta de visualización de informes Grafana.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;about&#x2F;demo&#x2F;dashboard.png&quot; alt=&quot;dashboard&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+</content>
+    </entry>
+    <entry xml:lang="es">
+        <title>Formularios</title>
+        <published>2021-05-01T08:20:00+00:00</published>
+        <updated>2021-05-01T08:20:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://docs.conforma.nz/es/docs/Features/theforms/" type="text/html"/>
+        <id>https://docs.conforma.nz/es/docs/Features/theforms/</id>
+        <content type="html">&lt;h2 id=&quot;formularios-de-aplicacion-poderosos&quot;&gt;Formularios de aplicación poderosos&lt;&#x2F;h2&gt;
+&lt;p&gt;La plataforma cuenta con formularios de aplicación altamente personalizables que se pueden adaptar para incluir diversos tipos de campos y fuentes de datos. Esto permite que los usuarios configuren los formularios a sus necesidades específicas.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;about&#x2F;demo&#x2F;form2.png&quot; alt=&quot;form&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+</content>
+    </entry>
+    <entry xml:lang="es">
+        <title>Usuarios</title>
+        <published>2021-05-01T08:20:00+00:00</published>
+        <updated>2021-05-01T08:20:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://docs.conforma.nz/es/docs/Features/users/" type="text/html"/>
+        <id>https://docs.conforma.nz/es/docs/Features/users/</id>
+        <content type="html">&lt;p&gt;Conforma es una aplicación basada en la web que permite a todos los usuarios acceder al sistema a través de un navegador siempre y cuando tengan conexión a internet. &lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;about&#x2F;demo&#x2F;1.png&quot; alt=&quot;log-in page&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;user-types&quot;&gt;User types&lt;&#x2F;h2&gt;
+&lt;p&gt;Veamos algunos de los tipos de usuarios comunes y cómo pueden interactuar con el sistema.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;about&#x2F;demo&#x2F;users.png&quot; alt=&quot;users&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;usuario-externo&quot;&gt;Usuario Externo&lt;&#x2F;h4&gt;
+&lt;p&gt;Un usuario externo es aquel que se encuentra fuera de tu organización y que interactúa con ella enviando solicitudes o proporcionando notificaciones de detalles importantes. &lt;&#x2F;p&gt;
+&lt;p&gt;Entonces, ¿qué pueden hacer los usuarios externos en el sistema?:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Enviar solicitudes, como &#x27;Registros de productos&#x27; to a regulatory agency for review.&lt;&#x2F;li&gt;
+&lt;li&gt;Responder a consultas y solicitudes de información de la agencia reguladora.&lt;&#x2F;li&gt;
+&lt;li&gt;Recibir correspondencia generada por el sistema relacionada con las solicitudes presentadas. &lt;&#x2F;li&gt;
+&lt;li&gt;Realizar un seguimiento y gestión de las solicitudes dentro del sistema. La transparencia es clave para reducir el número de consultas que una agencia reguladora recibe de los solicitantes.&lt;&#x2F;li&gt;
+&lt;li&gt;Ver y gestionar cualquier resultado de sus solicitudes, como &#x27;Productos Registrados&#x27; o &#x27;Licencias&#x27;. &lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;&lt;em&gt;Un ejemplo de que ve un solicitante:&lt;&#x2F;em&gt;
+&lt;img src=&quot;&#x2F;docs&#x2F;about&#x2F;demo&#x2F;exuser1.png&quot; alt=&quot;externaluser&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;usuario-interno&quot;&gt;Usuario Interno&lt;&#x2F;h3&gt;
+&lt;p&gt;Un usuario interno es un miembro del personal de la organización que utiliza Conforma para gestionar sus procesos, como una autoridad regulatoria.&lt;&#x2F;p&gt;
+&lt;p&gt;¿Qué pueden hacer los usuarios internos en el sistema?: &lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Revisar y determinar los resultados de las solicitudes presentadas.&lt;&#x2F;li&gt;
+&lt;li&gt;Gestionar procesos de trabajo complejos &amp;quot;Flujos de trabajo&amp;quot; en el sistema. Sabemos que los flujos de trabajo complejos, como la gestión del registro de medicamentos, requieren la participación de múltiples pasos y personas.&lt;&#x2F;li&gt;
+&lt;li&gt;Generar correspondencia oficial relacionada con una solicitud. Esto incluye certificados de aprobación o solicitar que un solicitante enmiende su solicitud.&lt;&#x2F;li&gt;
+&lt;li&gt;Almacenar notas y archivos relacionados con un proceso de solicitud, como actas de reuniones, resultados de laboratorio o informes de evaluación.&lt;&#x2F;li&gt;
+&lt;li&gt;Seguir y gestionar el ciclo de vida de las solicitudes y sus productos en el sistema, como &#x27;Solicitues de renovación de licencias&#x27;. &lt;&#x2F;li&gt;
+&lt;li&gt;Gestionar cargas de trabajo, realizar un seguimiento de las solicitudes y gestionar y ver bases de datos de productos derivados de las solicitudes. &lt;&#x2F;li&gt;
+&lt;li&gt;Ver datos e informes desde una ubicación centralizada.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;&lt;em&gt;Un ejemplo de lo que ve un usuario interno:&lt;&#x2F;em&gt;
+&lt;img src=&quot;&#x2F;docs&#x2F;about&#x2F;demo&#x2F;inuser.png&quot; alt=&quot;header&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;usuario-administrador&quot;&gt;Usuario Administrador&lt;&#x2F;h3&gt;
+&lt;p&gt;Por último, tenemos los usuarios administradores. Estos usuarios pueden realizar funciones administrativas y de configuración de nivel superior.&lt;&#x2F;p&gt;
+&lt;p&gt;¿Qué tipo de cosas pueden hacer los usuarios administradores en el sistema?:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Administrar usuarios y sus permisos.&lt;&#x2F;li&gt;
+&lt;li&gt;Editar flujos de trabajo o formularios existentes o incluso crear nuevos.&lt;&#x2F;li&gt;
+&lt;li&gt;Activar o desactivar diferentes módulos o flujos de trabajo según sea necesario.&lt;&#x2F;li&gt;
+&lt;li&gt;Editar el texto de correos electrónicos o actualizar documentos generados.&lt;&#x2F;li&gt;
+&lt;li&gt;Actualizar y administrar listas de datos locales y tablas de búsqueda.&lt;&#x2F;li&gt;
+&lt;li&gt;¡Y mucho más!&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Una gran cosa acerca del sistema Conforma es que se puede configurar en la interfaz del sistema con la herramienta de construcción de plantillas fácil de usar. Esto significa que los usuarios que no son desarrolladores pueden ser capacitados en cómo administrar y configurar su sistema, brindando a los países y organizaciones el control sobre sus propios sistemas.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;Un ejemplo de gestión de tablas de búsqueda:&lt;&#x2F;em&gt;
+&lt;img src=&quot;&#x2F;docs&#x2F;about&#x2F;demo&#x2F;lts.png&quot; alt=&quot;header&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+</content>
+    </entry>
+    <entry xml:lang="es">
+        <title>Flujos de trabajo</title>
+        <published>2021-05-01T08:20:00+00:00</published>
+        <updated>2021-05-01T08:20:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://docs.conforma.nz/es/docs/Features/workflows/" type="text/html"/>
+        <id>https://docs.conforma.nz/es/docs/Features/workflows/</id>
+        <content type="html">&lt;div&gt;
+    &lt;p class = &quot;light_omsupdate&quot;&gt;Aquí te presentamos una disculpa: estamos trabajando en mejorar esta página y pronto tendremos actualizaciones para ti. ¡Por favor, vuelve pronto para verlas!
+    &lt;br&gt;
+    &lt;br&gt;
+    Mientras tanto, si estás interesado en usar Conforma, por favor contacta con &lt;a href=&quot;https:&#x2F;&#x2F;msupply.foundation&#x2F;about&quot; target = &quot;_blank&quot;&gt; The mSupply Foundation&lt;&#x2F;a&gt; y estaremos encantados de ayudarte :) 
+    &lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+</content>
+    </entry>
+    <entry xml:lang="es">
+        <title>2. Empezando como usuario solicitante</title>
+        <published>2021-05-01T08:20:00+00:00</published>
+        <updated>2021-05-01T08:20:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://docs.conforma.nz/es/docs/Tutorial/tutorial-overview/" type="text/html"/>
+        <id>https://docs.conforma.nz/es/docs/Tutorial/tutorial-overview/</id>
+        <content type="html">&lt;h3 id=&quot;crear-una-cuenta-de-usuario-e-iniciar-sesion&quot;&gt;Crear una cuenta de usuario e iniciar sesión&lt;&#x2F;h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Primero, debes abrir tu navegador web. Recomendamos utilizar Chrome para esto.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Ingresa la dirección web (URL) de tu servidor de Conforma. En nuestro caso, estamos utilizando https:&#x2F;&#x2F;conforma-demo.msupply.org:50000&#x2F; - nuestro sitio web de prueba. &lt;&#x2F;p&gt;
+&lt;p&gt;Esto te llevará a la página de inicio de sesión.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;about&#x2F;demo&#x2F;1.png&quot; alt=&quot;Login Window!&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;ol start=&quot;3&quot;&gt;
+&lt;li&gt;
+&lt;p&gt;Haz clic en el botón &lt;strong&gt;Crear cuenta nuevat&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Rellena el formulario con la información básica del usuario. &lt;&#x2F;p&gt;
+&lt;p&gt;Una vez que hayas completado el formulario, haz clic en el botón &lt;strong&gt;Revisar &amp;amp; Resumen&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;about&#x2F;demo&#x2F;2.png&quot; alt=&quot;Basic User Information Form&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;ol start=&quot;5&quot;&gt;
+&lt;li&gt;
+&lt;p&gt;Realiza una revisión final del formulario. Una vez que estés satisfecho, haz clic en el botón &lt;strong&gt;Enviar Solicitu&lt;&#x2F;strong&gt; .&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;¡Es hora de revisar tu correo electrónico! Se enviará un correo electrónico de verificación a la dirección de correo electrónico que proporcionaste en el formulario. Verifica la cuenta seleccionando el enlace.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;¡Ahora tu cuenta está verificada! Haz clic en el botón de inicio de sesión para volver a la pantalla de inicio de sesión.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;about&#x2F;demo&#x2F;3.png&quot; alt=&quot;User verification confirmation&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;ol start=&quot;8&quot;&gt;
+&lt;li&gt;¡Genial, ahora ingresa con tu cuenta! Si hubo algún problema, verás un mensaje de error, como este:&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;div class=&quot;tip&quot;&gt;
+Si tienes problemas para ingresar (recuerda que el nombre de usuario y la contraseña distinguen mayúsculas y minúsculas), haz clic en el botón &quot;Olvidé mi contraseña&quot; y sigue las instrucciones.  
+&lt;&#x2F;div&gt;
+&lt;h3 id=&quot;navigacion&quot;&gt;Navigación&lt;&#x2F;h3&gt;
+&lt;p&gt;¡Excelente! Ahora estás conectado al sistema Conforma.. &lt;&#x2F;p&gt;
+&lt;p&gt;Esta vista principal se llama &lt;strong&gt;Tablero de control&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;La imagen y la tabla a continuación describen los conceptos básicos de navegación dentro del sistema.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;about&#x2F;demo&#x2F;5.png&quot; alt=&quot;Navigation of the system!&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th style=&quot;text-align: center&quot;&gt;#&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: center&quot;&gt;Campo&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: center&quot;&gt;Descripción&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;1&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;Tablero de control&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;Al usar este botón volverás a la pantalla del tablero de control&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;2&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;Lista de solicitudes&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;Puedes usar este botón para ver y gestionar tus solicitudes&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;3&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;Base de datos&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;Esto permite al usuario acceder a los productos de cualquier solicitud aprobada (por ejemplo, productos registrados, licencias)&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;4&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;Cuenta de usuario&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;Esto muestra el usuario que ha iniciado sesión. El botón desplegable también te dará opciones como cerrar sesión y editar tus detalles de usuario&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;5&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;Resumen de solicitudes&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;Este panel muestra un resumen de tus solicitudes disponibles y un resumen de tus solicitudes enviadas&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;hr &#x2F;&gt;
+&lt;h3 id=&quot;moviendote-a-traves-del-sistema&quot;&gt;Moviéndote a través del sistema&lt;&#x2F;h3&gt;
+&lt;p&gt;Dado que el sistema es flexible y puede ser configurado por una Autoridad Reguladora para manejar sus aplicaciones y procesos particulares, en este sistema de demostración hemos creado algunos flujos de trabajo de ejemplo para que puedas interactuar con ellos. &lt;&#x2F;p&gt;
+&lt;p&gt;Para este tutorial, el sistema ha sido preconfigurado para requerir que un usuario sea miembro de una empresa registrada antes de enviar una solicitud de registro de producto.&lt;&#x2F;p&gt;
+&lt;p&gt;El siguiente diagrama muestra cómo se espera que los usuarios se muevan a través del sistema:&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;about&#x2F;demo&#x2F;7.png&quot; alt=&quot;System workflow&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Salta a la sección &lt;strong&gt;3. Registro de una empresa&lt;&#x2F;strong&gt; del tutorial para continuar&lt;&#x2F;p&gt;
+</content>
+    </entry>
+    <entry xml:lang="es">
+        <title>3. Registrar una empresa</title>
+        <published>2021-05-01T08:20:00+00:00</published>
+        <updated>2021-05-01T08:20:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://docs.conforma.nz/es/docs/Tutorial/tutorial-pg3/" type="text/html"/>
+        <id>https://docs.conforma.nz/es/docs/Tutorial/tutorial-pg3/</id>
+        <content type="html">&lt;h3 id=&quot;registra-tu-empresa-en-el-sistema&quot;&gt;Registra tu empresa en el sistema&lt;&#x2F;h3&gt;
+&lt;p&gt;Ahora que has creado una cuenta de usuario, es hora de convertirte en miembro de una empresa registrada.&lt;&#x2F;p&gt;
+&lt;p&gt;Existen dos formas en las que los usuarios pueden estar asociados a una empresa registrada:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Registrando una nueva empresa en el sistema&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Uniéndose a una empresa existente (¡las empresas pueden tener más de un miembro del personal!)&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Para este tutorial, vamos a registrar una nueva empresa. &lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;ol&gt;
+&lt;li&gt;Selecciona el botón &lt;strong&gt;Comenzar un nuevo registro de empresa&lt;&#x2F;strong&gt;.&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;about&#x2F;demo&#x2F;6.png&quot; alt=&quot;Company registration workflows&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;ol start=&quot;2&quot;&gt;
+&lt;li&gt;
+&lt;p&gt;Antes de iniciar una nueva solicitud, el sistema te proporcionará una página de resumen para dar orientación a los solicitantes e indicar qué información y documentos se requieren. &lt;&#x2F;p&gt;
+&lt;p&gt;Una vez que hayas revisado esta información y estés listo para comenzar la solicitud, haz clic en &lt;strong&gt;Comenzar&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;about&#x2F;demo&#x2F;9.png&quot; alt=&quot;Application summary page&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;ol start=&quot;3&quot;&gt;
+&lt;li&gt;
+&lt;p&gt;Completa el formulario de solicitud.&lt;&#x2F;p&gt;
+&lt;p&gt;Dentro del sistema se utilizan muchos tipos de campos diferentes para capturar información. A continuación se muestran algunos tipos de campos comunes:&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Listas desplegables&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Selecciona la opción aplicable de la lista&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;about&#x2F;demo&#x2F;11.png&quot; alt=&quot;Dropdown lists&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Campos de texto libre&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Escribe el texto requerido en el campo&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;about&#x2F;demo&#x2F;12.png&quot; alt=&quot;Free text fields&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Listas de búsqueda&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;A medida que escribes en el campo, la lista de opciones se filtrará. Puedes seleccionar la opción correcta de la lista filtrada.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;about&#x2F;demo&#x2F;15.png&quot; alt=&quot;Look-up lists&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Casillas de carga&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;about&#x2F;demo&#x2F;10.png&quot; alt=&quot;Upload box&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;div class=&quot;tip&quot;&gt;
+¡Puedes cargar varios documentos dentro de cada casilla!
+&lt;&#x2F;div&gt;
+&lt;ol start=&quot;4&quot;&gt;
+&lt;li&gt;
+&lt;p&gt;Usa el botón &lt;strong&gt;Siguiente&lt;&#x2F;strong&gt; para avanzar por las diferentes páginas de la solicitud. &lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Una vez que hayas completado el formulario, selecciona el botón  &lt;strong&gt;Revisión &amp;amp; Resumen&lt;&#x2F;strong&gt; &lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Luego se te proporcionará un resumen de tu solicitud completada para su revisión final. Una vez que estés satisfecho, haz clic en el botón &lt;strong&gt;Enviar solicitud&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;div class=&quot;tip&quot;&gt;
+Puedes usar el icono de edición para volver rápidamente y editar un campo del formulario.  
+&lt;&#x2F;div&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;about&#x2F;demo&#x2F;18.png&quot; alt=&quot;Edit marker&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;p&gt;¡Genial! ¡Ahora se ha enviado tu solicitud para registrar una empresa!&lt;&#x2F;p&gt;
+&lt;p&gt;Cada vez que envíes solicitudes en Conforma, el sistema te proporcionará una visión general del proceso de solicitud. Podemos ver que para esta solicitud solo hay una etapa de &lt;strong&gt;Aprobación&lt;&#x2F;strong&gt; para que la solicitud progrese. &lt;&#x2F;p&gt;
+&lt;p&gt;Sin embargo, para tipos de solicitud más complejos como las solicitudes de registro de productos, una solicitud pasará por varias etapas antes de que se tome una decisión.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;about&#x2F;demo&#x2F;19.png&quot; alt=&quot;Application submitted overview&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Volviendo al panel de control ahora, usando el botón de navegación &lt;strong&gt;Volver al tablero de control&lt;&#x2F;strong&gt; o &lt;strong&gt;Tablero de control&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;De vuelta en tu tablero de control, ahora puedes ver que dentro del módulo de Registro de empresas tienes 1 solicitud enviada.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;about&#x2F;demo&#x2F;20.png&quot; alt=&quot;Updated dashboard display&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;p&gt;Ahora que hemos enviado nuestra solicitud, vamos a aprender cómo revisar esa solicitud como miembro de la Autoridad Reguladora.&lt;&#x2F;p&gt;
+&lt;div class=&quot;tip&quot;&gt;
+Cuando trabajes en este tutorial, recomendamos usar el modo incógnito o otro navegador al iniciar sesión con otra cuenta.
+&lt;&#x2F;div&gt;
+&lt;p&gt;Primero que nada, salgamos de nuestra cuenta de solicitante desde el menú de usuario en la esquina superior derecha.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;about&#x2F;demo&#x2F;21.png&quot; alt=&quot;Logging out&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;p&gt;Salta a la sección &lt;strong&gt;4.  Revisar una solicitud de registro de empresa&lt;&#x2F;strong&gt; del tutorial para continuar con el recorrido.&lt;&#x2F;p&gt;
+</content>
+    </entry>
+    <entry xml:lang="es">
+        <title>4. Revisar una solicitud de registro de empresa</title>
+        <published>2021-05-01T08:20:00+00:00</published>
+        <updated>2021-05-01T08:20:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://docs.conforma.nz/es/docs/Tutorial/tutorial-pg4/" type="text/html"/>
+        <id>https://docs.conforma.nz/es/docs/Tutorial/tutorial-pg4/</id>
+        <content type="html">&lt;p&gt;Regresa a la página de inicio de sesión del sistema de demostración (¡preferiblemente en otro navegador!) navegando a:
+https:&#x2F;&#x2F;conforma-demo.msupply.org:50000&#x2F; &lt;&#x2F;p&gt;
+&lt;p&gt;Ahora, para esta parte del tutorial, vamos a iniciar sesión como miembro del personal de la Agencia Reguladora.&lt;&#x2F;p&gt;
+&lt;p&gt;Vamos a utilizar las siguientes credenciales de un miembro del personal:&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;about&#x2F;demo&#x2F;24.png&quot; alt=&quot;Internal user details&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Como se señala arriba, el rol de Alice es Administradora de Servicios Empresariales y parte de su trabajo es administrar las solicitudes de registro de empresas&lt;&#x2F;p&gt;
+&lt;p&gt;Ve adelante e inicia sesión utilizando las credenciales de Alice (arriba)..&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;navegando-en-el-sistema-como-un-usuario-del-personal-regulador&quot;&gt;Navegando en el sistema como un usuario del personal regulador&lt;&#x2F;h3&gt;
+&lt;p&gt;Una vez que hayas iniciado sesión, serás llevado a la página de inicio del tablero de Alice. Puede que hayas notado que el diseño del tablero se parece mucho a la página de inicio de tu cuenta de usuario externa que creaste anteriormente.&lt;&#x2F;p&gt;
+&lt;p&gt;¡Sin embargo, hay diferencias entre las cuentas de usuario externas e internas!&lt;&#x2F;p&gt;
+&lt;p&gt;En esta sección explicamos algunas de las principales diferencias.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Para empezar, veamos las diferencias al mirar el tablero de control:&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;En la esquina superior izquierda, verás que los miembros del personal interno están asociados con la organización &#x27;Autoridad Reguladora&#x27;&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;about&#x2F;demo&#x2F;25.png&quot; alt=&quot;Internal organisation&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;ol start=&quot;2&quot;&gt;
+&lt;li&gt;
+&lt;p&gt;Los tipos de solicitudes&#x2F; flujos de trabajo con los que puedes interactuar están limitados por tus permisos.&lt;&#x2F;p&gt;
+&lt;p&gt;A continuación, se presentan ejemplos de dos miembros del personal diferentes de la Autoridad Reguladora. La primera es Alice y la segunda es Bob Vance, jefe de sección de la sección de registro de medicamentos. &lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;La sección de resumen de solicitudes muestra las solicitudes relevantes en las que puedes trabajar.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Las bases de datos son bases de datos internas que incluyen todos los productos de solicitudes aprobados (por ejemplo, una base de datos de todas las empresas registradas)&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;div class=&quot;note&quot;&gt;
+Como se mencionó anteriormente, los diferentes miembros del personal tendrán diferentes accesos a diferentes módulos&#x2F; solicitudes según sus permisos. Por ejemplo, Alice puede ver e interactuar con olicitudes de registro de empresas, pero no con solicitudes de registro de productos.
+&lt;&#x2F;div&gt;
+&lt;hr &#x2F;&gt;
+&lt;h3 id=&quot;pagina-de-revision-de-solicitudes&quot;&gt;Página de revisión de solicitudes&lt;&#x2F;h3&gt;
+&lt;p&gt;Bien, echemos un vistazo a la página de revisión de la solicitud que presentaste anteriormente.&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Haz clic en &lt;strong&gt;Revisiones pendientes de asignación&lt;&#x2F;strong&gt; para filtrar la lista de aplicaciones a aquellas que aún necesitan ser asignadas.&lt;&#x2F;p&gt;
+&lt;p&gt;Esto mostrará una lista filtrada como:&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;about&#x2F;demo&#x2F;26.png&quot; alt=&quot;Filtered application list&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Haz clic en el enlace de la solicitud que acabas de enviar.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;about&#x2F;demo&#x2F;27.png&quot; alt=&quot;Application link&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;ol start=&quot;3&quot;&gt;
+&lt;li&gt;Esto te llevará a la página de revisión de la solicitud. &lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;La página de revisión tiene 4 pestañas de información&#x2F;función que se describen a continuación&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#c0c5ce;&quot;&gt;&lt;code&gt;&lt;span&gt;**Overview tab**
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;Dentro de la pestaña de resumen se puede ver información como:
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;- Detalles de la solicitud: *Información básica relacionada con la solicitud, como quién la presentó, la fecha de presentación y el ID de la solicitud*
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;- Historial de Actividad: *Esta sección muestra un historial detallado del proceso de flujo de trabajo de la solicitud. Es especialmente útil para las solicitudes con más de una etapa para monitorear y realizar un seguimiento de su progreso*
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;![overview tab](&#x2F;docs&#x2F;about&#x2F;demo&#x2F;28.png)
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt; **Pestaña de asignación**
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt; Dentro de la pestaña de asignación, puedes asignar aplicaciones y ver asignaciones actuales y pasadas para todas las etapas de una solicitud.
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt; Para la mayoría de las solicitudes, cuando asignas una sección, asigna todas las secciones de una solicitud al usuario. Para solicitudes complejas, que pueden necesitar ser revisadas por múltiples personas al mismo tiempo, cada sección puede ser asignada a un miembro del personal diferente.
+&lt;&#x2F;span&gt;&lt;span&gt;    
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt; ![assignment tab](&#x2F;docs&#x2F;about&#x2F;demo&#x2F;30.png)
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt; **Pestaña de notas internas**
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt; La pestaña de notas internas permite a los miembros del personal interno agregar comentarios y archivos ad hoc relacionados con una solicitud. El sistema registra el historial de quién hizo cada comentario.
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt; En el siguiente ejemplo, otro miembro del personal adjuntó una consulta por correo electrónico relacionada con una solicitud. 
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt; ![internal notes tab](&#x2F;docs&#x2F;about&#x2F;demo&#x2F;29.png)
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt; **Pestaña de notas de documentos**
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt; Dentro de la pestaña de documentos, podrás ver cualquier certificado generado por el sistema relacionado con una solicitud (por ejemplo, un certificado de registro de producto). En el caso de que no se haya generado ningún certificado, esta sección estará en blanco. 
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt; ![Documents tab](&#x2F;docs&#x2F;about&#x2F;demo&#x2F;31.png)
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;hr &#x2F;&gt;
+&lt;h3 id=&quot;asignar-la-solicitud-a-tu-carga-de-trabajo&quot;&gt;Asignar la solicitud a tu carga de trabajo&lt;&#x2F;h3&gt;
+&lt;p&gt;Ahora que estás familiarizado con la página de revisión y su funcionalidad, comencemos a revisar la solicitud de registro de empresa que presentaste anteriormente.&lt;&#x2F;p&gt;
+&lt;p&gt;Primero, necesitamos asignarnos la solicitud para poder comenzar a revisarla.&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;Navega hasta la pestaña de asignaciones de la solicitud&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;div class=&quot;tip&quot;&gt;
+¡Puedes acceder directamente a la pestaña de asignaciones desde la lista de solicitudes, simplemente haz clic en el botón de autoasignación!
+&lt;&#x2F;div&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;about&#x2F;demo&#x2F;32.png&quot; alt=&quot;self-assign&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;ol start=&quot;2&quot;&gt;
+&lt;li&gt;
+&lt;p&gt;Utilizando la lista desplegable que muestra &lt;strong&gt;Not assigned&lt;&#x2F;strong&gt;,&#x27;Tú mismo&#x27; de la lista.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Ahora haz clic en el botón &lt;strong&gt;enviar&lt;&#x2F;strong&gt; &lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;about&#x2F;demo&#x2F;30.png&quot; alt=&quot;assignment tab&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;ol start=&quot;4&quot;&gt;
+&lt;li&gt;
+&lt;p&gt;Ahora has sido asignado a la solicitud. &lt;&#x2F;p&gt;
+&lt;p&gt;Esto se refleja en la pestaña de asignaciones.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;about&#x2F;demo&#x2F;33.png&quot; alt=&quot;assignment tab&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;div class=&quot;tip&quot;&gt;
+No olvides que esta actividad también se refleja en la sección de actividad de la pestaña de resumen.
+&lt;&#x2F;div&gt;
+&lt;hr &#x2F;&gt;
+&lt;h3 id=&quot;revision-de-una-solicitud-de-registro-de-empresa&quot;&gt;Revisión de una solicitud de registro de empresa&lt;&#x2F;h3&gt;
+&lt;p&gt;Ahora que la solicitud ha sido asignada a ti mismo, puedes empezar a trabajar y revisar la aplicación.&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;Dentro de la pestaña de asignaciones en la página de revisión, haz clic en el botón &lt;strong&gt;Empezar&lt;&#x2F;strong&gt;.&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;about&#x2F;demo&#x2F;35.png&quot; alt=&quot;assignment tab&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;ol start=&quot;2&quot;&gt;
+&lt;li&gt;
+&lt;p&gt;Dentro de cada formulario de la solicitud, se pueden revisar todos los campos que requieren revisión. Para revisar un campo individual, haz clic en el botón &lt;strong&gt;Revisar&lt;&#x2F;strong&gt;. Esto abre un espacio para que el revisor marque el requisito del formulario como Conforme (cumple con los requisitos) o No conforme (no cumple con los requisitos). &lt;&#x2F;p&gt;
+&lt;p&gt;Avanza a través del formulario de revisión y marca cada requisito como un campo conforme o no conforme. Para este tutorial, marca todo como conforme por ahora (¡nos ocuparemos del resto después!).&lt;&#x2F;p&gt;
+&lt;p&gt;El campo de comentarios dentro del cuadro de revisión se puede utilizar para registrar notas internas según sea necesario. Las notas internas para los campos conformes no son visibles para el solicitante. &lt;&#x2F;p&gt;
+&lt;p&gt;Sin embargo, cuando se marca un campo con un resultado no conforme, se requiere un comentario para comunicar al solicitante (.por ejemplo, proporcionar orientación al solicitante).&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;div class=&quot;tip&quot;&gt;
+También se puede utilizar el botón Aprobar todo para marcar todos los campos de esa sección como requisitos conformes.
+&lt;&#x2F;div&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;about&#x2F;demo&#x2F;37.png&quot; alt=&quot;assignment tab&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;div class=&quot;warning&quot;&gt;
+Recuerda que si registras elementos del formulario con un resultado de no conformidad y emites una lista de preguntas (o solicitud de información) al solicitante, cualquier comentario incluido en esos campos no conformes será visible para el solicitante.
+&lt;&#x2F;div&gt;
+&lt;ol start=&quot;3&quot;&gt;
+&lt;li&gt;
+&lt;p&gt;Una vez que hayas completado tu revisión de todos los campos del formulario, es hora de registrar el resultado de tu revisión para esa solicitud. Para esta aplicación solo hay una etapa. &lt;&#x2F;p&gt;
+&lt;p&gt;El siguiente diagrama describe lo que significan los resultados para esta solicitud.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;about&#x2F;demo&#x2F;38.png&quot; alt=&quot;assignment tab&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Los botones de resultado de la revisión aparecen en la parte inferior de la página y cambian según la revisión de los campos del formulario anterior.&lt;&#x2F;p&gt;
+&lt;p&gt;Como seleccionamos &#x27;Conforme&#x27; para todos los campos anteriores, nuestra única opción es marcar el resultado de la aplicación como &lt;strong&gt;Conform&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;about&#x2F;demo&#x2F;39.png&quot; alt=&quot;assignment tab&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;El último campo para completar es el campo de &lt;strong&gt;Comentario general&lt;&#x2F;strong&gt;. &lt;&#x2F;p&gt;
+&lt;p&gt;Este campo es un cuadro de texto libre que se puede utilizar de la siguiente manera:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Si el resultado es aprobar o enviar una lista de preguntas al solicitante, se puede utilizar el comentario general para registrar una nota sobre la decisión interna. Esto no será visible para el solicitante. &lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Si el resultado es rechazar la solicitud, &lt;strong&gt;debe&lt;&#x2F;strong&gt; tilizarse el comentario general para registrar el motivo del rechazo. Este comentario será utilizado por el sistema para generar la correspondencia de rechazo. &lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;about&#x2F;demo&#x2F;40.png&quot; alt=&quot;assignment tab&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;div class=&quot;warning&quot;&gt;
+Recuerda que si marcas el resultado general de la aplicación como No Conforme, debes incluir el motivo del rechazo en el campo de Comentario general para proporcionar al solicitante. 
+&lt;&#x2F;div&gt;
+&lt;ol start=&quot;5&quot;&gt;
+&lt;li&gt;
+&lt;p&gt;Una vez que estés satisfecho con tu revisión, haz clic en el botón &lt;strong&gt;Enviar revisión&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;Aparecerá una ventana emergente de confirmación final que te preguntará si deseas confirmar tu decisión de enviar la revisión.&lt;&#x2F;p&gt;
+&lt;p&gt;Haz clic en &lt;strong&gt;Enviar&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;about&#x2F;demo&#x2F;41.png&quot; alt=&quot;submission message&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;ol start=&quot;6&quot;&gt;
+&lt;li&gt;
+&lt;p&gt;Genial, ahora has aprobado la solicitud de registro de empresa. En la pantalla verás un resumen de tu revisión. Este registro de revisión se almacenará en el sistema y se puede acceder en cualquier momento.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Si has utilizado tu cuenta de correo electrónico para registrarte en el sistema, habrás recibido un correo electrónico que indica la aprobación de la solicitud de registro de empresa.&lt;&#x2F;p&gt;
+&lt;p&gt;Los correos electrónicos se pueden adaptar para cada tipo de solicitud y resultado. Para esta solicitud, el correo electrónico debería verse así:&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;about&#x2F;demo&#x2F;42.png&quot; alt=&quot;Company approval email&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;hr &#x2F;&gt;
+&lt;p&gt;Ahora que has aprobado esa solicitud de registro de empresa, cierra la sesión de la cuenta de Alice y vuelve a tu cuenta de usuario creada para solicitantes. &lt;&#x2F;p&gt;
+&lt;p&gt;Luego, continúa con la sección &lt;strong&gt;5. Envío de una solicitud de registro de producto&lt;&#x2F;strong&gt; del tutorial para continuar con la guía.&lt;&#x2F;p&gt;
+</content>
+    </entry>
+    <entry xml:lang="es">
+        <title>Beneficios de Conforma</title>
+        <published>2021-05-01T08:00:00+00:00</published>
+        <updated>2021-05-01T08:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://docs.conforma.nz/es/docs/about/benefits/" type="text/html"/>
+        <id>https://docs.conforma.nz/es/docs/about/benefits/</id>
+        <content type="html">&lt;div&gt;
+    &lt;p class = &quot;light_omsupdate&quot;&gt;Aquí te presentamos una disculpa: estamos trabajando en mejorar esta página y pronto tendremos actualizaciones para ti. ¡Por favor, vuelve pronto para verlas!
+    &lt;br&gt;
+    &lt;br&gt;
+    Mientras tanto, si estás interesado en usar Conforma, por favor contacta con &lt;a href=&quot;https:&#x2F;&#x2F;msupply.foundation&#x2F;about&quot; target = &quot;_blank&quot;&gt; The mSupply Foundation&lt;&#x2F;a&gt; y estaremos encantados de ayudarte :) 
+    &lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+</content>
+    </entry>
+    <entry xml:lang="es">
+        <title>Introducción</title>
+        <published>2021-05-01T08:00:00+00:00</published>
+        <updated>2021-05-01T08:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://docs.conforma.nz/es/docs/about/introduction/" type="text/html"/>
+        <id>https://docs.conforma.nz/es/docs/about/introduction/</id>
+        <content type="html">&lt;h2 id=&quot;que-es-conforma&quot;&gt;¿Qué es Conforma?&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;about&#x2F;demo&#x2F;cc.png&quot; alt=&quot;header&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Conforma es un software de código abierto basado en la web que proporciona un conjunto de herramientas para ayudar a simplificar los procesos de trabajo de las autoridades reguladoras de medicamentos.&lt;&#x2F;p&gt;
+&lt;p&gt;Sabemos que los procesos de diferentes organizaciones son únicos y cambiarán con el tiempo. Es por eso que constuimos Confiorma para que sea flexible y se pueda configurar fácilmente sin necesidad de desarrollo para adaptarse a las necesidades de una organización.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Hemos construido Conforma alrededor de:&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Ser un software accesible de código abierto que puede apoyar a los países de todo el mundo a mejorar sus sistemas regulatorios. Queremos eliminar las barreras de costo para productos de primera calidad que mejoren la atención médica.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Sabiendo que no hay una talla única para los procesos regulatorios. Hemos hecho que Conforma sea flexible y fácilmente configurable para que no necesite un desarrollo costoso cuando se adapta a un país u organización.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Permitir un sistema integrado que almacena toda su información en un solo lugar para el trabajo y la presentación de informes coordinados. Sabemos que los usuarios no necesitan ver todo de una vez, por lo que Conforma permite permisos altamente granulares.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Ser un sistema de gestión de información sostenible y de alta calidad incorporando terminología estandarizada internacionalmente, prácticas transparentes de revisión y aplicación y permitiendo la interoperabilidad y el intercambio de datos.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;¡Facilitar la vida de los usuarios! Al hacer que los procesos sean más eficientes con flujos de trabajo fáciles de usar y un diseño moderno y fácil de usar del sistema. &lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;about&#x2F;demo&#x2F;de.png&quot; alt=&quot;header&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;que-hace-conforma&quot;&gt;¿Qué hace Conforma?&lt;&#x2F;h3&gt;
+&lt;p&gt;Conforma ha sido diseñado para administrar y mejorar los procesos de trabajo de las autoridades reguladoras de medicamentos. &lt;&#x2F;p&gt;
+&lt;p&gt;Pero Conforma no se limita a ese tipo de flujos de trabajo, es altamente flexible y puede ayudar a administrar los procesos de trabajo de una amplia variedad de organizaciones, como solicitudes de préstamos para bancos o procesos internos de recursos humanos.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;En resumen, Conforma proporciona una plataforma integral para la gestión de flujos de trabajo y procesos, que incluye:&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Creación y administración de formularios de solicitud digitales&lt;&#x2F;li&gt;
+&lt;li&gt;Gestión de flujos de trabajo complejos en el ciclo de vida de las solicitudes&lt;&#x2F;li&gt;
+&lt;li&gt;Monitoreo y generación de informes sobre solicitudes y resultados.&lt;&#x2F;li&gt;
+&lt;li&gt;Creación de bases de datos de información&lt;&#x2F;li&gt;
+&lt;li&gt;Provisión de canales de comunicación entre usuarios internos y externos&lt;&#x2F;li&gt;
+&lt;li&gt;Almacenamiento de notas y archivos relacionados con solicitudes o flujos de trabajo&lt;&#x2F;li&gt;
+&lt;li&gt;Seguimiento del historial de las solicitudes y del proceso del flujo de trabajo&lt;&#x2F;li&gt;
+&lt;li&gt;Asignación de roles y permisos altamente granulares a los usuarios&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;La funcionalidad y flexibilidad de Conforma permiten su uso en una amplia gama de situaciones para administrar flujos de trabajo y procesos de manera eficiente y efectiva.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Aquí hay algunos ejemplos de flujos de trabajo clave para los que Conforma ha sido diseñado para gestionar:&amp;quot;&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;about&#x2F;demo&#x2F;ww.png&quot; alt=&quot;header&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;un-poco-sobre-nosotros&quot;&gt;Un poco sobre nosotros&lt;&#x2F;h2&gt;
+&lt;p&gt;Conforma ha sido desarrollado por el equipo de &lt;a href=&quot;https:&#x2F;&#x2F;msupply.foundation&#x2F;about&quot;&gt;The mSupply Foundation&lt;&#x2F;a&gt; - un grupo amigable que tiene como objetivo crear software útil de código abierto para mejorar las soluciones de atención médica en países de bajos y medianos ingresos. &lt;&#x2F;p&gt;
+&lt;p&gt;La creación de Conforma ha sido una labor de amor, miles de horas de trabajo. Esperamos que lo encuentres fácil de usar y que permita a tu organización reguladora desempeñar su papel con precisión, rapidez y altos estándares.&lt;&#x2F;p&gt;
+&lt;p&gt;El desarrollo de Conforma ha sido amablemente patrocinado por el &lt;a href=&quot;https:&#x2F;&#x2F;www.dfat.gov.au&#x2F;&quot;&gt;Departamento de Asuntos Exteriores y Comercio de Australia&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;y-ahora-que&quot;&gt;¿Y ahora qué?&lt;&#x2F;h2&gt;
+&lt;p&gt;Si deseas obtener más información sobre Conforma o estás interesado en utilizar el sistema, comunícate con nuestro equipo en &lt;a href=&quot;https:&#x2F;&#x2F;msupply.foundation&#x2F;&quot;&gt;The mSupply Foundation&lt;&#x2F;a&gt;. Alternativamente, puedes seguir leyendo la documentación y probar nuestro sistema de demostración para aprender más.&lt;&#x2F;p&gt;
+</content>
+    </entry>
+    <entry xml:lang="es">
+        <title>Estándares Reconocidos</title>
+        <published>2021-05-01T08:00:00+00:00</published>
+        <updated>2021-05-01T08:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://docs.conforma.nz/es/docs/about/standards/" type="text/html"/>
+        <id>https://docs.conforma.nz/es/docs/about/standards/</id>
+        <content type="html">&lt;h2 id=&quot;incorporando-estandares-reconocidos&quot;&gt;Incorporando estándares reconocidos&lt;&#x2F;h2&gt;
+&lt;p&gt;Hemos diseñado Conforma para cumplir con los estándares internacionales de sistemas regulatorios, desde el diseño del sistema, asegurándonos de que las solicitudes puedan ser presentadas en línea con el formato del Documento Técnico Común, hasta los datos que utilizamos en el sistema, utilizando tablas de datos estandarizadas para términos y definiciones.&lt;&#x2F;p&gt;
+&lt;p&gt;A continuación, se presentan algunos ejemplos clave.&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;practicas-de-buena-revision&quot;&gt;Prácticas de Buena Revisión&lt;&#x2F;h4&gt;
+&lt;p&gt;Se han incorporado características al sistema para fomentar las Prácticas de Buena Revisión.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;about&#x2F;demo&#x2F;grp.png&quot; alt=&quot;GRP&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;nombres-de-ingredientes&quot;&gt;Nombres de ingredientes&lt;&#x2F;h4&gt;
+&lt;p&gt;Usando los Nombres Internacionales Comunes (NIC) para la identificación de sustancias farmacéuticas o ingredientes farmacéuticos activos. &lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;about&#x2F;demo&#x2F;ing.png&quot; alt=&quot;INN&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;clasificacion-atc&quot;&gt;Clasificación ATC&lt;&#x2F;h4&gt;
+&lt;p&gt;Capturando los productos utilizando el sistema de clasificación Anatómico Terapéutico Químico (ATC).&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;about&#x2F;demo&#x2F;ATC.png&quot; alt=&quot;ATC&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;acceso-a-tablas-de-datos&quot;&gt;Acceso a tablas de datos&lt;&#x2F;h4&gt;
+&lt;p&gt;Conforma ofrece acceso a tablas de datos para formas de dosificación, rutas y métodos de administración, envases, cierres, dispositivos de administración y unidades de presentación para mejorar la calidad y el intercambio de datos. Estas tablas están diseñadas para ayudar a estandarizar la información y garantizar una entrada de datos consistente. Además, si es necesario, puede utilizar sus propios datos y estándares para personalizar la información en el sistema. &lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;about&#x2F;demo&#x2F;tb1.png&quot; alt=&quot;datatables&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+</content>
+    </entry>
+</feed>
