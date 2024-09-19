@@ -24,7 +24,7 @@ Reason: Variable `config.default_language` not found in context while rendering 
 ```
 
 ensure that you are running a recent version of zola.
-`zola 17.2` is known to work but there is a problem with `v0.14.0`, to check your version with run `zola --version` from terminal or a command prompt.
+`zola 0.17.2` is known to work but there is a problem with `v0.14.0`, to check your version with run `zola --version` from terminal or a command prompt.
 
 ## Contributing
 
