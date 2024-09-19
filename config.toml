@@ -25,7 +25,7 @@ TOCtitle="En esta pagina"
 search_placeholder = "Buscar documentos..."
 
 [languages.es]
-generate_feed = true # there will be a feed for Spanish content
+generate_feeds = true # there will be a feed for Spanish content
 build_search_index = true
 title="Conforma 🇪🇸"
 
