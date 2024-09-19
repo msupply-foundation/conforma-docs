@@ -1,4 +1,4 @@
-# Open mSupply Documentation
+.# Open mSupply Documentation
 
 This repo contains the public documentation for Conforma, hosted on [https://docs.conforma.nz](https://docs.conforma.nz/docs/introduction/).
 Documentation is stored in markdown files and built using [zola](https://www.getzola.org/documentation/getting-started/installation/)
@@ -36,4 +36,4 @@ If you wish to serve images from a subdirectory rather than co-locating the cont
 
 This repo is automatically deployed to github pages on push to main. The github action is defined in `.github/workflows/static_deploy.yml`
 
-The deployment code uses `shalzz/zola-deploy-action@master`
+The deployment code uses `shalzz/zola-deploy-action@v0.17.1`. Don't use master unless you want to fix the backwards incompatible changes that zola has added since.
